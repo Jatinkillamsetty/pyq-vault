@@ -7,15 +7,27 @@ export async function GET(req: NextRequest) {
   const subjectCode = searchParams.get("subjectCode") || "21CSE201";
 
   try {
-    // If requesting a JEE subject
-    if (subjectCode.startsWith("JEE_") || ["Physics", "Chemistry", "Mathematics"].includes(subjectCode)) {
-      const jeeSubject = subjectCode.replace("JEE_", "");
-      const matchedSubjectName = jeeSubject === "MATHEMATICS" ? "Mathematics" : jeeSubject === "CHEMISTRY" ? "Chemistry" : "Physics";
+    // If requesting a JEE subject or specific JEE Chapter
+    const cleanSearch = subjectCode.replace(/^[A-Z0-9_]+\s*-\s*/, "").replace(/^\d+\.\s*/, "").replace(/^JEE_/, "").trim();
 
-      const filteredQuestions = JEE_PYQS.filter(
-        (q) => q.subject.toLowerCase() === matchedSubjectName.toLowerCase()
-      );
+    const isFullSubject = ["JEE_PHYSICS", "JEE_CHEMISTRY", "JEE_MATHEMATICS", "PHYSICS", "CHEMISTRY", "MATHEMATICS"].includes(subjectCode.toUpperCase());
+    
+    let matchedSubjectName = "Physics";
+    if (subjectCode.toUpperCase().includes("CHEM")) matchedSubjectName = "Chemistry";
+    if (subjectCode.toUpperCase().includes("MATH")) matchedSubjectName = "Mathematics";
 
+    const chapterMatchedQuestions = JEE_PYQS.filter((q) => {
+      if (isFullSubject) {
+        return q.subject.toLowerCase() === matchedSubjectName.toLowerCase();
+      }
+      const chClean = q.chapter.replace(/^\d+\.\s*/, "").toLowerCase();
+      const searchClean = cleanSearch.toLowerCase();
+      return chClean.includes(searchClean) || searchClean.includes(chClean) || q.subject.toLowerCase() === searchClean;
+    });
+
+    const filteredQuestions = chapterMatchedQuestions.length > 0 ? chapterMatchedQuestions : JEE_PYQS.filter((q) => q.subject.toLowerCase() === matchedSubjectName.toLowerCase());
+
+    if (filteredQuestions.length > 0) {
       const topicStats: Record<
         string,
         {
@@ -29,7 +41,8 @@ export async function GET(req: NextRequest) {
       > = {};
 
       for (const q of filteredQuestions) {
-        const topic = q.chapter;
+        // If full subject, group by chapter. If specific chapter, group by subtopic!
+        const topic = isFullSubject ? q.chapter : (q.subtopic || q.chapter);
         if (!topicStats[topic]) {
           topicStats[topic] = {
             topic,
@@ -53,14 +66,14 @@ export async function GET(req: NextRequest) {
         const priorityScore = stat.frequency * 2 + yearArray.length * 3;
 
         let priorityTier: "HIGH" | "MEDIUM" | "LOW" = "LOW";
-        if (stat.frequency >= 15) {
+        if (stat.frequency >= (isFullSubject ? 15 : 4)) {
           priorityTier = "HIGH";
-        } else if (stat.frequency >= 8) {
+        } else if (stat.frequency >= (isFullSubject ? 8 : 2)) {
           priorityTier = "MEDIUM";
         }
 
         const yearsStr = yearArray.join(", ");
-        const explanation = `Contains ${stat.frequency} genuine JEE chapter practice questions & PYQs across years [${yearsStr}].`;
+        const explanation = `Contains ${stat.frequency} genuine questions & PYQs across years [${yearsStr}].`;
 
         return {
           topic: stat.topic,
@@ -81,10 +94,18 @@ export async function GET(req: NextRequest) {
       const mediumPriority = rankedTopics.filter((t) => t.priorityTier === "MEDIUM");
       const lowPriority = rankedTopics.filter((t) => t.priorityTier === "LOW");
 
+      // Calculate 5 subtopic/unit cards for the chapter distribution
+      const unitDist = rankedTopics.slice(0, 5).map((t, idx) => ({
+        unit: idx + 1,
+        questionCount: t.frequency,
+        totalMarks: t.totalMarks,
+        subtopicName: t.topic,
+      }));
+
       return NextResponse.json({
         subject: {
-          code: `JEE_${matchedSubjectName.toUpperCase()}`,
-          name: `JEE Main & Advanced ${matchedSubjectName}`,
+          code: subjectCode,
+          name: isFullSubject ? `JEE Main & Advanced ${matchedSubjectName}` : cleanSearch,
           branch: "JEE Prep",
           semester: 1,
           regulation: "2026",
@@ -92,11 +113,11 @@ export async function GET(req: NextRequest) {
         totalPapersAnalyzed: 12,
         totalQuestionsAnalyzed: filteredQuestions.length,
         priorityBreakdown: {
-          high: highPriority.length ? highPriority : rankedTopics.slice(0, 8),
-          medium: mediumPriority.length ? mediumPriority : rankedTopics.slice(8, 16),
-          low: lowPriority.length ? lowPriority : rankedTopics.slice(16),
+          high: highPriority.length ? highPriority : rankedTopics.slice(0, 4),
+          medium: mediumPriority.length ? mediumPriority : rankedTopics.slice(4, 8),
+          low: lowPriority.length ? lowPriority : rankedTopics.slice(8),
         },
-        unitDistribution: [
+        unitDistribution: unitDist.length > 0 ? unitDist : [
           { unit: 1, questionCount: filteredQuestions.length, totalMarks: filteredQuestions.length * 4 }
         ],
         allTopics: rankedTopics,

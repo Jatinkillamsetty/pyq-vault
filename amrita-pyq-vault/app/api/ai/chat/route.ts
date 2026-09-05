@@ -7,7 +7,7 @@ import { JEE_PYQS } from "@/lib/jeeData";
 export const dynamic = 'force-dynamic';
 
 const GEMINI_ENDPOINT =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent";
 
 export async function POST(req: NextRequest) {
   const session = await getServerSession(authOptions);
@@ -63,16 +63,30 @@ export async function POST(req: NextRequest) {
     let matchingQuestions: any[] = [];
 
     // Tokenize search query for smart matching
+    const stopWords = new Set(["what", "how", "why", "can", "you", "give", "tell", "show", "find", "list", "with", "the", "for", "explain", "concept", "concepts", "solved", "question", "questions", "solve", "about", "me", "some", "in", "few", "lines"]);
     const queryTokens = userMessage
       .toLowerCase()
       .replace(/[^a-z0-9\s]/g, "")
       .split(/\s+/)
-      .filter((t: string) => t.length > 2 && !["what", "how", "why", "can", "you", "give", "tell", "show", "find", "list", "with", "the", "for"].includes(t));
+      .filter((t: string) => t.length > 2 && !stopWords.has(t));
 
-    const jeeMatches = JEE_PYQS.filter((q) => {
-      const targetText = `${q.subject} ${q.chapter} ${q.subtopic} ${q.question} ${q.solution}`.toLowerCase();
-      return queryTokens.some((token: string) => targetText.includes(token));
-    });
+    // Rank JEE_PYQS matches by relevance (chapter match > subtopic match > question text match)
+    const jeeScoredMatches = JEE_PYQS.map((q) => {
+      let score = 0;
+      const chLower = q.chapter.toLowerCase();
+      const subLower = (q.subtopic || "").toLowerCase();
+      const qLower = q.question.toLowerCase();
+      for (const token of queryTokens) {
+        if (chLower.includes(token)) score += 10;
+        if (subLower.includes(token)) score += 5;
+        if (qLower.includes(token)) score += 2;
+      }
+      return { q, score };
+    })
+      .filter((m) => m.score > 0)
+      .sort((a, b) => b.score - a.score);
+
+    const jeeMatches = jeeScoredMatches.map((m) => m.q);
 
     if (jeeMatches.length > 0) {
       dbContextSummary += `\nJEE Chapter Question Matches (${jeeMatches.length} found):\n`;
@@ -128,13 +142,13 @@ export async function POST(req: NextRequest) {
     const apiKey = process.env.GEMINI_API_KEY;
     if (apiKey) {
       const systemInstruction = `
-You are the official Amrita & JEE PYQ AI Assistant for students.
-You have real-time access to past question papers, exam years, formulas, and chapter practice questions in the database.
+You are the official AI Study Assistant powered directly by Gemini for students.
+You can answer ANY general academic or conceptual question (e.g. definitions, explanations, formulas, derivations, study tips) as well as past year paper (PYQ) questions directly, accurately, and concisely.
 
 GUIDELINES:
-- Provide friendly, intelligent, clear, and highly detailed answers with exact formulas, key concepts, and step-by-step problem solutions.
-- Reference actual questions, options, and solutions from the database context when answering.
-- Use clean Markdown with headers, bold text, bullet points, and LaTeX formula notation where appropriate.
+- Directly and thoroughly answer the user's prompt (e.g., if asked "explain p block in few lines", immediately provide a clear, 3-4 bullet explanation of p-block elements).
+- Use clean Markdown formatting with headers, bold points, bullet lists, and LaTeX equations ($ns^2 np^{1-6}$, etc.) where applicable.
+- If relevant past paper questions exist in the database context, seamlessly append 1-2 sample questions with options and step-by-step solutions.
 
 DATABASE CONTEXT:
 ${dbContextSummary}
@@ -181,22 +195,44 @@ ${dbContextSummary}
 
         assistantResponse = `### 📚 ${subject} — ${chapter} Concepts & PYQs\n\n`;
 
-        if (queryTokens.includes("formula") || queryTokens.includes("formulas")) {
-          assistantResponse += `#### 🔑 Key Formulas & Core Equations:\n`;
-          if (chapter.toLowerCase().includes("kinematics")) {
-            assistantResponse += `- **1D Motion Equations**: $v = u + at$, $s = ut + \\frac{1}{2}at^2$, $v^2 = u^2 + 2as$\n`;
-            assistantResponse += `- **Nth Second Distance**: $s_n = u + \\frac{a}{2}(2n - 1)$\n`;
-            assistantResponse += `- **Projectile Motion**: $T = \\frac{2u \\sin\\theta}{g}$, $H_{max} = \\frac{u^2 \\sin^2\\theta}{2g}$, $R = \\frac{u^2 \\sin 2\\theta}{g}$\n`;
-            assistantResponse += `- **Relative Velocity in 2D**: $\\vec{v}_{AB} = \\vec{v}_A - \\vec{v}_B$\n\n`;
-          } else if (chapter.toLowerCase().includes("quadratic")) {
-            assistantResponse += `- **Roots Formula**: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$\n`;
-            assistantResponse += `- **Sum & Product of Roots**: $\\alpha + \\beta = -\\frac{b}{a}$, $\\alpha \\beta = \\frac{c}{a}$\n`;
-            assistantResponse += `- **Roots Difference**: $|\\alpha - \\beta| = \\frac{\\sqrt{D}}{|a|}$\n`;
-            assistantResponse += `- **Discriminant $D$**: $D = b^2 - 4ac$ ($D > 0$: Real & Distinct, $D=0$: Real & Equal, $D < 0$: Complex)\n\n`;
-          } else {
-            assistantResponse += `- **Core Law/Property**: $f(x)$ evaluation across parameters.\n`;
-            assistantResponse += `- **Standard Relation**: $Y = f(X_1, X_2, \\dots, X_n)$ evaluated at boundary conditions.\n\n`;
-          }
+        const chLower = chapter.toLowerCase();
+        const msgLower = userMessage.toLowerCase();
+
+        assistantResponse += `#### 🔑 Key Formulas & Core Equations:\n`;
+        if (chLower.includes("kinematics")) {
+          assistantResponse += `- **1D Motion Equations**: $v = u + at$, $s = ut + \\frac{1}{2}at^2$, $v^2 = u^2 + 2as$\n`;
+          assistantResponse += `- **Nth Second Distance**: $s_n = u + \\frac{a}{2}(2n - 1)$\n`;
+          assistantResponse += `- **Projectile Motion**: $T = \\frac{2u \\sin\\theta}{g}$, $H_{max} = \\frac{u^2 \\sin^2\\theta}{2g}$, $R = \\frac{u^2 \\sin 2\\theta}{g}$\n`;
+          assistantResponse += `- **Relative Velocity in 2D**: $\\vec{v}_{AB} = \\vec{v}_A - \\vec{v}_B$\n\n`;
+        } else if (chLower.includes("mole concept") || chLower.includes("basic concepts")) {
+          assistantResponse += `- **Moles ($n$)**: $n = \\frac{\\text{Mass}}{\\text{Molar Mass}} = \\frac{\\text{Number of Particles}}{N_A} = \\frac{V_{\\text{gas (STP)}}}{22.4\\text{ L}}$\n`;
+          assistantResponse += `- **Molarity ($M$)**: $M = \\frac{\\text{Moles of Solute}}{\\text{Volume of Solution (L)}}$\n`;
+          assistantResponse += `- **Molality ($m$)**: $m = \\frac{\\text{Moles of Solute}}{\\text{Mass of Solvent (kg)}}$\n`;
+          assistantResponse += `- **Empirical Formula Ratio**: $\\text{Moles} = \\frac{\\%\\text{ Element}}{\\text{Atomic Mass}} \\implies \\text{Simplest Whole Number Ratio}$\n`;
+          assistantResponse += `- **Equivalent Weight**: $E = \\frac{\\text{Molar Mass}}{n\\text{-factor}}$\n\n`;
+        } else if (chLower.includes("atomic structure")) {
+          assistantResponse += `- **Bohr Radius**: $r_n = 0.529 \\frac{n^2}{Z} \\text{ Å}$\n`;
+          assistantResponse += `- **Bohr Energy**: $E_n = -13.6 \\frac{Z^2}{n^2} \\text{ eV}$\n`;
+          assistantResponse += `- **Rydberg Formula**: $\\frac{1}{\\lambda} = R Z^2 \\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)$\n`;
+          assistantResponse += `- **de Broglie Wavelength**: $\\lambda = \\frac{h}{p} = \\frac{h}{mv} = \\frac{h}{\\sqrt{2m q V}}$\n`;
+          assistantResponse += `- **Heisenberg Uncertainty**: $\\Delta x \\cdot \\Delta p \\ge \\frac{h}{4\\pi}$\n\n`;
+        } else if (chLower.includes("bonding") || chLower.includes("molecular structure")) {
+          assistantResponse += `- **Hybridization Domain**: $\\text{Steric Number} = \\text{Bond Pairs} + \\text{Lone Pairs}$\n`;
+          assistantResponse += `- **Hybridization Types**: $2 \\to sp\\text{ (Linear)}, 3 \\to sp^2\\text{ (Trigonal Planar)}, 4 \\to sp^3\\text{ (Tetrahedral)}, 5 \\to sp^3d\\text{ (TBP)}, 6 \\to sp^3d^2\\text{ (Octahedral)}$\n`;
+          assistantResponse += `- **MOT Bond Order**: $\\text{Bond Order} = \\frac{N_b - N_a}{2}$\n`;
+          assistantResponse += `- **VSEPR Repulsion Order**: $\\text{Lone Pair-Lone Pair} > \\text{Lone Pair-Bond Pair} > \\text{Bond Pair-Bond Pair}$\n\n`;
+        } else if (chLower.includes("quadratic")) {
+          assistantResponse += `- **Roots Formula**: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$\n`;
+          assistantResponse += `- **Sum & Product of Roots**: $\\alpha + \\beta = -\\frac{b}{a}$, $\\alpha \\beta = \\frac{c}{a}$\n`;
+          assistantResponse += `- **Roots Difference**: $|\\alpha - \\beta| = \\frac{\\sqrt{D}}{|a|}$\n`;
+          assistantResponse += `- **Discriminant $D$**: $D = b^2 - 4ac$ ($D > 0$: Real & Distinct, $D=0$: Real & Equal, $D < 0$: Complex)\n\n`;
+        } else if (chLower.includes("limit") || chLower.includes("integral") || chLower.includes("derivative")) {
+          assistantResponse += `- **L'Hopital's Rule**: $\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)} \\text{ (for } \\frac{0}{0} \\text{ or } \\frac{\\infty}{\\infty}\\text{)}$\n`;
+          assistantResponse += `- **Standard Limit**: $\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$, $\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1$\n`;
+          assistantResponse += `- **Integration by Parts**: $\\int u \\, dv = uv - \\int v \\, du$\n\n`;
+        } else {
+          assistantResponse += `- **Core Principle**: Standard relations and equations for ${chapter}.\n`;
+          assistantResponse += `- **Parameter Evaluation**: Apply parameters across boundary conditions and solve for target variables.\n\n`;
         }
 
         assistantResponse += `#### 📝 Key Practice Questions & Solutions (${matchedChapterQs.length} available):\n\n`;
@@ -217,10 +253,13 @@ ${dbContextSummary}
             .map((q) => `• **[${q.subjectCode} ${q.year}] ${q.questionNo}**: "${q.text}" (${q.marks ? q.marks + " Marks" : ""})`)
             .join("\n\n");
       } else {
-        assistantResponse = `Here are the core concepts and question breakdown for **${userMessage}**:\n\n` +
-          `• **Practice Bank**: Over 1,000+ chapter-wise JEE PYQs & practice questions are available for Physics, Chemistry, and Mathematics.\n` +
-          `• **Interactive Practice**: Visit [/jee-practice](/jee-practice) to filter by subject and chapter.\n` +
-          `• **Formula Sheets**: Access topic weightage and formula breakdowns under [/cheatsheets](/cheatsheets).`;
+        assistantResponse = `### 📚 Core Concepts & PYQ Guide for "${userMessage}"\n\n` +
+          `#### 🔑 Key Overview & Principles:\n` +
+          `- **Database Search**: Grounded in 1,000+ chapter-wise past exam questions covering Physics, Chemistry, and Mathematics.\n` +
+          `- **Step-by-Step Problem Solving**: Each topic features verified MCQs, correct options, and step-by-step solutions.\n\n` +
+          `#### 💡 Recommended Next Steps:\n` +
+          `1. **Practice PYQs**: Go to [/jee-practice](/jee-practice) to solve chapter questions interactively with the canvas.\n` +
+          `2. **View Cheatsheets**: Open [/cheatsheets](/cheatsheets) to inspect frequency weightage and repeated question vector analysis.`;
       }
     }
 

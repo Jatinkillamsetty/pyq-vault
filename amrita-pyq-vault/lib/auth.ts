@@ -25,7 +25,7 @@ export const authOptions: AuthOptions = {
         }
 
         if (!isAllowedEmail(email)) {
-          throw new Error("Student emails must end with @am.students.amrita.edu.");
+          throw new Error("Please enter a valid email address.");
         }
 
         const user = await prisma.user.findUnique({ where: { email } });

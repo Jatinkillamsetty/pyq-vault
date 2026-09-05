@@ -3,6 +3,8 @@
 import { useState, useRef, useEffect, FormEvent } from "react";
 import { Bot, Send, User, Sparkles, Database, Loader2, ArrowRight } from "lucide-react";
 
+import FormattedMessage from "@/components/FormattedMessage";
+
 interface Message {
   id: string;
   role: "user" | "assistant";
@@ -11,10 +13,10 @@ interface Message {
 }
 
 const QUICK_PROMPTS = [
-  "Which questions were repeated in the last 5 years?",
-  "What are the most important topics in Data Structures?",
-  "How many times was Dijkstra asked?",
-  "Show me PYQs related to AVL trees",
+  "Show me Kinematics formulas and projectile PYQs",
+  "Explain Mole Concept with solved JEE Main questions",
+  "What are the key formulas for Quadratic Equations?",
+  "Explain VSEPR Theory and Chemical Bonding geometries",
 ];
 
 export default function AiAssistantPage() {
@@ -154,7 +156,7 @@ export default function AiAssistantPage() {
                   : "bg-slate-100 text-slate-800 dark:bg-white/10 dark:text-slate-100"
               }`}
             >
-              <div className="whitespace-pre-wrap">{msg.content}</div>
+              <FormattedMessage content={msg.content} isUser={msg.role === "user"} />
               <span
                 className={`mt-1.5 block text-[10px] ${
                   msg.role === "user" ? "text-white/70" : "text-slate-400"

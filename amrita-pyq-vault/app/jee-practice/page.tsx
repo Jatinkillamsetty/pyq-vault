@@ -127,7 +127,13 @@ function JeePracticeContent() {
 
     const updated = {
       ...userAnswers,
-      [currentQuestion.id]: { option: selectedOption, isCorrect },
+      [currentQuestion.id]: {
+        option: selectedOption,
+        isCorrect,
+        subject: currentQuestion.subject,
+        chapter: currentQuestion.chapter,
+        timestamp: new Date().toISOString(),
+      },
     };
     setUserAnswers(updated);
     try {

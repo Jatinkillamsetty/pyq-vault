@@ -14,7 +14,7 @@ export default function SignupPage() {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  const isAmritaEmail = /@am\.students\.amrita\.edu$/i.test(email.trim());
+  const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -69,7 +69,7 @@ export default function SignupPage() {
             Create your account
           </h1>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            Only for Amrita Vishwa Vidyapeetham students
+            Join PYQ Vault to access practice questions & study tools
           </p>
         </div>
 
@@ -93,43 +93,28 @@ export default function SignupPage() {
               required
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder="Student Name"
+              placeholder="Your Name"
               className="w-full bg-transparent text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none dark:text-slate-100"
             />
           </div>
 
           <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
-            Student email
+            Email address
           </label>
-          <div
-            className={`mb-1.5 flex items-center gap-2.5 rounded-xl border bg-white px-3.5 py-2.5 focus-within:border-indigo-400 dark:bg-white/5 ${
-              email && !isAmritaEmail
-                ? "border-amber-300 dark:border-amber-400/40"
-                : "border-slate-200 dark:border-white/10"
-            }`}
-          >
+          <div className="mb-4 flex items-center gap-2.5 rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 focus-within:border-indigo-400 dark:border-white/10 dark:bg-white/5">
             <Mail size={15} className="shrink-0 text-slate-400" />
             <input
               type="email"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="username@am.students.amrita.edu"
+              placeholder="you@example.com"
               className="w-full bg-transparent text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none dark:text-slate-100"
             />
-            {email && isAmritaEmail && (
+            {email && isValidEmail && (
               <CheckCircle2 size={15} className="shrink-0 text-emerald-500" />
             )}
           </div>
-          {email && !isAmritaEmail ? (
-            <p className="mb-4 text-[11px] text-amber-600 dark:text-amber-400">
-              Student email must end in @am.students.amrita.edu
-            </p>
-          ) : (
-            <p className="mb-4 text-[11px] text-slate-400">
-              Must end in @am.students.amrita.edu
-            </p>
-          )}
 
           <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
             Password
@@ -149,7 +134,7 @@ export default function SignupPage() {
 
           <button
             type="submit"
-            disabled={loading || !isAmritaEmail}
+            disabled={loading || !isValidEmail}
             className="flex w-full items-center justify-center gap-2 rounded-xl bg-maroon-500 py-2.5 text-sm font-medium text-white transition-colors hover:bg-maroon-600 disabled:cursor-not-allowed disabled:opacity-60"
           >
             {loading && <Loader2 size={14} className="animate-spin" />}

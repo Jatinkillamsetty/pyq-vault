@@ -3,6 +3,13 @@
 import { useEffect, useState, FormEvent } from "react";
 import { BookOpen, Calendar, Clock, Sparkles, CheckCircle2, Circle, Loader2, ArrowRight } from "lucide-react";
 
+import {
+  JEE_SUBJECT_OPTIONS,
+  JEE_PHYSICS_CHAPTERS,
+  JEE_CHEMISTRY_CHAPTERS,
+  JEE_MATH_CHAPTERS,
+} from "@/lib/jeeChapters";
+
 interface SubjectOption {
   id: string;
   code: string;
@@ -134,15 +141,34 @@ export default function StudyPlanPage() {
                   onChange={(e) => setSubjectCode(e.target.value)}
                   className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm focus:border-indigo-400 focus:outline-none dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
                 >
-                  {subjects.length > 0 ? (
-                    subjects.map((s) => (
-                      <option key={s.id || s.code} value={s.code}>
-                        {s.code} - {s.name}
+                  <optgroup label="🌟 Full Subject Revision">
+                    {JEE_SUBJECT_OPTIONS.map((s) => (
+                      <option key={s.id} value={s.code}>
+                        {s.name}
                       </option>
-                    ))
-                  ) : (
-                    <option value="21CSE201">21CSE201 - Data Structures & Algorithms</option>
-                  )}
+                    ))}
+                  </optgroup>
+                  <optgroup label="🔵 Physics Chapters (24 Units)">
+                    {JEE_PHYSICS_CHAPTERS.map((ch) => (
+                      <option key={ch.id} value={ch.code}>
+                        {ch.name}
+                      </option>
+                    ))}
+                  </optgroup>
+                  <optgroup label="🟢 Chemistry Chapters (32 Units)">
+                    {JEE_CHEMISTRY_CHAPTERS.map((ch) => (
+                      <option key={ch.id} value={ch.code}>
+                        {ch.name}
+                      </option>
+                    ))}
+                  </optgroup>
+                  <optgroup label="🔴 Mathematics Chapters (18 Units)">
+                    {JEE_MATH_CHAPTERS.map((ch) => (
+                      <option key={ch.id} value={ch.code}>
+                        {ch.name}
+                      </option>
+                    ))}
+                  </optgroup>
                 </select>
               </div>
 

@@ -55,12 +55,40 @@ model User {
   updatedAt     DateTime @updatedAt
 
   papersUploaded Paper[]       @relation("UploadedBy")
+  submittedQuestions QuestionSubmission[]
   bookmarks      Bookmark[]
   reviewedQueue  UploadQueue[]  @relation("ReviewedBy")
   studyPlans     StudyPlan[]
   chatMessages   ChatMessage[]
 
   @@index([email])
+}
+
+model QuestionSubmission {
+  id            String      @id @default(cuid())
+  subject       String      // Physics, Chemistry, Mathematics
+  branch        String?     // CSE, ECE, EEE, MECH, CIVIL, AI
+  chapter       String      // e.g. Quadratic Equations, Kinematics
+  subtopic      String?
+  questionText  String
+  optionA       String
+  optionB       String
+  optionC       String
+  optionD       String
+  correctOption String      // A, B, C, D
+  solution      String
+  exam          String?     // e.g. JEE Main, University Mid-Sem
+  year          Int?        // e.g. 2024
+  difficulty    String?     // Easy, Medium, Hard
+  status        PaperStatus @default(PENDING)
+  submittedBy   User        @relation(fields: [submittedById], references: [id], onDelete: Cascade)
+  submittedById String
+  reviewNotes   String?
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  @@index([status])
+  @@index([submittedById])
 }
 
 model Branch {

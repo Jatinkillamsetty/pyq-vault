@@ -7,36 +7,32 @@ export default withAuth(
     const isAuth = !!token;
     const pathname = req.nextUrl.pathname;
 
+    // If authenticated user visits login or signup page, redirect to home page
+    if (isAuth && (pathname === "/login" || pathname === "/signup")) {
+      return NextResponse.redirect(new URL("/", req.url));
+    }
+
     // Admin routes protection
     if (pathname.startsWith("/admin") || pathname.startsWith("/api/admin")) {
       if (token?.role !== "ADMIN") {
-        return NextResponse.redirect(new URL("/login", req.url));
+        return NextResponse.redirect(new URL("/", req.url));
       }
     }
 
     return NextResponse.next();
   },
   {
+    pages: {
+      signIn: "/login",
+    },
     callbacks: {
       authorized: ({ token, req }) => {
         const pathname = req.nextUrl.pathname;
 
-        // Allow public pages & static assets
+        // Allow public pages & static assets needed for authentication
         if (
-          pathname === "/" ||
-          pathname.startsWith("/jee-practice") ||
-          pathname.startsWith("/browse") ||
-          pathname.startsWith("/cheatsheets") ||
-          pathname.startsWith("/study-plan") ||
-          pathname.startsWith("/ai") ||
-          pathname.startsWith("/bookmarks") ||
-          pathname.startsWith("/papers") ||
           pathname.startsWith("/login") ||
           pathname.startsWith("/signup") ||
-          pathname.startsWith("/uploads") ||
-          pathname.startsWith("/api/papers") ||
-          pathname.startsWith("/api/subjects") ||
-          pathname.startsWith("/api/ai") ||
           pathname.startsWith("/api/auth") ||
           pathname.startsWith("/_next") ||
           pathname.endsWith(".ico")
@@ -44,7 +40,7 @@ export default withAuth(
           return true;
         }
 
-        // Require authenticated session for admin and upload routes
+        // Require authenticated session for all other routes
         return !!token;
       },
     },
@@ -54,3 +50,4 @@ export default withAuth(
 export const config = {
   matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
 };
+

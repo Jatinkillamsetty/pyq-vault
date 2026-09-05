@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Search, SlidersHorizontal, X, Clock, Loader2 } from "lucide-react";
 import PaperCard, { PaperCardData } from "@/components/PaperCard";
 import { BRANCHES as BRANCH_META } from "@/lib/demoData";
+import UserAnalyticsSection from "@/components/UserAnalyticsSection";
 
 const BRANCHES = BRANCH_META.map((b) => b.code);
 const SEMESTERS = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -186,6 +187,9 @@ export default function DashboardPage() {
           )}
         </AnimatePresence>
       </section>
+
+      {/* User Performance Analytics & Questions Counters */}
+      <UserAnalyticsSection />
 
       {/* Recently Viewed Section */}
       {recentlyViewed.length > 0 && !query && activeFilterCount === 0 && (

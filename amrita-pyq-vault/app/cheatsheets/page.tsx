@@ -4,6 +4,13 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Sparkles, TrendingUp, CheckCircle2, Layers, Repeat, Loader2 } from "lucide-react";
 
+import {
+  JEE_SUBJECT_OPTIONS,
+  JEE_PHYSICS_CHAPTERS,
+  JEE_CHEMISTRY_CHAPTERS,
+  JEE_MATH_CHAPTERS,
+} from "@/lib/jeeChapters";
+
 interface SubjectOption {
   id: string;
   code: string;
@@ -36,7 +43,7 @@ interface AnalysisData {
     medium: TopicAnalysis[];
     low: TopicAnalysis[];
   };
-  unitDistribution: { unit: number; questionCount: number; totalMarks: number }[];
+  unitDistribution: { unit: number; questionCount: number; totalMarks: number; subtopicName?: string }[];
 }
 
 interface RepeatedMatch {
@@ -83,8 +90,8 @@ export default function CheatsheetsPage() {
       setLoading(true);
       try {
         const [resAnalysis, resRepeated] = await Promise.all([
-          fetch(`/api/ai/analysis?subjectCode=${activeCode}`),
-          fetch(`/api/ai/repeated-questions?subjectCode=${activeCode}`),
+          fetch(`/api/ai/analysis?subjectCode=${encodeURIComponent(activeCode)}`),
+          fetch(`/api/ai/repeated-questions?subjectCode=${encodeURIComponent(activeCode)}`),
         ]);
 
         if (resAnalysis.ok) {
@@ -120,28 +127,71 @@ export default function CheatsheetsPage() {
         </p>
       </section>
 
-      <div className="grid grid-cols-1 gap-8 lg:grid-cols-[260px_1fr]">
-        {/* Subject Picker */}
-        <aside className="flex flex-col gap-2">
-          {subjects.map((s) => {
-            const active = s.code === activeCode;
-            return (
-              <button
-                key={s.id || s.code}
-                onClick={() => setActiveCode(s.code)}
-                className={`rounded-xl border p-3.5 text-left transition-colors ${
-                  active
-                    ? "border-maroon-500 bg-maroon-500/5 dark:bg-maroon-500/10"
-                    : "border-slate-200 bg-white hover:border-indigo-300 dark:border-white/5 dark:bg-white/[0.03] dark:hover:border-indigo-400/40"
-                }`}
-              >
-                <p className="font-mono text-[11px] font-semibold text-slate-400">{s.code}</p>
-                <p className="line-clamp-2 font-display text-sm font-medium text-slate-800 dark:text-slate-100">
-                  {s.name}
-                </p>
-              </button>
-            );
-          })}
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-[280px_1fr]">
+        {/* Subject & Chapter Picker */}
+        <aside className="flex flex-col gap-4">
+          <div>
+            <label className="mb-1.5 block font-mono text-[11px] uppercase tracking-wider text-slate-400">
+              Select Subject or Chapter
+            </label>
+            <select
+              value={activeCode}
+              onChange={(e) => setActiveCode(e.target.value)}
+              className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-3 text-xs font-medium focus:border-maroon-500 focus:outline-none dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
+            >
+              <optgroup label="🌟 Full Subject Analysis">
+                {JEE_SUBJECT_OPTIONS.map((s) => (
+                  <option key={s.id} value={s.code}>
+                    {s.name}
+                  </option>
+                ))}
+              </optgroup>
+              <optgroup label="🔵 Physics Chapters (24)">
+                {JEE_PHYSICS_CHAPTERS.map((ch) => (
+                  <option key={ch.id} value={ch.code}>
+                    {ch.name}
+                  </option>
+                ))}
+              </optgroup>
+              <optgroup label="🟢 Chemistry Chapters (32)">
+                {JEE_CHEMISTRY_CHAPTERS.map((ch) => (
+                  <option key={ch.id} value={ch.code}>
+                    {ch.name}
+                  </option>
+                ))}
+              </optgroup>
+              <optgroup label="🔴 Mathematics Chapters (18)">
+                {JEE_MATH_CHAPTERS.map((ch) => (
+                  <option key={ch.id} value={ch.code}>
+                    {ch.name}
+                  </option>
+                ))}
+              </optgroup>
+            </select>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <p className="font-mono text-[10px] uppercase tracking-wider text-slate-400">Quick Subjects</p>
+            {DEFAULT_JEE_SUBJECTS.map((s) => {
+              const active = s.code === activeCode;
+              return (
+                <button
+                  key={s.id || s.code}
+                  onClick={() => setActiveCode(s.code)}
+                  className={`rounded-xl border p-3 text-left transition-colors ${
+                    active
+                      ? "border-maroon-500 bg-maroon-500/5 dark:bg-maroon-500/10"
+                      : "border-slate-200 bg-white hover:border-indigo-300 dark:border-white/5 dark:bg-white/[0.03] dark:hover:border-indigo-400/40"
+                  }`}
+                >
+                  <p className="font-mono text-[10px] font-semibold text-slate-400">{s.code}</p>
+                  <p className="line-clamp-2 font-display text-xs font-medium text-slate-800 dark:text-slate-100">
+                    {s.name}
+                  </p>
+                </button>
+              );
+            })}
+          </div>
         </aside>
 
         {/* Detailed Analytics */}
@@ -293,8 +343,8 @@ export default function CheatsheetsPage() {
                       key={u.unit}
                       className="rounded-xl border border-slate-100 bg-slate-50 p-3 text-center dark:border-white/5 dark:bg-white/5"
                     >
-                      <p className="font-display text-sm font-semibold text-slate-800 dark:text-slate-100">
-                        Unit {u.unit}
+                      <p className="font-display text-xs font-semibold text-slate-800 line-clamp-1 dark:text-slate-100" title={u.subtopicName || `Unit ${u.unit}`}>
+                        {u.subtopicName ? u.subtopicName : `Unit ${u.unit}`}
                       </p>
                       <p className="mt-1 text-lg font-bold text-maroon-500">{u.questionCount}</p>
                       <p className="text-[11px] text-slate-400">Questions</p>

@@ -5,7 +5,7 @@ import {
   LayoutGrid,
   Sparkles,
   Bookmark,
-  UploadCloud,
+  PlusCircle,
   ShieldCheck,
   BookOpen,
   Bot,
@@ -34,7 +34,7 @@ const NAV_ITEMS: NavItem[] = [
   { label: "AI Study Planner", href: "/study-plan", icon: BookOpen },
   { label: "PYQ AI Assistant", href: "/ai", icon: Bot },
   { label: "My Bookmarks", href: "/bookmarks", icon: Bookmark },
-  { label: "Upload Paper", href: "/upload", icon: UploadCloud },
+  { label: "Upload Question", href: "/upload-question", icon: PlusCircle },
   { label: "Admin Control", href: "/admin", icon: ShieldCheck, adminOnly: true },
 ];
 
@@ -58,7 +58,7 @@ export default function Sidebar({
 }) {
   const [collapsed, setCollapsed] = useState(false);
   const pathname = usePathname();
-  const isAmritaDomain = /@(cb\.)?amrita\.edu$/i.test(user.email);
+  const isVerifiedUser = Boolean(user && user.email);
 
   return (
     <aside
@@ -134,20 +134,12 @@ export default function Sidebar({
       {/* Footer: auth status + theme toggle */}
       <div className="border-t border-slate-200 p-3 dark:border-white/5">
         <div
-          className={`mb-2 flex items-center gap-2 rounded-xl px-2 py-2 ${
-            isAmritaDomain
-              ? "bg-emerald-50 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-400"
-              : "bg-amber-50 text-amber-700 dark:bg-amber-500/10 dark:text-amber-400"
-          }`}
+          className="mb-2 flex items-center gap-2 rounded-xl bg-emerald-50 px-2 py-2 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-400"
         >
-          <span
-            className={`h-2 w-2 shrink-0 rounded-full ${
-              isAmritaDomain ? "bg-emerald-500" : "bg-amber-500"
-            }`}
-          />
+          <span className="h-2 w-2 shrink-0 rounded-full bg-emerald-500" />
           {!collapsed && (
             <span className="truncate text-xs font-medium">
-              {isAmritaDomain ? "Verified @amrita.edu" : "Domain not verified"}
+              Verified Account
             </span>
           )}
         </div>
