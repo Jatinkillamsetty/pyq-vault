@@ -19,9 +19,9 @@ export async function POST(req: NextRequest) {
   if (!isAllowedEmail(email)) {
     return NextResponse.json(
       {
-        error: "Please enter a valid email address.",
+        error: "Student registration requires an @am.students.amrita.edu email address.",
       },
-      { status: 400 }
+      { status: 403 }
     );
   }
 

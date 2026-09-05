@@ -1,390 +1,349 @@
 "use client";
 
-import { useState, FormEvent, useMemo } from "react";
-import { UploadCloud, CheckCircle2, AlertCircle, Sparkles, BookOpen, Plus, Target, ArrowRight } from "lucide-react";
-import { SUBJECT_DATA } from "@/lib/demoData";
-import { addCustomQuestionToStorage, JeeQuestion } from "@/lib/jeeData";
-import Link from "next/link";
+import { useState, FormEvent, ChangeEvent } from "react";
+import { UploadCloud, FileText, Sparkles, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
+import { BRANCHES } from "@/lib/demoData";
+import { useRouter } from "next/navigation";
 
-export default function UploadQuestionPage() {
-  const [subject, setSubject] = useState<"Physics" | "Chemistry" | "Mathematics">("Physics");
-  const [chapter, setChapter] = useState<string>("");
-  const [customChapter, setCustomChapter] = useState<string>("");
-  const [subtopic, setSubtopic] = useState<string>("");
-  const [exam, setExam] = useState<"JEE Main" | "JEE Advanced">("JEE Main");
-  const [year, setYear] = useState<number>(2025);
-  const [difficulty, setDifficulty] = useState<"Easy" | "Medium" | "Hard">("Medium");
+export default function UploadPage() {
+  const router = useRouter();
+  const [file, setFile] = useState<File | null>(null);
+  const [subjectCode, setSubjectCode] = useState("");
+  const [subjectName, setSubjectName] = useState("");
+  const [branchCode, setBranchCode] = useState("Physics");
+  const [semester, setSemester] = useState<number>(3);
+  const [regulation, setRegulation] = useState<string>("R2021");
+  const [examType, setExamType] = useState<string>("END_SEM");
+  const [year, setYear] = useState<number>(new Date().getFullYear());
 
-  const [questionText, setQuestionText] = useState<string>("");
-  const [optA, setOptA] = useState<string>("");
-  const [optB, setOptB] = useState<string>("");
-  const [optC, setOptC] = useState<string>("");
-  const [optD, setOptD] = useState<string>("");
-  const [correctOption, setCorrectOption] = useState<"A" | "B" | "C" | "D">("A");
-  const [solutionText, setSolutionText] = useState<string>("");
-
+  const [aiLoading, setAiLoading] = useState(false);
+  const [aiConfidence, setAiConfidence] = useState<number | null>(null);
+  const [submitLoading, setSubmitLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [success, setSuccess] = useState<boolean>(false);
-  const [submittedQuestion, setSubmittedQuestion] = useState<JeeQuestion | null>(null);
+  const [successMsg, setSuccessMsg] = useState<string | null>(null);
 
-  // Available chapters based on subject
-  const availableChapters = useMemo(() => {
-    if (subject === "Physics") return SUBJECT_DATA.Physics;
-    if (subject === "Mathematics") return SUBJECT_DATA.Mathematics;
-    return [
-      ...SUBJECT_DATA.Chemistry["Physical Chemistry"],
-      ...SUBJECT_DATA.Chemistry["Inorganic Chemistry"],
-      ...SUBJECT_DATA.Chemistry["Organic Chemistry"],
-    ];
-  }, [subject]);
-
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    setError(null);
-
-    const targetChapter = chapter === "__CUSTOM__" ? customChapter.trim() : chapter.trim();
-
-    if (!targetChapter) {
-      setError("Please select or enter a chapter name.");
-      return;
+  const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files[0]) {
+      const selected = e.target.files[0];
+      if (!selected.name.toLowerCase().endsWith(".pdf")) {
+        setError("Only PDF files are allowed.");
+        setFile(null);
+        return;
+      }
+      if (selected.size > 15 * 1024 * 1024) {
+        setError("File size must be under 15MB.");
+        setFile(null);
+        return;
+      }
+      setError(null);
+      setFile(selected);
     }
-    if (!questionText.trim()) {
-      setError("Please enter the question statement.");
-      return;
-    }
-    if (!optA.trim() || !optB.trim() || !optC.trim() || !optD.trim()) {
-      setError("Please fill out all four options (A, B, C, and D).");
-      return;
-    }
-    if (!solutionText.trim()) {
-      setError("Please provide a step-by-step solution for students.");
-      return;
-    }
-
-    const newQuestion: JeeQuestion = {
-      id: `custom-user-q-${Date.now()}`,
-      subject,
-      chapter: targetChapter,
-      subtopic: subtopic.trim() || `${targetChapter} Practice`,
-      exam,
-      year,
-      difficulty,
-      question: questionText.trim(),
-      options: [
-        { id: "A", text: optA.trim() },
-        { id: "B", text: optB.trim() },
-        { id: "C", text: optC.trim() },
-        { id: "D", text: optD.trim() },
-      ],
-      correctOption,
-      solution: solutionText.trim(),
-    };
-
-    addCustomQuestionToStorage(newQuestion);
-    setSubmittedQuestion(newQuestion);
-    setSuccess(true);
   };
 
-  const handleResetForm = () => {
-    setQuestionText("");
-    setOptA("");
-    setOptB("");
-    setOptC("");
-    setOptD("");
-    setSolutionText("");
-    setSubtopic("");
-    setSuccess(false);
-    setSubmittedQuestion(null);
+  const handleAutoTag = async () => {
+    if (!file) {
+      setError("Please select a PDF file first.");
+      return;
+    }
+    setError(null);
+    setAiLoading(true);
+
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+
+      const res = await fetch("/api/upload/auto-tag", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await res.json();
+      if (!res.ok) {
+        setError(data.error || "Gemini extraction failed.");
+        return;
+      }
+
+      if (data.subject_code) setSubjectCode(data.subject_code);
+      if (data.subject_name) setSubjectName(data.subject_name);
+      if (data.year) setYear(data.year);
+      if (data.exam_type) setExamType(data.exam_type);
+      if (typeof data.confidence === "number") setAiConfidence(data.confidence);
+    } catch (err) {
+      console.error(err);
+      setError("AI auto-tagging failed. Please enter details manually.");
+    } finally {
+      setAiLoading(false);
+    }
+  };
+
+  const handleSubmit = async (e: FormEvent) => {
+    e.preventDefault();
+    if (!file) {
+      setError("Please select a PDF file.");
+      return;
+    }
+    if (!subjectCode || !subjectName) {
+      setError("Subject code and name are required.");
+      return;
+    }
+
+    setError(null);
+    setSuccessMsg(null);
+    setSubmitLoading(true);
+
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("subjectCode", subjectCode);
+      formData.append("subjectName", subjectName);
+      formData.append("branchCode", branchCode);
+      formData.append("semester", String(semester));
+      formData.append("regulation", regulation);
+      formData.append("examType", examType);
+      formData.append("year", String(year));
+
+      const res = await fetch("/api/upload/pdf", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await res.json();
+      if (!res.ok) {
+        setError(data.error || "Failed to upload paper.");
+        return;
+      }
+
+      setSuccessMsg(data.message || "Paper uploaded successfully!");
+      setTimeout(() => {
+        router.push("/");
+      }, 1500);
+    } catch (err) {
+      console.error(err);
+      setError("Network error while uploading paper.");
+    } finally {
+      setSubmitLoading(false);
+    }
   };
 
   return (
-    <div className="mx-auto max-w-4xl px-6 py-10 md:px-10">
-      {/* Header */}
+    <div className="mx-auto max-w-3xl px-6 py-10 md:px-10">
       <div className="mb-8">
-        <p className="mb-2 font-mono text-xs uppercase tracking-[0.2em] text-maroon-500 flex items-center gap-1.5">
-          <UploadCloud size={14} /> JEE Question Bank Contribution
+        <p className="mb-2 font-mono text-xs uppercase tracking-[0.2em] text-maroon-500">
+          Amrita Vishwa Vidyapeetham
         </p>
-        <h1 className="font-display text-3xl font-bold text-slate-900 dark:text-slate-50 md:text-4xl">
-          Upload Practice Question
+        <h1 className="font-display text-3xl font-semibold text-slate-900 dark:text-slate-50">
+          Upload Previous Paper
         </h1>
         <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-          Add custom JEE Main & Advanced questions to any chapter for all students to practice.
+          Share question papers to help your fellow students prepare.
         </p>
       </div>
 
-      {success && submittedQuestion ? (
-        <div className="glass-card rounded-xl2 p-8 shadow-glass dark:glass-dark text-center border border-emerald-500/20 bg-emerald-500/5">
-          <CheckCircle2 size={48} className="mx-auto mb-4 text-emerald-500" />
-          <h2 className="font-display text-2xl font-bold text-slate-900 dark:text-slate-100">
-            Question Live & Saved!
-          </h2>
-          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
-            Your question has been added to <span className="font-semibold text-maroon-500">{submittedQuestion.subject} — {submittedQuestion.chapter}</span>.
-          </p>
-
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
-            <button
-              onClick={handleResetForm}
-              className="flex items-center gap-2 rounded-xl bg-slate-100 px-5 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-200 dark:bg-white/10 dark:text-slate-200 dark:hover:bg-white/20"
-            >
-              <Plus size={16} /> Add Another Question
-            </button>
-            <Link
-              href={`/jee-practice?subject=${encodeURIComponent(submittedQuestion.subject)}&chapter=${encodeURIComponent(submittedQuestion.chapter)}`}
-              className="flex items-center gap-2 rounded-xl bg-maroon-500 px-5 py-2.5 text-sm font-medium text-white hover:bg-maroon-600 shadow-md"
-            >
-              <Target size={16} /> Practice Chapter PYQs <ArrowRight size={16} />
-            </Link>
+      <form onSubmit={handleSubmit} className="space-y-6">
+        {error && (
+          <div className="flex items-center gap-2 rounded-xl bg-red-50 p-4 text-xs font-medium text-maroon-600 dark:bg-red-500/10 dark:text-maroon-400">
+            <AlertCircle size={16} className="shrink-0" />
+            <span>{error}</span>
           </div>
-        </div>
-      ) : (
-        <form onSubmit={handleSubmit} className="space-y-6">
-          {error && (
-            <div className="flex items-center gap-2 rounded-xl bg-red-50 p-4 text-xs font-medium text-maroon-600 dark:bg-red-500/10 dark:text-maroon-400">
-              <AlertCircle size={16} className="shrink-0" />
-              <span>{error}</span>
+        )}
+
+        {successMsg && (
+          <div className="flex items-center gap-2 rounded-xl bg-emerald-50 p-4 text-xs font-medium text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-400">
+            <CheckCircle2 size={16} className="shrink-0" />
+            <span>{successMsg}</span>
+          </div>
+        )}
+
+        {/* File Dropzone */}
+        <div className="relative flex flex-col items-center justify-center rounded-xl2 border-2 border-dashed border-slate-300 p-8 text-center transition-colors hover:border-indigo-400 dark:border-white/10 dark:hover:border-indigo-400/40">
+          <input
+            type="file"
+            accept=".pdf,application/pdf"
+            onChange={handleFileChange}
+            className="absolute inset-0 cursor-pointer opacity-0"
+          />
+          <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100 text-slate-400 dark:bg-white/5">
+            <UploadCloud size={24} />
+          </div>
+          {file ? (
+            <div>
+              <p className="font-display text-sm font-medium text-slate-800 dark:text-slate-100">
+                {file.name}
+              </p>
+              <p className="text-xs text-slate-400">
+                {(file.size / (1024 * 1024)).toFixed(2)} MB PDF
+              </p>
+            </div>
+          ) : (
+            <div>
+              <p className="text-sm font-medium text-slate-700 dark:text-slate-200">
+                Drop your PYQ PDF here or click to browse
+              </p>
+              <p className="mt-1 text-xs text-slate-400">
+                PDF format only, maximum size 15MB
+              </p>
             </div>
           )}
+        </div>
 
-          {/* Section 1: Subject & Chapter */}
-          <div className="glass-card rounded-xl2 p-6 shadow-glass dark:glass-dark space-y-4">
-            <h2 className="font-display text-lg font-semibold text-slate-900 dark:text-slate-100 flex items-center gap-2">
-              <BookOpen size={18} className="text-maroon-500" /> Subject & Chapter Mapping
-            </h2>
-
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        {/* Auto-Tag with Gemini AI button */}
+        {file && (
+          <div className="flex items-center justify-between rounded-xl bg-indigo-50/70 p-4 dark:bg-indigo-500/10">
+            <div className="flex items-center gap-2">
+              <Sparkles size={16} className="text-indigo-500" />
               <div>
-                <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                  Select Subject *
-                </label>
-                <select
-                  value={subject}
-                  onChange={(e) => {
-                    setSubject(e.target.value as any);
-                    setChapter("");
-                  }}
-                  className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-                >
-                  <option value="Physics">Physics</option>
-                  <option value="Chemistry">Chemistry</option>
-                  <option value="Mathematics">Mathematics</option>
-                </select>
-              </div>
-
-              <div>
-                <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                  Select Chapter *
-                </label>
-                <select
-                  value={chapter}
-                  onChange={(e) => setChapter(e.target.value)}
-                  className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-                >
-                  <option value="">-- Choose Chapter --</option>
-                  {availableChapters.map((ch) => (
-                    <option key={ch} value={ch}>
-                      {ch}
-                    </option>
-                  ))}
-                  <option value="__CUSTOM__">+ Enter Custom Chapter</option>
-                </select>
+                <p className="text-xs font-medium text-indigo-900 dark:text-indigo-200">
+                  AI Metadata Extraction
+                </p>
+                <p className="text-[11px] text-indigo-700 dark:text-indigo-300">
+                  Auto-extract subject code, name, year, and exam type from PDF cover page.
+                </p>
               </div>
             </div>
+            <button
+              type="button"
+              onClick={handleAutoTag}
+              disabled={aiLoading}
+              className="flex items-center gap-1.5 rounded-lg bg-indigo-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-indigo-700 disabled:opacity-60"
+            >
+              {aiLoading ? <Loader2 size={13} className="animate-spin" /> : <Sparkles size={13} />}
+              Auto-fill with AI
+            </button>
+          </div>
+        )}
 
-            {chapter === "__CUSTOM__" && (
-              <div>
-                <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                  Custom Chapter Name *
-                </label>
-                <input
-                  value={customChapter}
-                  onChange={(e) => setCustomChapter(e.target.value)}
-                  placeholder="e.g. Waves, Ionic Equilibrium, Matrices..."
-                  className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-                />
-              </div>
-            )}
+        {aiConfidence !== null && (
+          <p className="text-xs text-emerald-600 dark:text-emerald-400">
+            AI Extraction Confidence: {Math.round(aiConfidence * 100)}%. Please verify the fields below.
+          </p>
+        )}
 
-            <div>
-              <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                Subtopic / Topic Tag (Optional)
-              </label>
-              <input
-                value={subtopic}
-                onChange={(e) => setSubtopic(e.target.value)}
-                placeholder="e.g. Projectile Motion, Bohr Model, Limits..."
-                className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-              />
-            </div>
+        {/* Metadata Inputs */}
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <div>
+            <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
+              Subject Code *
+            </label>
+            <input
+              type="text"
+              required
+              placeholder="e.g. 23ECE211"
+              value={subjectCode}
+              onChange={(e) => setSubjectCode(e.target.value.toUpperCase())}
+              className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm focus:border-indigo-400 focus:outline-none dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
+            />
           </div>
 
-          {/* Section 2: Metadata */}
-          <div className="glass-card rounded-xl2 p-6 shadow-glass dark:glass-dark space-y-4">
-            <h2 className="font-display text-lg font-semibold text-slate-900 dark:text-slate-100 flex items-center gap-2">
-              <Sparkles size={18} className="text-indigo-500" /> Exam Details & Difficulty
-            </h2>
-
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-              <div>
-                <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                  Exam Type
-                </label>
-                <select
-                  value={exam}
-                  onChange={(e) => setExam(e.target.value as any)}
-                  className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-                >
-                  <option value="JEE Main">JEE Main</option>
-                  <option value="JEE Advanced">JEE Advanced</option>
-                </select>
-              </div>
-
-              <div>
-                <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                  Exam Year
-                </label>
-                <select
-                  value={year}
-                  onChange={(e) => setYear(Number(e.target.value))}
-                  className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-                >
-                  {[2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015].map((y) => (
-                    <option key={y} value={y}>
-                      {y}
-                    </option>
-                  ))}
-                </select>
-              </div>
-
-              <div>
-                <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                  Difficulty Level
-                </label>
-                <select
-                  value={difficulty}
-                  onChange={(e) => setDifficulty(e.target.value as any)}
-                  className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-                >
-                  <option value="Easy">Easy</option>
-                  <option value="Medium">Medium</option>
-                  <option value="Hard">Hard</option>
-                </select>
-              </div>
-            </div>
+          <div>
+            <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
+              Subject Name *
+            </label>
+            <input
+              type="text"
+              required
+              placeholder="e.g. Microcontrollers & Interfacing"
+              value={subjectName}
+              onChange={(e) => setSubjectName(e.target.value)}
+              className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm focus:border-indigo-400 focus:outline-none dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
+            />
           </div>
 
-          {/* Section 3: Question & Options */}
-          <div className="glass-card rounded-xl2 p-6 shadow-glass dark:glass-dark space-y-4">
-            <h2 className="font-display text-lg font-semibold text-slate-900 dark:text-slate-100">
-              Question Statement & Options
-            </h2>
-
-            <div>
-              <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                Question Statement *
-              </label>
-              <textarea
-                rows={4}
-                value={questionText}
-                onChange={(e) => setQuestionText(e.target.value)}
-                placeholder="Enter complete question statement (e.g. A particle of mass m moves under a central force...)"
-                className="w-full rounded-xl border border-slate-200 bg-white p-3.5 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-              />
-            </div>
-
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <div>
-                <label className="mb-1 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                  Option (A) *
-                </label>
-                <input
-                  value={optA}
-                  onChange={(e) => setOptA(e.target.value)}
-                  placeholder="Value / Answer A"
-                  className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-                />
-              </div>
-
-              <div>
-                <label className="mb-1 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                  Option (B) *
-                </label>
-                <input
-                  value={optB}
-                  onChange={(e) => setOptB(e.target.value)}
-                  placeholder="Value / Answer B"
-                  className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-                />
-              </div>
-
-              <div>
-                <label className="mb-1 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                  Option (C) *
-                </label>
-                <input
-                  value={optC}
-                  onChange={(e) => setOptC(e.target.value)}
-                  placeholder="Value / Answer C"
-                  className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-                />
-              </div>
-
-              <div>
-                <label className="mb-1 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                  Option (D) *
-                </label>
-                <input
-                  value={optD}
-                  onChange={(e) => setOptD(e.target.value)}
-                  placeholder="Value / Answer D"
-                  className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-                />
-              </div>
-            </div>
-
-            <div>
-              <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                Correct Option *
-              </label>
-              <div className="flex items-center gap-6">
-                {(["A", "B", "C", "D"] as const).map((opt) => (
-                  <label key={opt} className="flex items-center gap-2 cursor-pointer text-sm font-semibold text-slate-700 dark:text-slate-200">
-                    <input
-                      type="radio"
-                      name="correctOption"
-                      value={opt}
-                      checked={correctOption === opt}
-                      onChange={() => setCorrectOption(opt)}
-                      className="text-maroon-500 focus:ring-maroon-500"
-                    />
-                    Option ({opt})
-                  </label>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-                Step-by-Step Solution & Explanation *
-              </label>
-              <textarea
-                rows={4}
-                value={solutionText}
-                onChange={(e) => setSolutionText(e.target.value)}
-                placeholder="Provide complete formulas, steps, and explanations to solve this question."
-                className="w-full rounded-xl border border-slate-200 bg-white p-3.5 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-              />
-            </div>
+          <div>
+            <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
+              Branch / Department
+            </label>
+            <select
+              value={branchCode}
+              onChange={(e) => setBranchCode(e.target.value)}
+              className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm focus:border-indigo-400 focus:outline-none dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
+            >
+              <optgroup label="🔵 Physics">
+                <option value="Physics">Physics (24 Units)</option>
+              </optgroup>
+              <optgroup label="🟢 Chemistry">
+                <option value="Physical Chemistry">Physical Chemistry (Units 1-11)</option>
+                <option value="Inorganic Chemistry">Inorganic Chemistry (Units 12-21)</option>
+                <option value="Organic Chemistry">Organic Chemistry (Units 22-32)</option>
+              </optgroup>
+              <optgroup label="🔴 Mathematics">
+                <option value="Mathematics">Mathematics (28 Units)</option>
+              </optgroup>
+            </select>
           </div>
 
-          <button
-            type="submit"
-            className="flex w-full items-center justify-center gap-2 rounded-xl bg-maroon-500 py-3 text-sm font-medium text-white transition-colors hover:bg-maroon-600 shadow-md"
-          >
-            <UploadCloud size={18} /> Submit Question to Chapter
-          </button>
-        </form>
-      )}
+          <div>
+            <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
+              Semester
+            </label>
+            <select
+              value={semester}
+              onChange={(e) => setSemester(Number(e.target.value))}
+              className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm focus:border-indigo-400 focus:outline-none dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
+            >
+              {[1, 2, 3, 4, 5, 6, 7, 8].map((s) => (
+                <option key={s} value={s}>
+                  Semester {s}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div>
+            <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
+              Regulation
+            </label>
+            <select
+              value={regulation}
+              onChange={(e) => setRegulation(e.target.value)}
+              className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm focus:border-indigo-400 focus:outline-none dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
+            >
+              <option value="R2019">R2019</option>
+              <option value="R2021">R2021</option>
+              <option value="R2023">R2023</option>
+            </select>
+          </div>
+
+          <div>
+            <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
+              Exam Type
+            </label>
+            <select
+              value={examType}
+              onChange={(e) => setExamType(e.target.value)}
+              className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm focus:border-indigo-400 focus:outline-none dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
+            >
+              <option value="MID_SEM">Mid-Sem</option>
+              <option value="END_SEM">End-Sem</option>
+              <option value="SUPPLEMENTARY">Supplementary</option>
+              <option value="MODEL">Model</option>
+            </select>
+          </div>
+
+          <div>
+            <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
+              Exam Year
+            </label>
+            <input
+              type="number"
+              required
+              min={2015}
+              max={2030}
+              value={year}
+              onChange={(e) => setYear(Number(e.target.value))}
+              className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm focus:border-indigo-400 focus:outline-none dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
+            />
+          </div>
+        </div>
+
+        <button
+          type="submit"
+          disabled={submitLoading || !file}
+          className="flex w-full items-center justify-center gap-2 rounded-xl bg-maroon-500 py-3 text-sm font-medium text-white hover:bg-maroon-600 disabled:opacity-60"
+        >
+          {submitLoading && <Loader2 size={16} className="animate-spin" />}
+          Submit Paper
+        </button>
+      </form>
     </div>
   );
 }

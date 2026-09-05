@@ -5,7 +5,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q1",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -39,7 +39,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q2",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -73,7 +73,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q3",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -107,7 +107,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q4",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -141,7 +141,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q5",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -175,7 +175,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q6",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units & Measurements Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -209,7 +209,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q7",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -243,7 +243,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q8",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -277,7 +277,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q9",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -311,7 +311,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q10",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -345,7 +345,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q11",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units & Measurements Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -379,7 +379,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q12",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -413,7 +413,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q13",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units & Measurements Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -447,7 +447,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q14",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -481,7 +481,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q15",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units & Measurements Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -515,7 +515,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q16",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -549,7 +549,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q17",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -583,7 +583,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q18",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units & Measurements Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -617,7 +617,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q19",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units & Measurements Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -651,7 +651,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q20",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -685,7 +685,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q21",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -719,7 +719,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q22",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -753,7 +753,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q23",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -787,7 +787,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q24",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -821,7 +821,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch1-q25",
     "subject": "Physics",
     "chapter": "Units & Measurements",
-    "subtopic": "Chapter 1 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -855,7 +855,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q1",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "Kinematics Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -889,7 +889,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q2",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -923,7 +923,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q3",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -957,7 +957,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q4",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -991,7 +991,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q5",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -1025,7 +1025,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q6",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -1059,7 +1059,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q7",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -1093,7 +1093,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q8",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -1127,7 +1127,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q9",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -1161,7 +1161,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q10",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -1195,7 +1195,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q11",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -1229,7 +1229,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q12",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -1263,7 +1263,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q13",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -1297,7 +1297,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q14",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "Kinematics Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -1331,7 +1331,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q15",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -1365,7 +1365,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q16",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -1399,7 +1399,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q17",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -1433,7 +1433,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q18",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -1467,7 +1467,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q19",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -1501,7 +1501,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q20",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -1535,7 +1535,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q21",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -1569,7 +1569,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q22",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -1603,7 +1603,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q23",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -1637,7 +1637,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q24",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -1671,7 +1671,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch2-q25",
     "subject": "Physics",
     "chapter": "Kinematics",
-    "subtopic": "Chapter 2 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -1705,7 +1705,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q1",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -1739,7 +1739,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q2",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -1773,7 +1773,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q3",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -1807,7 +1807,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q4",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -1841,7 +1841,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q5",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -1875,7 +1875,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q6",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -1909,7 +1909,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q7",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -1943,7 +1943,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q8",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -1977,7 +1977,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q9",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -2011,7 +2011,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q10",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -2045,7 +2045,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q11",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -2079,7 +2079,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q12",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -2113,7 +2113,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q13",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -2147,7 +2147,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q14",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Laws of Motion Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -2181,7 +2181,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q15",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Laws of Motion Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -2215,7 +2215,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q16",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -2249,7 +2249,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q17",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -2283,7 +2283,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q18",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -2317,7 +2317,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q19",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -2351,7 +2351,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q20",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -2385,7 +2385,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q21",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -2419,7 +2419,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q22",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -2453,7 +2453,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q23",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -2487,7 +2487,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q24",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Laws of Motion Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -2521,7 +2521,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch3-q25",
     "subject": "Physics",
     "chapter": "Laws of Motion",
-    "subtopic": "Chapter 3 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -2555,7 +2555,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q1",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -2589,7 +2589,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q2",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -2623,7 +2623,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q3",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Centre of Mass & Collisions",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -2657,7 +2657,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q4",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -2691,7 +2691,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q5",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -2725,7 +2725,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q6",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -2759,7 +2759,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q7",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -2793,7 +2793,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q8",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Centre of Mass & Collisions",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -2827,7 +2827,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q9",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -2861,7 +2861,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q10",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -2895,7 +2895,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q11",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -2929,7 +2929,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q12",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -2963,7 +2963,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q13",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -2997,7 +2997,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q14",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -3031,7 +3031,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q15",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -3065,7 +3065,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q16",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Centre of Mass & Collisions",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -3099,7 +3099,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q17",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -3133,7 +3133,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q18",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -3167,7 +3167,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q19",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -3201,7 +3201,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q20",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Centre of Mass & Collisions",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -3235,7 +3235,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q21",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -3269,7 +3269,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q22",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -3303,7 +3303,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q23",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -3337,7 +3337,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q24",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -3371,7 +3371,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch4-q25",
     "subject": "Physics",
     "chapter": "Work, Energy & Power",
-    "subtopic": "Chapter 4 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -3405,7 +3405,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q1",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Motion Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -3439,7 +3439,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q2",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -3473,7 +3473,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q3",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Centre of Mass & Collisions",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -3507,7 +3507,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q4",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -3541,7 +3541,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q5",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -3575,7 +3575,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q6",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -3609,7 +3609,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q7",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -3643,7 +3643,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q8",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Motion Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -3677,7 +3677,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q9",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -3711,7 +3711,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q10",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Motion Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -3745,7 +3745,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q11",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -3779,7 +3779,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q12",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -3813,7 +3813,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q13",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -3847,7 +3847,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q14",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -3881,7 +3881,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q15",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -3915,7 +3915,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q16",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -3949,7 +3949,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q17",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -3983,7 +3983,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q18",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -4017,7 +4017,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q19",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -4051,7 +4051,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q20",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -4085,7 +4085,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q21",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Motion Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -4119,7 +4119,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q22",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -4153,7 +4153,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q23",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -4187,7 +4187,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q24",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "Rotational Motion Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -4221,7 +4221,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch5-q25",
     "subject": "Physics",
     "chapter": "Rotational Motion",
-    "subtopic": "Chapter 5 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -4255,7 +4255,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q1",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -4289,7 +4289,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q2",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -4323,7 +4323,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q3",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -4357,7 +4357,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q4",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -4391,7 +4391,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q5",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -4425,7 +4425,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q6",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -4459,7 +4459,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q7",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -4493,7 +4493,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q8",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -4527,7 +4527,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q9",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -4561,7 +4561,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q10",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -4595,7 +4595,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q11",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -4629,7 +4629,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q12",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -4663,7 +4663,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q13",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -4697,7 +4697,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q14",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -4731,7 +4731,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q15",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -4765,7 +4765,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q16",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -4799,7 +4799,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q17",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -4833,7 +4833,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q18",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -4867,7 +4867,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q19",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -4901,7 +4901,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q20",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -4935,7 +4935,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q21",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -4969,7 +4969,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q22",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -5003,7 +5003,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q23",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -5037,7 +5037,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q24",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -5071,7 +5071,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch6-q25",
     "subject": "Physics",
     "chapter": "Gravitation",
-    "subtopic": "Chapter 6 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -5105,7 +5105,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q1",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -5139,7 +5139,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q2",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -5173,7 +5173,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q3",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -5207,7 +5207,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q4",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -5241,7 +5241,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q5",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -5275,7 +5275,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q6",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -5309,7 +5309,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q7",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -5343,7 +5343,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q8",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -5377,7 +5377,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q9",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -5411,7 +5411,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q10",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Fluid Mechanics & Elasticity",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -5445,7 +5445,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q11",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -5479,7 +5479,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q12",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -5513,7 +5513,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q13",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Fluid Mechanics & Elasticity",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -5547,7 +5547,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q14",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -5581,7 +5581,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q15",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Fluid Mechanics & Elasticity",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -5615,7 +5615,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q16",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Fluid Mechanics & Elasticity",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -5649,7 +5649,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q17",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -5683,7 +5683,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q18",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -5717,7 +5717,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q19",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -5751,7 +5751,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q20",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -5785,7 +5785,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q21",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -5819,7 +5819,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q22",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Fluid Mechanics & Elasticity",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -5853,7 +5853,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q23",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -5887,7 +5887,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q24",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -5921,7 +5921,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch7-q25",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 7 Practice Set",
+    "subtopic": "Fluid Mechanics & Elasticity",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -5955,7 +5955,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q1",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -5989,7 +5989,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q2",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Fluid Mechanics & Elasticity",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -6023,7 +6023,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q3",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -6057,7 +6057,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q4",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -6091,7 +6091,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q5",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Fluid Mechanics & Elasticity",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -6125,7 +6125,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q6",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -6159,7 +6159,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q7",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -6193,7 +6193,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q8",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -6227,7 +6227,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q9",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -6261,7 +6261,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q10",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -6295,7 +6295,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q11",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -6329,7 +6329,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q12",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -6363,7 +6363,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q13",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -6397,7 +6397,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q14",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -6431,7 +6431,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q15",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -6465,7 +6465,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q16",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -6499,7 +6499,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q17",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -6533,7 +6533,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q18",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -6567,7 +6567,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q19",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -6601,7 +6601,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q20",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Fluid Mechanics & Elasticity",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -6635,7 +6635,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q21",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -6669,7 +6669,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q22",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -6703,7 +6703,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q23",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Properties of Solids & Liquids Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -6737,7 +6737,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q24",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -6771,7 +6771,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch8-q25",
     "subject": "Physics",
     "chapter": "Properties of Solids & Liquids",
-    "subtopic": "Chapter 8 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -6805,7 +6805,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q1",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -6839,7 +6839,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q2",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -6873,7 +6873,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q3",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -6907,7 +6907,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q4",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -6941,7 +6941,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q5",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -6975,7 +6975,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q6",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -7009,7 +7009,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q7",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -7043,7 +7043,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q8",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -7077,7 +7077,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q9",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -7111,7 +7111,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q10",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -7145,7 +7145,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q11",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -7179,7 +7179,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q12",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -7213,7 +7213,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q13",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -7247,7 +7247,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q14",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -7281,7 +7281,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q15",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -7315,7 +7315,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q16",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -7349,7 +7349,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q17",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -7383,7 +7383,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q18",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -7417,7 +7417,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q19",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -7451,7 +7451,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q20",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -7485,7 +7485,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q21",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -7519,7 +7519,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q22",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -7553,7 +7553,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q23",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -7587,7 +7587,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q24",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -7621,7 +7621,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch9-q25",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 9 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -7655,7 +7655,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q1",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -7689,7 +7689,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q2",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -7723,7 +7723,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q3",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -7757,7 +7757,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q4",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -7791,7 +7791,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q5",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -7825,7 +7825,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q6",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -7859,7 +7859,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q7",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -7893,7 +7893,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q8",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -7927,7 +7927,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q9",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -7961,7 +7961,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q10",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -7995,7 +7995,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q11",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -8029,7 +8029,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q12",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -8063,7 +8063,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q13",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -8097,7 +8097,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q14",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -8131,7 +8131,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q15",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -8165,7 +8165,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q16",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -8199,7 +8199,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q17",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -8233,7 +8233,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q18",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -8267,7 +8267,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q19",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -8301,7 +8301,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q20",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -8335,7 +8335,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q21",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -8369,7 +8369,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q22",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -8403,7 +8403,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q23",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Thermodynamics Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -8437,7 +8437,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q24",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -8471,7 +8471,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch10-q25",
     "subject": "Physics",
     "chapter": "Thermodynamics",
-    "subtopic": "Chapter 10 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -8505,7 +8505,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q1",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -8539,7 +8539,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q2",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -8573,7 +8573,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q3",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -8607,7 +8607,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q4",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -8641,7 +8641,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q5",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -8675,7 +8675,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q6",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -8709,7 +8709,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q7",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -8743,7 +8743,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q8",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -8777,7 +8777,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q9",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -8811,7 +8811,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q10",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -8845,7 +8845,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q11",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -8879,7 +8879,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q12",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -8913,7 +8913,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q13",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -8947,7 +8947,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q14",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -8981,7 +8981,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q15",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -9015,7 +9015,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q16",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -9049,7 +9049,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q17",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -9083,7 +9083,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q18",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -9117,7 +9117,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q19",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -9151,7 +9151,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q20",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -9185,7 +9185,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q21",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -9219,7 +9219,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q22",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -9253,7 +9253,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q23",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -9287,7 +9287,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q24",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -9321,7 +9321,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch11-q25",
     "subject": "Physics",
     "chapter": "Kinetic Theory of Gases",
-    "subtopic": "Chapter 11 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -9355,7 +9355,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q1",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -9389,7 +9389,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q2",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -9423,7 +9423,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q3",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -9457,7 +9457,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q4",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -9491,7 +9491,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q5",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -9525,7 +9525,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q6",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -9559,7 +9559,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q7",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -9593,7 +9593,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q8",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -9627,7 +9627,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q9",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -9661,7 +9661,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q10",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -9695,7 +9695,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q11",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -9729,7 +9729,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q12",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -9763,7 +9763,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q13",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -9797,7 +9797,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q14",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -9831,7 +9831,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q15",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -9865,7 +9865,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q16",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -9899,7 +9899,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q17",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -9933,7 +9933,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q18",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -9967,7 +9967,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q19",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -10001,7 +10001,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q20",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -10035,7 +10035,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q21",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -10069,7 +10069,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q22",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -10103,7 +10103,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q23",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -10137,7 +10137,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q24",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "Oscillations Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -10171,7 +10171,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch12-q25",
     "subject": "Physics",
     "chapter": "Oscillations",
-    "subtopic": "Chapter 12 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -10205,7 +10205,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q1",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -10239,7 +10239,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q2",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -10273,7 +10273,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q3",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -10307,7 +10307,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q4",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -10341,7 +10341,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q5",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -10375,7 +10375,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q6",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -10409,7 +10409,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q7",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -10443,7 +10443,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q8",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -10477,7 +10477,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q9",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -10511,7 +10511,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q10",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -10545,7 +10545,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q11",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -10579,7 +10579,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q12",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -10613,7 +10613,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q13",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -10647,7 +10647,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q14",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -10681,7 +10681,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q15",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -10715,7 +10715,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q16",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -10749,7 +10749,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q17",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -10783,7 +10783,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q18",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -10817,7 +10817,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q19",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -10851,7 +10851,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q20",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -10885,7 +10885,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q21",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -10919,7 +10919,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q22",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -10953,7 +10953,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q23",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -10987,7 +10987,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q24",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -11021,7 +11021,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch13-q25",
     "subject": "Physics",
     "chapter": "Waves",
-    "subtopic": "Chapter 13 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -11055,7 +11055,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q1",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -11089,7 +11089,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q2",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -11123,7 +11123,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q3",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -11157,7 +11157,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q4",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electromagnetic Induction",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -11191,7 +11191,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q5",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -11225,7 +11225,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q6",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -11259,7 +11259,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q7",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -11293,7 +11293,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q8",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -11327,7 +11327,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q9",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -11361,7 +11361,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q10",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -11395,7 +11395,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q11",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -11429,7 +11429,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q12",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -11463,7 +11463,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q13",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -11497,7 +11497,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q14",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -11531,7 +11531,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q15",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -11565,7 +11565,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q16",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -11599,7 +11599,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q17",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -11633,7 +11633,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q18",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electromagnetic Induction",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -11667,7 +11667,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q19",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -11701,7 +11701,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q20",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -11735,7 +11735,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q21",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -11769,7 +11769,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q22",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -11803,7 +11803,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q23",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -11837,7 +11837,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q24",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -11871,7 +11871,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch14-q25",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 14 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -11905,7 +11905,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q1",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -11939,7 +11939,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q2",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -11973,7 +11973,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q3",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -12007,7 +12007,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q4",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -12041,7 +12041,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q5",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -12075,7 +12075,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q6",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -12109,7 +12109,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q7",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -12143,7 +12143,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q8",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -12177,7 +12177,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q9",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -12211,7 +12211,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q10",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -12245,7 +12245,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q11",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -12279,7 +12279,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q12",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -12313,7 +12313,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q13",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -12347,7 +12347,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q14",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -12381,7 +12381,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q15",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -12415,7 +12415,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q16",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -12449,7 +12449,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q17",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -12483,7 +12483,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q18",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -12517,7 +12517,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q19",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -12551,7 +12551,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q20",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -12585,7 +12585,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q21",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -12619,7 +12619,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q22",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -12653,7 +12653,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q23",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -12687,7 +12687,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q24",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -12721,7 +12721,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch15-q25",
     "subject": "Physics",
     "chapter": "Electrostatics",
-    "subtopic": "Chapter 15 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -12755,7 +12755,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q1",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -12789,7 +12789,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q2",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -12823,7 +12823,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q3",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -12857,7 +12857,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q4",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -12891,7 +12891,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q5",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -12925,7 +12925,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q6",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -12959,7 +12959,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q7",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -12993,7 +12993,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q8",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -13027,7 +13027,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q9",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -13061,7 +13061,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q10",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -13095,7 +13095,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q11",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -13129,7 +13129,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q12",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -13163,7 +13163,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q13",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -13197,7 +13197,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q14",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -13231,7 +13231,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q15",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Thermodynamics & Heat Transfer",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -13265,7 +13265,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q16",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -13299,7 +13299,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q17",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -13333,7 +13333,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q18",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -13367,7 +13367,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q19",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -13401,7 +13401,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q20",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -13435,7 +13435,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q21",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -13469,7 +13469,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q22",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -13503,7 +13503,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q23",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -13537,7 +13537,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q24",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -13571,7 +13571,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch16-q25",
     "subject": "Physics",
     "chapter": "Current Electricity",
-    "subtopic": "Chapter 16 Practice Set",
+    "subtopic": "Current Electricity Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -13605,7 +13605,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q1",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -13639,7 +13639,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q2",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -13673,7 +13673,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q3",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -13707,7 +13707,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q4",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -13741,7 +13741,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q5",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -13775,7 +13775,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q6",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Magnetic Effects of Current & Magnetism Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -13809,7 +13809,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q7",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -13843,7 +13843,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q8",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Magnetic Effects of Current & Magnetism Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -13877,7 +13877,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q9",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -13911,7 +13911,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q10",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -13945,7 +13945,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q11",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -13979,7 +13979,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q12",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -14013,7 +14013,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q13",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -14047,7 +14047,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q14",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -14081,7 +14081,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q15",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -14115,7 +14115,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q16",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Magnetic Effects of Current & Magnetism Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -14149,7 +14149,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q17",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -14183,7 +14183,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q18",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -14217,7 +14217,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q19",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -14251,7 +14251,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q20",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -14285,7 +14285,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q21",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -14319,7 +14319,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q22",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -14353,7 +14353,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q23",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -14387,7 +14387,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q24",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Magnetic Effects of Current & Magnetism Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -14421,7 +14421,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch17-q25",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 17 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -14455,7 +14455,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q1",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -14489,7 +14489,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q2",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -14523,7 +14523,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q3",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -14557,7 +14557,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q4",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -14591,7 +14591,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q5",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -14625,7 +14625,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q6",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -14659,7 +14659,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q7",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -14693,7 +14693,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q8",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -14727,7 +14727,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q9",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -14761,7 +14761,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q10",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -14795,7 +14795,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q11",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -14829,7 +14829,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q12",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetic Effects of Current & Magnetism Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -14863,7 +14863,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q13",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -14897,7 +14897,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q14",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetic Effects of Current & Magnetism Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -14931,7 +14931,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q15",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -14965,7 +14965,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q16",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetic Effects of Current & Magnetism Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -14999,7 +14999,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q17",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetic Effects of Current & Magnetism Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -15033,7 +15033,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q18",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetic Effects of Current & Magnetism Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -15067,7 +15067,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q19",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -15101,7 +15101,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q20",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -15135,7 +15135,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q21",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetic Effects of Current & Magnetism Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -15169,7 +15169,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q22",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetic Effects of Current & Magnetism Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -15203,7 +15203,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q23",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -15237,7 +15237,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q24",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -15271,7 +15271,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch18-q25",
     "subject": "Physics",
     "chapter": "Magnetic Effects of Current & Magnetism",
-    "subtopic": "Chapter 18 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -15305,7 +15305,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q1",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electromagnetic Induction",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -15339,7 +15339,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q2",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electromagnetic Induction",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -15373,7 +15373,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q3",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -15407,7 +15407,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q4",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electromagnetic Induction Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -15441,7 +15441,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q5",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electromagnetic Induction Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -15475,7 +15475,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q6",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -15509,7 +15509,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q7",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -15543,7 +15543,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q8",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -15577,7 +15577,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q9",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electromagnetic Induction Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -15611,7 +15611,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q10",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -15645,7 +15645,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q11",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electromagnetic Induction Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -15679,7 +15679,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q12",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -15713,7 +15713,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q13",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -15747,7 +15747,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q14",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -15781,7 +15781,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q15",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electromagnetic Induction",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -15815,7 +15815,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q16",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Magnetism & Magnetic Effects",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -15849,7 +15849,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q17",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electromagnetic Induction Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -15883,7 +15883,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q18",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -15917,7 +15917,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q19",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electromagnetic Induction Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -15951,7 +15951,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q20",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electromagnetic Induction Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -15985,7 +15985,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q21",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electromagnetic Induction Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -16019,7 +16019,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q22",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -16053,7 +16053,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q23",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -16087,7 +16087,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q24",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -16121,7 +16121,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch19-q25",
     "subject": "Physics",
     "chapter": "Electromagnetic Induction",
-    "subtopic": "Chapter 19 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -16155,7 +16155,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q1",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -16189,7 +16189,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q2",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -16223,7 +16223,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q3",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -16257,7 +16257,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q4",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -16291,7 +16291,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q5",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -16325,7 +16325,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q6",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -16359,7 +16359,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q7",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -16393,7 +16393,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q8",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -16427,7 +16427,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q9",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -16461,7 +16461,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q10",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -16495,7 +16495,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q11",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -16529,7 +16529,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q12",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -16563,7 +16563,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q13",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -16597,7 +16597,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q14",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -16631,7 +16631,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q15",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -16665,7 +16665,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q16",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Simple Harmonic Motion",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -16699,7 +16699,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q17",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -16733,7 +16733,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q18",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -16767,7 +16767,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q19",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -16801,7 +16801,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q20",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -16835,7 +16835,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q21",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -16869,7 +16869,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q22",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -16903,7 +16903,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q23",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -16937,7 +16937,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q24",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -16971,7 +16971,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch20-q25",
     "subject": "Physics",
     "chapter": "Alternating Current",
-    "subtopic": "Chapter 20 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -17005,7 +17005,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q1",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -17039,7 +17039,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q2",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -17073,7 +17073,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q3",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -17107,7 +17107,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q4",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -17141,7 +17141,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q5",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -17175,7 +17175,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q6",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -17209,7 +17209,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q7",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -17243,7 +17243,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q8",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -17277,7 +17277,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q9",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -17311,7 +17311,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q10",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -17345,7 +17345,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q11",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Electromagnetic Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -17379,7 +17379,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q12",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Electromagnetic Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -17413,7 +17413,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q13",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Electromagnetic Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -17447,7 +17447,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q14",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -17481,7 +17481,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q15",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Electromagnetic Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -17515,7 +17515,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q16",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -17549,7 +17549,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q17",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Electromagnetic Waves",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -17583,7 +17583,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q18",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Electromagnetic Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -17617,7 +17617,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q19",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Electromagnetic Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -17651,7 +17651,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q20",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -17685,7 +17685,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q21",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Electromagnetic Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -17719,7 +17719,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q22",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -17753,7 +17753,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q23",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Electromagnetic Waves Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -17787,7 +17787,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q24",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Centre of Mass & Collisions",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -17821,7 +17821,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch21-q25",
     "subject": "Physics",
     "chapter": "Electromagnetic Waves",
-    "subtopic": "Chapter 21 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -17855,7 +17855,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q1",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Ray Optics & Optical Instruments",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -17889,7 +17889,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q2",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Ray Optics & Optical Instruments",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -17923,7 +17923,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q3",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -17957,7 +17957,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q4",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -17991,7 +17991,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q5",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -18025,7 +18025,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q6",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Ray Optics Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -18059,7 +18059,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q7",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -18093,7 +18093,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q8",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -18127,7 +18127,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q9",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -18161,7 +18161,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q10",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -18195,7 +18195,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q11",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -18229,7 +18229,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q12",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Ray Optics & Optical Instruments",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -18263,7 +18263,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q13",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Ray Optics Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -18297,7 +18297,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q14",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Ray Optics Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -18331,7 +18331,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q15",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Ray Optics Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -18365,7 +18365,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q16",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -18399,7 +18399,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q17",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -18433,7 +18433,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q18",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -18467,7 +18467,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q19",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -18501,7 +18501,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q20",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Ray Optics Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -18535,7 +18535,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q21",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -18569,7 +18569,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q22",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Ray Optics & Optical Instruments",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -18603,7 +18603,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q23",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -18637,7 +18637,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q24",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Kinetic Theory of Gases",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -18671,7 +18671,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch22-q25",
     "subject": "Physics",
     "chapter": "Ray Optics",
-    "subtopic": "Chapter 22 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -18705,7 +18705,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q1",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -18739,7 +18739,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q2",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics & Interference",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -18773,7 +18773,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q3",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics & Interference",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -18807,7 +18807,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q4",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics & Interference",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -18841,7 +18841,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q5",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -18875,7 +18875,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q6",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -18909,7 +18909,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q7",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -18943,7 +18943,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q8",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -18977,7 +18977,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q9",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -19011,7 +19011,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q10",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Projectile & 2D Motion",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -19045,7 +19045,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q11",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -19079,7 +19079,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q12",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -19113,7 +19113,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q13",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics & Interference",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -19147,7 +19147,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q14",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -19181,7 +19181,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q15",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics & Interference",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -19215,7 +19215,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q16",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -19249,7 +19249,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q17",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -19283,7 +19283,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q18",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Rotational Dynamics & Moment of Inertia",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -19317,7 +19317,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q19",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -19351,7 +19351,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q20",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -19385,7 +19385,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q21",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics & Interference",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -19419,7 +19419,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q22",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -19453,7 +19453,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q23",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Wave Optics Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -19487,7 +19487,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q24",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -19521,7 +19521,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch23-q25",
     "subject": "Physics",
     "chapter": "Wave Optics",
-    "subtopic": "Chapter 23 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -19555,7 +19555,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q1",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Dual Nature of Radiation & Matter",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -19589,7 +19589,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q2",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Dual Nature of Radiation & Matter",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -19623,7 +19623,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q3",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -19657,7 +19657,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q4",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -19691,7 +19691,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q5",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -19725,7 +19725,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q6",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -19759,7 +19759,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q7",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -19793,7 +19793,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q8",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Dual Nature of Radiation & Matter",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -19827,7 +19827,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q9",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Dual Nature of Matter & Radiation Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -19861,7 +19861,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q10",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Centre of Mass & Collisions",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -19895,7 +19895,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q11",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -19929,7 +19929,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q12",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Dual Nature of Radiation & Matter",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -19963,7 +19963,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q13",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -19997,7 +19997,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q14",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Dual Nature of Matter & Radiation Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -20031,7 +20031,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q15",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Dual Nature of Matter & Radiation Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -20065,7 +20065,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q16",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -20099,7 +20099,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q17",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Dual Nature of Radiation & Matter",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -20133,7 +20133,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q18",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -20167,7 +20167,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q19",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -20201,7 +20201,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q20",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Dual Nature of Radiation & Matter",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -20235,7 +20235,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q21",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Centre of Mass & Collisions",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -20269,7 +20269,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q22",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "1D Kinematics & Motion Graphs",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -20303,7 +20303,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q23",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Centre of Mass & Collisions",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -20337,7 +20337,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q24",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Dual Nature of Radiation & Matter",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -20371,7 +20371,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch24-q25",
     "subject": "Physics",
     "chapter": "Dual Nature of Matter & Radiation",
-    "subtopic": "Chapter 24 Practice Set",
+    "subtopic": "Centre of Mass & Collisions",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -20405,7 +20405,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q1",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atoms & Nuclei Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -20439,7 +20439,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q2",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Centre of Mass & Collisions",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -20473,7 +20473,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q3",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -20507,7 +20507,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q4",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Gravitation & Satellite Motion",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -20541,7 +20541,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q5",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atoms & Nuclei Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -20575,7 +20575,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q6",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atoms & Nuclei Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -20609,7 +20609,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q7",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atoms & Nuclei Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -20643,7 +20643,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q8",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -20677,7 +20677,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q9",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -20711,7 +20711,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q10",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -20745,7 +20745,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q11",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atoms & Nuclei Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -20779,7 +20779,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q12",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atoms & Nuclei Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -20813,7 +20813,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q13",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atoms & Nuclei Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -20847,7 +20847,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q14",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atomic & Nuclear Physics",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -20881,7 +20881,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q15",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atoms & Nuclei Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -20915,7 +20915,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q16",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Newton's Laws, Tension & Friction",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -20949,7 +20949,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q17",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atoms & Nuclei Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -20983,7 +20983,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q18",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -21017,7 +21017,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q19",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atomic & Nuclear Physics",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -21051,7 +21051,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q20",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atoms & Nuclei Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -21085,7 +21085,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q21",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Atoms & Nuclei Core Concepts",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -21119,7 +21119,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q22",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -21153,7 +21153,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q23",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -21187,7 +21187,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q24",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Alternating Current & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -21221,7 +21221,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch25-q25",
     "subject": "Physics",
     "chapter": "Atoms & Nuclei",
-    "subtopic": "Chapter 25 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -21255,7 +21255,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q1",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Devices & Logic Gates",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -21289,7 +21289,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q2",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Devices & Logic Gates",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -21323,7 +21323,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q3",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Devices & Logic Gates",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -21357,7 +21357,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q4",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Units, Dimensions & Errors",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -21391,7 +21391,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q5",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Electronics Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -21425,7 +21425,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q6",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Electronics Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -21459,7 +21459,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q7",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Electronics Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -21493,7 +21493,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q8",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Electronics Core Concepts",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -21527,7 +21527,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q9",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Wave Motion & Acoustics",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -21561,7 +21561,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q10",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Devices & Logic Gates",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -21595,7 +21595,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q11",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Devices & Logic Gates",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -21629,7 +21629,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q12",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Current Electricity & Circuits",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -21663,7 +21663,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q13",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -21697,7 +21697,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q14",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Work, Energy & Power",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -21731,7 +21731,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q15",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Devices & Logic Gates",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -21765,7 +21765,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q16",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Electronics Core Concepts",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -21799,7 +21799,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q17",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Electronics Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -21833,7 +21833,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q18",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Electronics Core Concepts",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -21867,7 +21867,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q19",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Electronics Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -21901,7 +21901,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q20",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Devices & Logic Gates",
     "exam": "JEE Main",
     "year": 2023,
     "examDate": "Session 1",
@@ -21935,7 +21935,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q21",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2022,
     "examDate": "Session 2",
@@ -21969,7 +21969,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q22",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Electrostatics & Capacitance",
     "exam": "JEE Main",
     "year": 2021,
     "examDate": "Session 1",
@@ -22003,7 +22003,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q23",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Electronics Core Concepts",
     "exam": "JEE Main",
     "year": 2020,
     "examDate": "Session 2",
@@ -22037,7 +22037,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q24",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Devices & Logic Gates",
     "exam": "JEE Main",
     "year": 2025,
     "examDate": "Session 1",
@@ -22071,7 +22071,7 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "id": "phy-practice-ch26-q25",
     "subject": "Physics",
     "chapter": "Semiconductor Electronics",
-    "subtopic": "Chapter 26 Practice Set",
+    "subtopic": "Semiconductor Electronics Core Concepts",
     "exam": "JEE Main",
     "year": 2024,
     "examDate": "Session 2",
@@ -22101,1704 +22101,1704 @@ export const PHYSICS_PRACTICE_PYQS: JeeQuestion[] = [
     "correctOption": "B",
     "solution": "Step-by-step physics analysis for Q25:\n1. Identify given variables and physical laws applicable to Semiconductor Electronics.\n2. Apply the fundamental formula and evaluate parameters.\n3. Substitute numerical values to arrive at Option B."
   },
-{
-  "id": "phy-practice-ch5-q1",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Center of mass of two particle system",
-  "exam": "JEE Main",
-  "year": 2023,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "Two masses m1 = 1 kg and m2 = 3 kg are located at positions x1 = 2 m and x2 = 10 m. The center of mass of the system is located at:",
-  "options": [
-    {
-      "id": "A",
-      "text": "8 m"
-    },
-    {
-      "id": "B",
-      "text": "4 m"
-    },
-    {
-      "id": "C",
-      "text": "6 m"
-    },
-    {
-      "id": "D",
-      "text": "7 m"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "x_cm = (m1*x1 + m2*x2)/(m1 + m2) = (1*2 + 3*10)/(1 + 3) = 32/4 = 8 m."
-},
-{
-  "id": "phy-practice-ch5-q2",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Center of mass of uniform rod",
-  "exam": "JEE Main",
-  "year": 2022,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "A uniform thin rod of length L and mass M has a density that varies linearly as \u03bb(x) = kx. The position of center of mass from x = 0 is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "L/2"
-    },
-    {
-      "id": "B",
-      "text": "2L/3"
-    },
-    {
-      "id": "C",
-      "text": "L/3"
-    },
-    {
-      "id": "D",
-      "text": "3L/4"
-    }
-  ],
-  "correctOption": "B",
-  "solution": "x_cm = \u222b x \u03bb dx / \u222b \u03bb dx = \u222b k x\u00b2 dx / \u222b k x dx = (L\u00b3/3) / (L\u00b2/2) = 2L/3."
-},
-{
-  "id": "phy-practice-ch5-q3",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Conservation of Linear Momentum in Explosions",
-  "exam": "JEE Main",
-  "year": 2021,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "A projectile of mass 3 kg explodes in mid-air into two fragments of 1 kg and 2 kg. If the 1 kg fragment moves backward at 10 m/s, what is the speed of the 2 kg fragment if initial velocity at explosion was 20 m/s forward?",
-  "options": [
-    {
-      "id": "A",
-      "text": "35 m/s"
-    },
-    {
-      "id": "B",
-      "text": "25 m/s"
-    },
-    {
-      "id": "C",
-      "text": "30 m/s"
-    },
-    {
-      "id": "D",
-      "text": "40 m/s"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "P_initial = 3 * 20 = 60 kg m/s.\nP_final = 1 * (-10) + 2 * v2 = 60 => 2 v2 = 70 => v2 = 35 m/s."
-},
-{
-  "id": "phy-practice-ch5-q4",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Motion of Center of Mass",
-  "exam": "JEE Main",
-  "year": 2020,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "Two blocks of masses 2 kg and 4 kg moving with velocities 10 m/s and -2 m/s respectively collide. The velocity of the center of mass before collision is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "2 m/s"
-    },
-    {
-      "id": "B",
-      "text": "4 m/s"
-    },
-    {
-      "id": "C",
-      "text": "3 m/s"
-    },
-    {
-      "id": "D",
-      "text": "6 m/s"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "v_cm = (m1*v1 + m2*v2)/(m1 + m2) = (2*10 + 4*(-2))/(6) = 12/6 = 2 m/s."
-},
-{
-  "id": "phy-practice-ch5-q5",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Internal forces and COM",
-  "exam": "JEE Main",
-  "year": 2019,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "A man of mass 60 kg stands on a plank of mass 40 kg floating on frictionless water. If the man walks a distance of 10 m on the plank, the displacement of the plank relative to the water is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "6 m"
-    },
-    {
-      "id": "B",
-      "text": "4 m"
-    },
-    {
-      "id": "C",
-      "text": "5 m"
-    },
-    {
-      "id": "D",
-      "text": "8 m"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Since no external horizontal force acts, \u0394x_cm = 0.\nm_man * \u0394x_man + m_plank * \u0394x_plank = 0.\n60*(10 - x) - 40*x = 0 => 600 = 100x => x = 6 m."
-},
-{
-  "id": "phy-practice-ch5-q6",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Center of mass of two particle system",
-  "exam": "JEE Main",
-  "year": 2018,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(6) [COM & Particle Systems] Two masses m1 = 1 kg and m2 = 3 kg are located at positions x1 = 2 m and x2 = 10 m. The center of mass of the system is located at:",
-  "options": [
-    {
-      "id": "A",
-      "text": "8 m"
-    },
-    {
-      "id": "B",
-      "text": "4 m"
-    },
-    {
-      "id": "C",
-      "text": "6 m"
-    },
-    {
-      "id": "D",
-      "text": "7 m"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "x_cm = (m1*x1 + m2*x2)/(m1 + m2) = (1*2 + 3*10)/(1 + 3) = 32/4 = 8 m."
-},
-{
-  "id": "phy-practice-ch5-q7",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Center of mass of uniform rod",
-  "exam": "JEE Main",
-  "year": 2017,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(7) [COM & Particle Systems] A uniform thin rod of length L and mass M has a density that varies linearly as \u03bb(x) = kx. The position of center of mass from x = 0 is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "L/2"
-    },
-    {
-      "id": "B",
-      "text": "2L/3"
-    },
-    {
-      "id": "C",
-      "text": "L/3"
-    },
-    {
-      "id": "D",
-      "text": "3L/4"
-    }
-  ],
-  "correctOption": "B",
-  "solution": "x_cm = \u222b x \u03bb dx / \u222b \u03bb dx = \u222b k x\u00b2 dx / \u222b k x dx = (L\u00b3/3) / (L\u00b2/2) = 2L/3."
-},
-{
-  "id": "phy-practice-ch5-q8",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Conservation of Linear Momentum in Explosions",
-  "exam": "JEE Main",
-  "year": 2024,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(8) [COM & Particle Systems] A projectile of mass 3 kg explodes in mid-air into two fragments of 1 kg and 2 kg. If the 1 kg fragment moves backward at 10 m/s, what is the speed of the 2 kg fragment if initial velocity at explosion was 20 m/s forward?",
-  "options": [
-    {
-      "id": "A",
-      "text": "35 m/s"
-    },
-    {
-      "id": "B",
-      "text": "25 m/s"
-    },
-    {
-      "id": "C",
-      "text": "30 m/s"
-    },
-    {
-      "id": "D",
-      "text": "40 m/s"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "P_initial = 3 * 20 = 60 kg m/s.\nP_final = 1 * (-10) + 2 * v2 = 60 => 2 v2 = 70 => v2 = 35 m/s."
-},
-{
-  "id": "phy-practice-ch5-q9",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Motion of Center of Mass",
-  "exam": "JEE Main",
-  "year": 2023,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(9) [COM & Particle Systems] Two blocks of masses 2 kg and 4 kg moving with velocities 10 m/s and -2 m/s respectively collide. The velocity of the center of mass before collision is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "2 m/s"
-    },
-    {
-      "id": "B",
-      "text": "4 m/s"
-    },
-    {
-      "id": "C",
-      "text": "3 m/s"
-    },
-    {
-      "id": "D",
-      "text": "6 m/s"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "v_cm = (m1*v1 + m2*v2)/(m1 + m2) = (2*10 + 4*(-2))/(6) = 12/6 = 2 m/s."
-},
-{
-  "id": "phy-practice-ch5-q10",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Internal forces and COM",
-  "exam": "JEE Main",
-  "year": 2022,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(10) [COM & Particle Systems] A man of mass 60 kg stands on a plank of mass 40 kg floating on frictionless water. If the man walks a distance of 10 m on the plank, the displacement of the plank relative to the water is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "6 m"
-    },
-    {
-      "id": "B",
-      "text": "4 m"
-    },
-    {
-      "id": "C",
-      "text": "5 m"
-    },
-    {
-      "id": "D",
-      "text": "8 m"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Since no external horizontal force acts, \u0394x_cm = 0.\nm_man * \u0394x_man + m_plank * \u0394x_plank = 0.\n60*(10 - x) - 40*x = 0 => 600 = 100x => x = 6 m."
-},
-{
-  "id": "phy-practice-ch5-q11",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Center of mass of two particle system",
-  "exam": "JEE Main",
-  "year": 2021,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(11) [COM & Particle Systems] Two masses m1 = 1 kg and m2 = 3 kg are located at positions x1 = 2 m and x2 = 10 m. The center of mass of the system is located at:",
-  "options": [
-    {
-      "id": "A",
-      "text": "8 m"
-    },
-    {
-      "id": "B",
-      "text": "4 m"
-    },
-    {
-      "id": "C",
-      "text": "6 m"
-    },
-    {
-      "id": "D",
-      "text": "7 m"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "x_cm = (m1*x1 + m2*x2)/(m1 + m2) = (1*2 + 3*10)/(1 + 3) = 32/4 = 8 m."
-},
-{
-  "id": "phy-practice-ch5-q12",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Center of mass of uniform rod",
-  "exam": "JEE Main",
-  "year": 2020,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(12) [COM & Particle Systems] A uniform thin rod of length L and mass M has a density that varies linearly as \u03bb(x) = kx. The position of center of mass from x = 0 is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "L/2"
-    },
-    {
-      "id": "B",
-      "text": "2L/3"
-    },
-    {
-      "id": "C",
-      "text": "L/3"
-    },
-    {
-      "id": "D",
-      "text": "3L/4"
-    }
-  ],
-  "correctOption": "B",
-  "solution": "x_cm = \u222b x \u03bb dx / \u222b \u03bb dx = \u222b k x\u00b2 dx / \u222b k x dx = (L\u00b3/3) / (L\u00b2/2) = 2L/3."
-},
-{
-  "id": "phy-practice-ch5-q13",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Conservation of Linear Momentum in Explosions",
-  "exam": "JEE Main",
-  "year": 2019,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(13) [COM & Particle Systems] A projectile of mass 3 kg explodes in mid-air into two fragments of 1 kg and 2 kg. If the 1 kg fragment moves backward at 10 m/s, what is the speed of the 2 kg fragment if initial velocity at explosion was 20 m/s forward?",
-  "options": [
-    {
-      "id": "A",
-      "text": "35 m/s"
-    },
-    {
-      "id": "B",
-      "text": "25 m/s"
-    },
-    {
-      "id": "C",
-      "text": "30 m/s"
-    },
-    {
-      "id": "D",
-      "text": "40 m/s"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "P_initial = 3 * 20 = 60 kg m/s.\nP_final = 1 * (-10) + 2 * v2 = 60 => 2 v2 = 70 => v2 = 35 m/s."
-},
-{
-  "id": "phy-practice-ch5-q14",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Motion of Center of Mass",
-  "exam": "JEE Main",
-  "year": 2018,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(14) [COM & Particle Systems] Two blocks of masses 2 kg and 4 kg moving with velocities 10 m/s and -2 m/s respectively collide. The velocity of the center of mass before collision is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "2 m/s"
-    },
-    {
-      "id": "B",
-      "text": "4 m/s"
-    },
-    {
-      "id": "C",
-      "text": "3 m/s"
-    },
-    {
-      "id": "D",
-      "text": "6 m/s"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "v_cm = (m1*v1 + m2*v2)/(m1 + m2) = (2*10 + 4*(-2))/(6) = 12/6 = 2 m/s."
-},
-{
-  "id": "phy-practice-ch5-q15",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Internal forces and COM",
-  "exam": "JEE Main",
-  "year": 2017,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(15) [COM & Particle Systems] A man of mass 60 kg stands on a plank of mass 40 kg floating on frictionless water. If the man walks a distance of 10 m on the plank, the displacement of the plank relative to the water is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "6 m"
-    },
-    {
-      "id": "B",
-      "text": "4 m"
-    },
-    {
-      "id": "C",
-      "text": "5 m"
-    },
-    {
-      "id": "D",
-      "text": "8 m"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Since no external horizontal force acts, \u0394x_cm = 0.\nm_man * \u0394x_man + m_plank * \u0394x_plank = 0.\n60*(10 - x) - 40*x = 0 => 600 = 100x => x = 6 m."
-},
-{
-  "id": "phy-practice-ch5-q16",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Center of mass of two particle system",
-  "exam": "JEE Main",
-  "year": 2024,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(16) [COM & Particle Systems] Two masses m1 = 1 kg and m2 = 3 kg are located at positions x1 = 2 m and x2 = 10 m. The center of mass of the system is located at:",
-  "options": [
-    {
-      "id": "A",
-      "text": "8 m"
-    },
-    {
-      "id": "B",
-      "text": "4 m"
-    },
-    {
-      "id": "C",
-      "text": "6 m"
-    },
-    {
-      "id": "D",
-      "text": "7 m"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "x_cm = (m1*x1 + m2*x2)/(m1 + m2) = (1*2 + 3*10)/(1 + 3) = 32/4 = 8 m."
-},
-{
-  "id": "phy-practice-ch5-q17",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Center of mass of uniform rod",
-  "exam": "JEE Main",
-  "year": 2023,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(17) [COM & Particle Systems] A uniform thin rod of length L and mass M has a density that varies linearly as \u03bb(x) = kx. The position of center of mass from x = 0 is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "L/2"
-    },
-    {
-      "id": "B",
-      "text": "2L/3"
-    },
-    {
-      "id": "C",
-      "text": "L/3"
-    },
-    {
-      "id": "D",
-      "text": "3L/4"
-    }
-  ],
-  "correctOption": "B",
-  "solution": "x_cm = \u222b x \u03bb dx / \u222b \u03bb dx = \u222b k x\u00b2 dx / \u222b k x dx = (L\u00b3/3) / (L\u00b2/2) = 2L/3."
-},
-{
-  "id": "phy-practice-ch5-q18",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Conservation of Linear Momentum in Explosions",
-  "exam": "JEE Main",
-  "year": 2022,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(18) [COM & Particle Systems] A projectile of mass 3 kg explodes in mid-air into two fragments of 1 kg and 2 kg. If the 1 kg fragment moves backward at 10 m/s, what is the speed of the 2 kg fragment if initial velocity at explosion was 20 m/s forward?",
-  "options": [
-    {
-      "id": "A",
-      "text": "35 m/s"
-    },
-    {
-      "id": "B",
-      "text": "25 m/s"
-    },
-    {
-      "id": "C",
-      "text": "30 m/s"
-    },
-    {
-      "id": "D",
-      "text": "40 m/s"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "P_initial = 3 * 20 = 60 kg m/s.\nP_final = 1 * (-10) + 2 * v2 = 60 => 2 v2 = 70 => v2 = 35 m/s."
-},
-{
-  "id": "phy-practice-ch5-q19",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Motion of Center of Mass",
-  "exam": "JEE Main",
-  "year": 2021,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(19) [COM & Particle Systems] Two blocks of masses 2 kg and 4 kg moving with velocities 10 m/s and -2 m/s respectively collide. The velocity of the center of mass before collision is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "2 m/s"
-    },
-    {
-      "id": "B",
-      "text": "4 m/s"
-    },
-    {
-      "id": "C",
-      "text": "3 m/s"
-    },
-    {
-      "id": "D",
-      "text": "6 m/s"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "v_cm = (m1*v1 + m2*v2)/(m1 + m2) = (2*10 + 4*(-2))/(6) = 12/6 = 2 m/s."
-},
-{
-  "id": "phy-practice-ch5-q20",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Internal forces and COM",
-  "exam": "JEE Main",
-  "year": 2020,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(20) [COM & Particle Systems] A man of mass 60 kg stands on a plank of mass 40 kg floating on frictionless water. If the man walks a distance of 10 m on the plank, the displacement of the plank relative to the water is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "6 m"
-    },
-    {
-      "id": "B",
-      "text": "4 m"
-    },
-    {
-      "id": "C",
-      "text": "5 m"
-    },
-    {
-      "id": "D",
-      "text": "8 m"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Since no external horizontal force acts, \u0394x_cm = 0.\nm_man * \u0394x_man + m_plank * \u0394x_plank = 0.\n60*(10 - x) - 40*x = 0 => 600 = 100x => x = 6 m."
-},
-{
-  "id": "phy-practice-ch5-q21",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Center of mass of two particle system",
-  "exam": "JEE Main",
-  "year": 2019,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(21) [COM & Particle Systems] Two masses m1 = 1 kg and m2 = 3 kg are located at positions x1 = 2 m and x2 = 10 m. The center of mass of the system is located at:",
-  "options": [
-    {
-      "id": "A",
-      "text": "8 m"
-    },
-    {
-      "id": "B",
-      "text": "4 m"
-    },
-    {
-      "id": "C",
-      "text": "6 m"
-    },
-    {
-      "id": "D",
-      "text": "7 m"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "x_cm = (m1*x1 + m2*x2)/(m1 + m2) = (1*2 + 3*10)/(1 + 3) = 32/4 = 8 m."
-},
-{
-  "id": "phy-practice-ch5-q22",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Center of mass of uniform rod",
-  "exam": "JEE Main",
-  "year": 2018,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(22) [COM & Particle Systems] A uniform thin rod of length L and mass M has a density that varies linearly as \u03bb(x) = kx. The position of center of mass from x = 0 is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "L/2"
-    },
-    {
-      "id": "B",
-      "text": "2L/3"
-    },
-    {
-      "id": "C",
-      "text": "L/3"
-    },
-    {
-      "id": "D",
-      "text": "3L/4"
-    }
-  ],
-  "correctOption": "B",
-  "solution": "x_cm = \u222b x \u03bb dx / \u222b \u03bb dx = \u222b k x\u00b2 dx / \u222b k x dx = (L\u00b3/3) / (L\u00b2/2) = 2L/3."
-},
-{
-  "id": "phy-practice-ch5-q23",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Conservation of Linear Momentum in Explosions",
-  "exam": "JEE Main",
-  "year": 2017,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(23) [COM & Particle Systems] A projectile of mass 3 kg explodes in mid-air into two fragments of 1 kg and 2 kg. If the 1 kg fragment moves backward at 10 m/s, what is the speed of the 2 kg fragment if initial velocity at explosion was 20 m/s forward?",
-  "options": [
-    {
-      "id": "A",
-      "text": "35 m/s"
-    },
-    {
-      "id": "B",
-      "text": "25 m/s"
-    },
-    {
-      "id": "C",
-      "text": "30 m/s"
-    },
-    {
-      "id": "D",
-      "text": "40 m/s"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "P_initial = 3 * 20 = 60 kg m/s.\nP_final = 1 * (-10) + 2 * v2 = 60 => 2 v2 = 70 => v2 = 35 m/s."
-},
-{
-  "id": "phy-practice-ch5-q24",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Motion of Center of Mass",
-  "exam": "JEE Main",
-  "year": 2024,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(24) [COM & Particle Systems] Two blocks of masses 2 kg and 4 kg moving with velocities 10 m/s and -2 m/s respectively collide. The velocity of the center of mass before collision is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "2 m/s"
-    },
-    {
-      "id": "B",
-      "text": "4 m/s"
-    },
-    {
-      "id": "C",
-      "text": "3 m/s"
-    },
-    {
-      "id": "D",
-      "text": "6 m/s"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "v_cm = (m1*v1 + m2*v2)/(m1 + m2) = (2*10 + 4*(-2))/(6) = 12/6 = 2 m/s."
-},
-{
-  "id": "phy-practice-ch5-q25",
-  "subject": "Physics",
-  "chapter": "Centre of Mass & System of Particles",
-  "subtopic": "Internal forces and COM",
-  "exam": "JEE Main",
-  "year": 2023,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(25) [COM & Particle Systems] A man of mass 60 kg stands on a plank of mass 40 kg floating on frictionless water. If the man walks a distance of 10 m on the plank, the displacement of the plank relative to the water is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "6 m"
-    },
-    {
-      "id": "B",
-      "text": "4 m"
-    },
-    {
-      "id": "C",
-      "text": "5 m"
-    },
-    {
-      "id": "D",
-      "text": "8 m"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Since no external horizontal force acts, \u0394x_cm = 0.\nm_man * \u0394x_man + m_plank * \u0394x_plank = 0.\n60*(10 - x) - 40*x = 0 => 600 = 100x => x = 6 m."
-},
-{
-  "id": "phy-practice-ch24-q1",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Vernier Calipers",
-  "exam": "JEE Main",
-  "year": 2023,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "A Vernier caliper has 10 divisions on its Vernier scale coinciding with 9 main scale divisions (1 MSD = 1 mm). The least count of the instrument is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "0.1 mm"
-    },
-    {
-      "id": "B",
-      "text": "0.01 mm"
-    },
-    {
-      "id": "C",
-      "text": "0.05 mm"
-    },
-    {
-      "id": "D",
-      "text": "0.2 mm"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Least Count (LC) = 1 MSD - 1 VSD = 1 mm - 0.9 mm = 0.1 mm = 0.01 cm."
-},
-{
-  "id": "phy-practice-ch24-q2",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Screw Gauge",
-  "exam": "JEE Main",
-  "year": 2022,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. The least count is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "0.01 mm"
-    },
-    {
-      "id": "B",
-      "text": "0.001 mm"
-    },
-    {
-      "id": "C",
-      "text": "0.05 mm"
-    },
-    {
-      "id": "D",
-      "text": "0.1 mm"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Least Count = Pitch / Total circular scale divisions = 0.5 mm / 50 = 0.01 mm."
-},
-{
-  "id": "phy-practice-ch24-q3",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Simple Pendulum Experiment",
-  "exam": "JEE Main",
-  "year": 2021,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "In a simple pendulum experiment to determine g, the error in measuring length L is 1% and in time period T is 2%. The maximum percentage error in estimating g is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "5%"
-    },
-    {
-      "id": "B",
-      "text": "3%"
-    },
-    {
-      "id": "C",
-      "text": "4%"
-    },
-    {
-      "id": "D",
-      "text": "2%"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "g = 4\u03c0\u00b2 L / T\u00b2.\n(\u0394g/g)_max = (\u0394L/L) + 2*(\u0394T/T) = 1% + 2*(2%) = 5%."
-},
-{
-  "id": "phy-practice-ch24-q4",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Resonance Tube Experiment",
-  "exam": "JEE Main",
-  "year": 2020,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "In a resonance tube experiment, first and second resonance lengths are obtained at 18 cm and 54 cm with a tuning fork of frequency 340 Hz. The speed of sound in air is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "367.2 m/s"
-    },
-    {
-      "id": "B",
-      "text": "340 m/s"
-    },
-    {
-      "id": "C",
-      "text": "244.8 m/s"
-    },
-    {
-      "id": "D",
-      "text": "380 m/s"
-    }
-  ],
-  "correctOption": "C",
-  "solution": "Speed v = 2 * f * (l2 - l1) = 2 * 340 * (0.54 - 0.18) = 680 * 0.36 = 244.8 m/s."
-},
-{
-  "id": "phy-practice-ch24-q5",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Metre Bridge Experiment",
-  "exam": "JEE Main",
-  "year": 2019,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "In a metre bridge experiment, null point is found at 40 cm from zero end when a known resistance of 10 \u03a9 is connected in the right gap. The unknown resistance in the left gap is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "6.67 \u03a9"
-    },
-    {
-      "id": "B",
-      "text": "15 \u03a9"
-    },
-    {
-      "id": "C",
-      "text": "10 \u03a9"
-    },
-    {
-      "id": "D",
-      "text": "4 \u03a9"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "X / R = l / (100 - l) => X / 10 = 40 / 60 => X = 400 / 60 = 6.67 \u03a9."
-},
-{
-  "id": "phy-practice-ch24-q6",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Vernier Calipers",
-  "exam": "JEE Main",
-  "year": 2018,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(6) [Experimental Physics] A Vernier caliper has 10 divisions on its Vernier scale coinciding with 9 main scale divisions (1 MSD = 1 mm). The least count of the instrument is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "0.1 mm"
-    },
-    {
-      "id": "B",
-      "text": "0.01 mm"
-    },
-    {
-      "id": "C",
-      "text": "0.05 mm"
-    },
-    {
-      "id": "D",
-      "text": "0.2 mm"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Least Count (LC) = 1 MSD - 1 VSD = 1 mm - 0.9 mm = 0.1 mm = 0.01 cm."
-},
-{
-  "id": "phy-practice-ch24-q7",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Screw Gauge",
-  "exam": "JEE Main",
-  "year": 2017,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(7) [Experimental Physics] A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. The least count is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "0.01 mm"
-    },
-    {
-      "id": "B",
-      "text": "0.001 mm"
-    },
-    {
-      "id": "C",
-      "text": "0.05 mm"
-    },
-    {
-      "id": "D",
-      "text": "0.1 mm"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Least Count = Pitch / Total circular scale divisions = 0.5 mm / 50 = 0.01 mm."
-},
-{
-  "id": "phy-practice-ch24-q8",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Simple Pendulum Experiment",
-  "exam": "JEE Main",
-  "year": 2024,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(8) [Experimental Physics] In a simple pendulum experiment to determine g, the error in measuring length L is 1% and in time period T is 2%. The maximum percentage error in estimating g is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "5%"
-    },
-    {
-      "id": "B",
-      "text": "3%"
-    },
-    {
-      "id": "C",
-      "text": "4%"
-    },
-    {
-      "id": "D",
-      "text": "2%"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "g = 4\u03c0\u00b2 L / T\u00b2.\n(\u0394g/g)_max = (\u0394L/L) + 2*(\u0394T/T) = 1% + 2*(2%) = 5%."
-},
-{
-  "id": "phy-practice-ch24-q9",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Resonance Tube Experiment",
-  "exam": "JEE Main",
-  "year": 2023,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(9) [Experimental Physics] In a resonance tube experiment, first and second resonance lengths are obtained at 18 cm and 54 cm with a tuning fork of frequency 340 Hz. The speed of sound in air is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "367.2 m/s"
-    },
-    {
-      "id": "B",
-      "text": "340 m/s"
-    },
-    {
-      "id": "C",
-      "text": "244.8 m/s"
-    },
-    {
-      "id": "D",
-      "text": "380 m/s"
-    }
-  ],
-  "correctOption": "C",
-  "solution": "Speed v = 2 * f * (l2 - l1) = 2 * 340 * (0.54 - 0.18) = 680 * 0.36 = 244.8 m/s."
-},
-{
-  "id": "phy-practice-ch24-q10",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Metre Bridge Experiment",
-  "exam": "JEE Main",
-  "year": 2022,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(10) [Experimental Physics] In a metre bridge experiment, null point is found at 40 cm from zero end when a known resistance of 10 \u03a9 is connected in the right gap. The unknown resistance in the left gap is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "6.67 \u03a9"
-    },
-    {
-      "id": "B",
-      "text": "15 \u03a9"
-    },
-    {
-      "id": "C",
-      "text": "10 \u03a9"
-    },
-    {
-      "id": "D",
-      "text": "4 \u03a9"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "X / R = l / (100 - l) => X / 10 = 40 / 60 => X = 400 / 60 = 6.67 \u03a9."
-},
-{
-  "id": "phy-practice-ch24-q11",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Vernier Calipers",
-  "exam": "JEE Main",
-  "year": 2021,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(11) [Experimental Physics] A Vernier caliper has 10 divisions on its Vernier scale coinciding with 9 main scale divisions (1 MSD = 1 mm). The least count of the instrument is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "0.1 mm"
-    },
-    {
-      "id": "B",
-      "text": "0.01 mm"
-    },
-    {
-      "id": "C",
-      "text": "0.05 mm"
-    },
-    {
-      "id": "D",
-      "text": "0.2 mm"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Least Count (LC) = 1 MSD - 1 VSD = 1 mm - 0.9 mm = 0.1 mm = 0.01 cm."
-},
-{
-  "id": "phy-practice-ch24-q12",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Screw Gauge",
-  "exam": "JEE Main",
-  "year": 2020,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(12) [Experimental Physics] A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. The least count is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "0.01 mm"
-    },
-    {
-      "id": "B",
-      "text": "0.001 mm"
-    },
-    {
-      "id": "C",
-      "text": "0.05 mm"
-    },
-    {
-      "id": "D",
-      "text": "0.1 mm"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Least Count = Pitch / Total circular scale divisions = 0.5 mm / 50 = 0.01 mm."
-},
-{
-  "id": "phy-practice-ch24-q13",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Simple Pendulum Experiment",
-  "exam": "JEE Main",
-  "year": 2019,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(13) [Experimental Physics] In a simple pendulum experiment to determine g, the error in measuring length L is 1% and in time period T is 2%. The maximum percentage error in estimating g is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "5%"
-    },
-    {
-      "id": "B",
-      "text": "3%"
-    },
-    {
-      "id": "C",
-      "text": "4%"
-    },
-    {
-      "id": "D",
-      "text": "2%"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "g = 4\u03c0\u00b2 L / T\u00b2.\n(\u0394g/g)_max = (\u0394L/L) + 2*(\u0394T/T) = 1% + 2*(2%) = 5%."
-},
-{
-  "id": "phy-practice-ch24-q14",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Resonance Tube Experiment",
-  "exam": "JEE Main",
-  "year": 2018,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(14) [Experimental Physics] In a resonance tube experiment, first and second resonance lengths are obtained at 18 cm and 54 cm with a tuning fork of frequency 340 Hz. The speed of sound in air is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "367.2 m/s"
-    },
-    {
-      "id": "B",
-      "text": "340 m/s"
-    },
-    {
-      "id": "C",
-      "text": "244.8 m/s"
-    },
-    {
-      "id": "D",
-      "text": "380 m/s"
-    }
-  ],
-  "correctOption": "C",
-  "solution": "Speed v = 2 * f * (l2 - l1) = 2 * 340 * (0.54 - 0.18) = 680 * 0.36 = 244.8 m/s."
-},
-{
-  "id": "phy-practice-ch24-q15",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Metre Bridge Experiment",
-  "exam": "JEE Main",
-  "year": 2017,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(15) [Experimental Physics] In a metre bridge experiment, null point is found at 40 cm from zero end when a known resistance of 10 \u03a9 is connected in the right gap. The unknown resistance in the left gap is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "6.67 \u03a9"
-    },
-    {
-      "id": "B",
-      "text": "15 \u03a9"
-    },
-    {
-      "id": "C",
-      "text": "10 \u03a9"
-    },
-    {
-      "id": "D",
-      "text": "4 \u03a9"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "X / R = l / (100 - l) => X / 10 = 40 / 60 => X = 400 / 60 = 6.67 \u03a9."
-},
-{
-  "id": "phy-practice-ch24-q16",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Vernier Calipers",
-  "exam": "JEE Main",
-  "year": 2024,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(16) [Experimental Physics] A Vernier caliper has 10 divisions on its Vernier scale coinciding with 9 main scale divisions (1 MSD = 1 mm). The least count of the instrument is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "0.1 mm"
-    },
-    {
-      "id": "B",
-      "text": "0.01 mm"
-    },
-    {
-      "id": "C",
-      "text": "0.05 mm"
-    },
-    {
-      "id": "D",
-      "text": "0.2 mm"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Least Count (LC) = 1 MSD - 1 VSD = 1 mm - 0.9 mm = 0.1 mm = 0.01 cm."
-},
-{
-  "id": "phy-practice-ch24-q17",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Screw Gauge",
-  "exam": "JEE Main",
-  "year": 2023,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(17) [Experimental Physics] A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. The least count is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "0.01 mm"
-    },
-    {
-      "id": "B",
-      "text": "0.001 mm"
-    },
-    {
-      "id": "C",
-      "text": "0.05 mm"
-    },
-    {
-      "id": "D",
-      "text": "0.1 mm"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Least Count = Pitch / Total circular scale divisions = 0.5 mm / 50 = 0.01 mm."
-},
-{
-  "id": "phy-practice-ch24-q18",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Simple Pendulum Experiment",
-  "exam": "JEE Main",
-  "year": 2022,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(18) [Experimental Physics] In a simple pendulum experiment to determine g, the error in measuring length L is 1% and in time period T is 2%. The maximum percentage error in estimating g is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "5%"
-    },
-    {
-      "id": "B",
-      "text": "3%"
-    },
-    {
-      "id": "C",
-      "text": "4%"
-    },
-    {
-      "id": "D",
-      "text": "2%"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "g = 4\u03c0\u00b2 L / T\u00b2.\n(\u0394g/g)_max = (\u0394L/L) + 2*(\u0394T/T) = 1% + 2*(2%) = 5%."
-},
-{
-  "id": "phy-practice-ch24-q19",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Resonance Tube Experiment",
-  "exam": "JEE Main",
-  "year": 2021,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(19) [Experimental Physics] In a resonance tube experiment, first and second resonance lengths are obtained at 18 cm and 54 cm with a tuning fork of frequency 340 Hz. The speed of sound in air is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "367.2 m/s"
-    },
-    {
-      "id": "B",
-      "text": "340 m/s"
-    },
-    {
-      "id": "C",
-      "text": "244.8 m/s"
-    },
-    {
-      "id": "D",
-      "text": "380 m/s"
-    }
-  ],
-  "correctOption": "C",
-  "solution": "Speed v = 2 * f * (l2 - l1) = 2 * 340 * (0.54 - 0.18) = 680 * 0.36 = 244.8 m/s."
-},
-{
-  "id": "phy-practice-ch24-q20",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Metre Bridge Experiment",
-  "exam": "JEE Main",
-  "year": 2020,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(20) [Experimental Physics] In a metre bridge experiment, null point is found at 40 cm from zero end when a known resistance of 10 \u03a9 is connected in the right gap. The unknown resistance in the left gap is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "6.67 \u03a9"
-    },
-    {
-      "id": "B",
-      "text": "15 \u03a9"
-    },
-    {
-      "id": "C",
-      "text": "10 \u03a9"
-    },
-    {
-      "id": "D",
-      "text": "4 \u03a9"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "X / R = l / (100 - l) => X / 10 = 40 / 60 => X = 400 / 60 = 6.67 \u03a9."
-},
-{
-  "id": "phy-practice-ch24-q21",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Vernier Calipers",
-  "exam": "JEE Main",
-  "year": 2019,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(21) [Experimental Physics] A Vernier caliper has 10 divisions on its Vernier scale coinciding with 9 main scale divisions (1 MSD = 1 mm). The least count of the instrument is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "0.1 mm"
-    },
-    {
-      "id": "B",
-      "text": "0.01 mm"
-    },
-    {
-      "id": "C",
-      "text": "0.05 mm"
-    },
-    {
-      "id": "D",
-      "text": "0.2 mm"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Least Count (LC) = 1 MSD - 1 VSD = 1 mm - 0.9 mm = 0.1 mm = 0.01 cm."
-},
-{
-  "id": "phy-practice-ch24-q22",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Screw Gauge",
-  "exam": "JEE Main",
-  "year": 2018,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(22) [Experimental Physics] A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. The least count is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "0.01 mm"
-    },
-    {
-      "id": "B",
-      "text": "0.001 mm"
-    },
-    {
-      "id": "C",
-      "text": "0.05 mm"
-    },
-    {
-      "id": "D",
-      "text": "0.1 mm"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "Least Count = Pitch / Total circular scale divisions = 0.5 mm / 50 = 0.01 mm."
-},
-{
-  "id": "phy-practice-ch24-q23",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Simple Pendulum Experiment",
-  "exam": "JEE Main",
-  "year": 2017,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Hard",
-  "question": "(23) [Experimental Physics] In a simple pendulum experiment to determine g, the error in measuring length L is 1% and in time period T is 2%. The maximum percentage error in estimating g is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "5%"
-    },
-    {
-      "id": "B",
-      "text": "3%"
-    },
-    {
-      "id": "C",
-      "text": "4%"
-    },
-    {
-      "id": "D",
-      "text": "2%"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "g = 4\u03c0\u00b2 L / T\u00b2.\n(\u0394g/g)_max = (\u0394L/L) + 2*(\u0394T/T) = 1% + 2*(2%) = 5%."
-},
-{
-  "id": "phy-practice-ch24-q24",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Resonance Tube Experiment",
-  "exam": "JEE Main",
-  "year": 2024,
-  "examDate": "Session 1",
-  "session": "NTA Practice Set",
-  "shift": "Shift 1",
-  "questionType": "MCQ",
-  "difficulty": "Easy",
-  "question": "(24) [Experimental Physics] In a resonance tube experiment, first and second resonance lengths are obtained at 18 cm and 54 cm with a tuning fork of frequency 340 Hz. The speed of sound in air is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "367.2 m/s"
-    },
-    {
-      "id": "B",
-      "text": "340 m/s"
-    },
-    {
-      "id": "C",
-      "text": "244.8 m/s"
-    },
-    {
-      "id": "D",
-      "text": "380 m/s"
-    }
-  ],
-  "correctOption": "C",
-  "solution": "Speed v = 2 * f * (l2 - l1) = 2 * 340 * (0.54 - 0.18) = 680 * 0.36 = 244.8 m/s."
-},
-{
-  "id": "phy-practice-ch24-q25",
-  "subject": "Physics",
-  "chapter": "Experimental Physics",
-  "subtopic": "Metre Bridge Experiment",
-  "exam": "JEE Main",
-  "year": 2023,
-  "examDate": "Session 2",
-  "session": "NTA Practice Set",
-  "shift": "Shift 2",
-  "questionType": "MCQ",
-  "difficulty": "Medium",
-  "question": "(25) [Experimental Physics] In a metre bridge experiment, null point is found at 40 cm from zero end when a known resistance of 10 \u03a9 is connected in the right gap. The unknown resistance in the left gap is:",
-  "options": [
-    {
-      "id": "A",
-      "text": "6.67 \u03a9"
-    },
-    {
-      "id": "B",
-      "text": "15 \u03a9"
-    },
-    {
-      "id": "C",
-      "text": "10 \u03a9"
-    },
-    {
-      "id": "D",
-      "text": "4 \u03a9"
-    }
-  ],
-  "correctOption": "A",
-  "solution": "X / R = l / (100 - l) => X / 10 = 40 / 60 => X = 400 / 60 = 6.67 \u03a9."
-}
+  {
+    "id": "phy-practice-ch5-q1",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Center of mass of two particle system",
+    "exam": "JEE Main",
+    "year": 2023,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "Two masses m1 = 1 kg and m2 = 3 kg are located at positions x1 = 2 m and x2 = 10 m. The center of mass of the system is located at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 m"
+      },
+      {
+        "id": "B",
+        "text": "4 m"
+      },
+      {
+        "id": "C",
+        "text": "6 m"
+      },
+      {
+        "id": "D",
+        "text": "7 m"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "x_cm = (m1*x1 + m2*x2)/(m1 + m2) = (1*2 + 3*10)/(1 + 3) = 32/4 = 8 m."
+  },
+  {
+    "id": "phy-practice-ch5-q2",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Center of mass of uniform rod",
+    "exam": "JEE Main",
+    "year": 2022,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "A uniform thin rod of length L and mass M has a density that varies linearly as \u03bb(x) = kx. The position of center of mass from x = 0 is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L/2"
+      },
+      {
+        "id": "B",
+        "text": "2L/3"
+      },
+      {
+        "id": "C",
+        "text": "L/3"
+      },
+      {
+        "id": "D",
+        "text": "3L/4"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "x_cm = \u222b x \u03bb dx / \u222b \u03bb dx = \u222b k x\u00b2 dx / \u222b k x dx = (L\u00b3/3) / (L\u00b2/2) = 2L/3."
+  },
+  {
+    "id": "phy-practice-ch5-q3",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Conservation of Linear Momentum in Explosions",
+    "exam": "JEE Main",
+    "year": 2021,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "A projectile of mass 3 kg explodes in mid-air into two fragments of 1 kg and 2 kg. If the 1 kg fragment moves backward at 10 m/s, what is the speed of the 2 kg fragment if initial velocity at explosion was 20 m/s forward?",
+    "options": [
+      {
+        "id": "A",
+        "text": "35 m/s"
+      },
+      {
+        "id": "B",
+        "text": "25 m/s"
+      },
+      {
+        "id": "C",
+        "text": "30 m/s"
+      },
+      {
+        "id": "D",
+        "text": "40 m/s"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "P_initial = 3 * 20 = 60 kg m/s.\nP_final = 1 * (-10) + 2 * v2 = 60 => 2 v2 = 70 => v2 = 35 m/s."
+  },
+  {
+    "id": "phy-practice-ch5-q4",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Motion of Center of Mass",
+    "exam": "JEE Main",
+    "year": 2020,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "Two blocks of masses 2 kg and 4 kg moving with velocities 10 m/s and -2 m/s respectively collide. The velocity of the center of mass before collision is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 m/s"
+      },
+      {
+        "id": "B",
+        "text": "4 m/s"
+      },
+      {
+        "id": "C",
+        "text": "3 m/s"
+      },
+      {
+        "id": "D",
+        "text": "6 m/s"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "v_cm = (m1*v1 + m2*v2)/(m1 + m2) = (2*10 + 4*(-2))/(6) = 12/6 = 2 m/s."
+  },
+  {
+    "id": "phy-practice-ch5-q5",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Internal forces and COM",
+    "exam": "JEE Main",
+    "year": 2019,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "A man of mass 60 kg stands on a plank of mass 40 kg floating on frictionless water. If the man walks a distance of 10 m on the plank, the displacement of the plank relative to the water is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 m"
+      },
+      {
+        "id": "B",
+        "text": "4 m"
+      },
+      {
+        "id": "C",
+        "text": "5 m"
+      },
+      {
+        "id": "D",
+        "text": "8 m"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Since no external horizontal force acts, \u0394x_cm = 0.\nm_man * \u0394x_man + m_plank * \u0394x_plank = 0.\n60*(10 - x) - 40*x = 0 => 600 = 100x => x = 6 m."
+  },
+  {
+    "id": "phy-practice-ch5-q6",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Center of mass of two particle system",
+    "exam": "JEE Main",
+    "year": 2018,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(6) [COM & Particle Systems] Two masses m1 = 1 kg and m2 = 3 kg are located at positions x1 = 2 m and x2 = 10 m. The center of mass of the system is located at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 m"
+      },
+      {
+        "id": "B",
+        "text": "4 m"
+      },
+      {
+        "id": "C",
+        "text": "6 m"
+      },
+      {
+        "id": "D",
+        "text": "7 m"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "x_cm = (m1*x1 + m2*x2)/(m1 + m2) = (1*2 + 3*10)/(1 + 3) = 32/4 = 8 m."
+  },
+  {
+    "id": "phy-practice-ch5-q7",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Center of mass of uniform rod",
+    "exam": "JEE Main",
+    "year": 2017,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(7) [COM & Particle Systems] A uniform thin rod of length L and mass M has a density that varies linearly as \u03bb(x) = kx. The position of center of mass from x = 0 is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L/2"
+      },
+      {
+        "id": "B",
+        "text": "2L/3"
+      },
+      {
+        "id": "C",
+        "text": "L/3"
+      },
+      {
+        "id": "D",
+        "text": "3L/4"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "x_cm = \u222b x \u03bb dx / \u222b \u03bb dx = \u222b k x\u00b2 dx / \u222b k x dx = (L\u00b3/3) / (L\u00b2/2) = 2L/3."
+  },
+  {
+    "id": "phy-practice-ch5-q8",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Conservation of Linear Momentum in Explosions",
+    "exam": "JEE Main",
+    "year": 2024,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(8) [COM & Particle Systems] A projectile of mass 3 kg explodes in mid-air into two fragments of 1 kg and 2 kg. If the 1 kg fragment moves backward at 10 m/s, what is the speed of the 2 kg fragment if initial velocity at explosion was 20 m/s forward?",
+    "options": [
+      {
+        "id": "A",
+        "text": "35 m/s"
+      },
+      {
+        "id": "B",
+        "text": "25 m/s"
+      },
+      {
+        "id": "C",
+        "text": "30 m/s"
+      },
+      {
+        "id": "D",
+        "text": "40 m/s"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "P_initial = 3 * 20 = 60 kg m/s.\nP_final = 1 * (-10) + 2 * v2 = 60 => 2 v2 = 70 => v2 = 35 m/s."
+  },
+  {
+    "id": "phy-practice-ch5-q9",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Motion of Center of Mass",
+    "exam": "JEE Main",
+    "year": 2023,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(9) [COM & Particle Systems] Two blocks of masses 2 kg and 4 kg moving with velocities 10 m/s and -2 m/s respectively collide. The velocity of the center of mass before collision is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 m/s"
+      },
+      {
+        "id": "B",
+        "text": "4 m/s"
+      },
+      {
+        "id": "C",
+        "text": "3 m/s"
+      },
+      {
+        "id": "D",
+        "text": "6 m/s"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "v_cm = (m1*v1 + m2*v2)/(m1 + m2) = (2*10 + 4*(-2))/(6) = 12/6 = 2 m/s."
+  },
+  {
+    "id": "phy-practice-ch5-q10",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Internal forces and COM",
+    "exam": "JEE Main",
+    "year": 2022,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(10) [COM & Particle Systems] A man of mass 60 kg stands on a plank of mass 40 kg floating on frictionless water. If the man walks a distance of 10 m on the plank, the displacement of the plank relative to the water is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 m"
+      },
+      {
+        "id": "B",
+        "text": "4 m"
+      },
+      {
+        "id": "C",
+        "text": "5 m"
+      },
+      {
+        "id": "D",
+        "text": "8 m"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Since no external horizontal force acts, \u0394x_cm = 0.\nm_man * \u0394x_man + m_plank * \u0394x_plank = 0.\n60*(10 - x) - 40*x = 0 => 600 = 100x => x = 6 m."
+  },
+  {
+    "id": "phy-practice-ch5-q11",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Center of mass of two particle system",
+    "exam": "JEE Main",
+    "year": 2021,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(11) [COM & Particle Systems] Two masses m1 = 1 kg and m2 = 3 kg are located at positions x1 = 2 m and x2 = 10 m. The center of mass of the system is located at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 m"
+      },
+      {
+        "id": "B",
+        "text": "4 m"
+      },
+      {
+        "id": "C",
+        "text": "6 m"
+      },
+      {
+        "id": "D",
+        "text": "7 m"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "x_cm = (m1*x1 + m2*x2)/(m1 + m2) = (1*2 + 3*10)/(1 + 3) = 32/4 = 8 m."
+  },
+  {
+    "id": "phy-practice-ch5-q12",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Center of mass of uniform rod",
+    "exam": "JEE Main",
+    "year": 2020,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(12) [COM & Particle Systems] A uniform thin rod of length L and mass M has a density that varies linearly as \u03bb(x) = kx. The position of center of mass from x = 0 is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L/2"
+      },
+      {
+        "id": "B",
+        "text": "2L/3"
+      },
+      {
+        "id": "C",
+        "text": "L/3"
+      },
+      {
+        "id": "D",
+        "text": "3L/4"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "x_cm = \u222b x \u03bb dx / \u222b \u03bb dx = \u222b k x\u00b2 dx / \u222b k x dx = (L\u00b3/3) / (L\u00b2/2) = 2L/3."
+  },
+  {
+    "id": "phy-practice-ch5-q13",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Conservation of Linear Momentum in Explosions",
+    "exam": "JEE Main",
+    "year": 2019,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(13) [COM & Particle Systems] A projectile of mass 3 kg explodes in mid-air into two fragments of 1 kg and 2 kg. If the 1 kg fragment moves backward at 10 m/s, what is the speed of the 2 kg fragment if initial velocity at explosion was 20 m/s forward?",
+    "options": [
+      {
+        "id": "A",
+        "text": "35 m/s"
+      },
+      {
+        "id": "B",
+        "text": "25 m/s"
+      },
+      {
+        "id": "C",
+        "text": "30 m/s"
+      },
+      {
+        "id": "D",
+        "text": "40 m/s"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "P_initial = 3 * 20 = 60 kg m/s.\nP_final = 1 * (-10) + 2 * v2 = 60 => 2 v2 = 70 => v2 = 35 m/s."
+  },
+  {
+    "id": "phy-practice-ch5-q14",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Motion of Center of Mass",
+    "exam": "JEE Main",
+    "year": 2018,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(14) [COM & Particle Systems] Two blocks of masses 2 kg and 4 kg moving with velocities 10 m/s and -2 m/s respectively collide. The velocity of the center of mass before collision is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 m/s"
+      },
+      {
+        "id": "B",
+        "text": "4 m/s"
+      },
+      {
+        "id": "C",
+        "text": "3 m/s"
+      },
+      {
+        "id": "D",
+        "text": "6 m/s"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "v_cm = (m1*v1 + m2*v2)/(m1 + m2) = (2*10 + 4*(-2))/(6) = 12/6 = 2 m/s."
+  },
+  {
+    "id": "phy-practice-ch5-q15",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Internal forces and COM",
+    "exam": "JEE Main",
+    "year": 2017,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(15) [COM & Particle Systems] A man of mass 60 kg stands on a plank of mass 40 kg floating on frictionless water. If the man walks a distance of 10 m on the plank, the displacement of the plank relative to the water is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 m"
+      },
+      {
+        "id": "B",
+        "text": "4 m"
+      },
+      {
+        "id": "C",
+        "text": "5 m"
+      },
+      {
+        "id": "D",
+        "text": "8 m"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Since no external horizontal force acts, \u0394x_cm = 0.\nm_man * \u0394x_man + m_plank * \u0394x_plank = 0.\n60*(10 - x) - 40*x = 0 => 600 = 100x => x = 6 m."
+  },
+  {
+    "id": "phy-practice-ch5-q16",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Center of mass of two particle system",
+    "exam": "JEE Main",
+    "year": 2024,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(16) [COM & Particle Systems] Two masses m1 = 1 kg and m2 = 3 kg are located at positions x1 = 2 m and x2 = 10 m. The center of mass of the system is located at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 m"
+      },
+      {
+        "id": "B",
+        "text": "4 m"
+      },
+      {
+        "id": "C",
+        "text": "6 m"
+      },
+      {
+        "id": "D",
+        "text": "7 m"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "x_cm = (m1*x1 + m2*x2)/(m1 + m2) = (1*2 + 3*10)/(1 + 3) = 32/4 = 8 m."
+  },
+  {
+    "id": "phy-practice-ch5-q17",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Center of mass of uniform rod",
+    "exam": "JEE Main",
+    "year": 2023,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(17) [COM & Particle Systems] A uniform thin rod of length L and mass M has a density that varies linearly as \u03bb(x) = kx. The position of center of mass from x = 0 is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L/2"
+      },
+      {
+        "id": "B",
+        "text": "2L/3"
+      },
+      {
+        "id": "C",
+        "text": "L/3"
+      },
+      {
+        "id": "D",
+        "text": "3L/4"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "x_cm = \u222b x \u03bb dx / \u222b \u03bb dx = \u222b k x\u00b2 dx / \u222b k x dx = (L\u00b3/3) / (L\u00b2/2) = 2L/3."
+  },
+  {
+    "id": "phy-practice-ch5-q18",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Conservation of Linear Momentum in Explosions",
+    "exam": "JEE Main",
+    "year": 2022,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(18) [COM & Particle Systems] A projectile of mass 3 kg explodes in mid-air into two fragments of 1 kg and 2 kg. If the 1 kg fragment moves backward at 10 m/s, what is the speed of the 2 kg fragment if initial velocity at explosion was 20 m/s forward?",
+    "options": [
+      {
+        "id": "A",
+        "text": "35 m/s"
+      },
+      {
+        "id": "B",
+        "text": "25 m/s"
+      },
+      {
+        "id": "C",
+        "text": "30 m/s"
+      },
+      {
+        "id": "D",
+        "text": "40 m/s"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "P_initial = 3 * 20 = 60 kg m/s.\nP_final = 1 * (-10) + 2 * v2 = 60 => 2 v2 = 70 => v2 = 35 m/s."
+  },
+  {
+    "id": "phy-practice-ch5-q19",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Motion of Center of Mass",
+    "exam": "JEE Main",
+    "year": 2021,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(19) [COM & Particle Systems] Two blocks of masses 2 kg and 4 kg moving with velocities 10 m/s and -2 m/s respectively collide. The velocity of the center of mass before collision is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 m/s"
+      },
+      {
+        "id": "B",
+        "text": "4 m/s"
+      },
+      {
+        "id": "C",
+        "text": "3 m/s"
+      },
+      {
+        "id": "D",
+        "text": "6 m/s"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "v_cm = (m1*v1 + m2*v2)/(m1 + m2) = (2*10 + 4*(-2))/(6) = 12/6 = 2 m/s."
+  },
+  {
+    "id": "phy-practice-ch5-q20",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Internal forces and COM",
+    "exam": "JEE Main",
+    "year": 2020,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(20) [COM & Particle Systems] A man of mass 60 kg stands on a plank of mass 40 kg floating on frictionless water. If the man walks a distance of 10 m on the plank, the displacement of the plank relative to the water is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 m"
+      },
+      {
+        "id": "B",
+        "text": "4 m"
+      },
+      {
+        "id": "C",
+        "text": "5 m"
+      },
+      {
+        "id": "D",
+        "text": "8 m"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Since no external horizontal force acts, \u0394x_cm = 0.\nm_man * \u0394x_man + m_plank * \u0394x_plank = 0.\n60*(10 - x) - 40*x = 0 => 600 = 100x => x = 6 m."
+  },
+  {
+    "id": "phy-practice-ch5-q21",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Center of mass of two particle system",
+    "exam": "JEE Main",
+    "year": 2019,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(21) [COM & Particle Systems] Two masses m1 = 1 kg and m2 = 3 kg are located at positions x1 = 2 m and x2 = 10 m. The center of mass of the system is located at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 m"
+      },
+      {
+        "id": "B",
+        "text": "4 m"
+      },
+      {
+        "id": "C",
+        "text": "6 m"
+      },
+      {
+        "id": "D",
+        "text": "7 m"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "x_cm = (m1*x1 + m2*x2)/(m1 + m2) = (1*2 + 3*10)/(1 + 3) = 32/4 = 8 m."
+  },
+  {
+    "id": "phy-practice-ch5-q22",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Center of mass of uniform rod",
+    "exam": "JEE Main",
+    "year": 2018,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(22) [COM & Particle Systems] A uniform thin rod of length L and mass M has a density that varies linearly as \u03bb(x) = kx. The position of center of mass from x = 0 is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "L/2"
+      },
+      {
+        "id": "B",
+        "text": "2L/3"
+      },
+      {
+        "id": "C",
+        "text": "L/3"
+      },
+      {
+        "id": "D",
+        "text": "3L/4"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "x_cm = \u222b x \u03bb dx / \u222b \u03bb dx = \u222b k x\u00b2 dx / \u222b k x dx = (L\u00b3/3) / (L\u00b2/2) = 2L/3."
+  },
+  {
+    "id": "phy-practice-ch5-q23",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Conservation of Linear Momentum in Explosions",
+    "exam": "JEE Main",
+    "year": 2017,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(23) [COM & Particle Systems] A projectile of mass 3 kg explodes in mid-air into two fragments of 1 kg and 2 kg. If the 1 kg fragment moves backward at 10 m/s, what is the speed of the 2 kg fragment if initial velocity at explosion was 20 m/s forward?",
+    "options": [
+      {
+        "id": "A",
+        "text": "35 m/s"
+      },
+      {
+        "id": "B",
+        "text": "25 m/s"
+      },
+      {
+        "id": "C",
+        "text": "30 m/s"
+      },
+      {
+        "id": "D",
+        "text": "40 m/s"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "P_initial = 3 * 20 = 60 kg m/s.\nP_final = 1 * (-10) + 2 * v2 = 60 => 2 v2 = 70 => v2 = 35 m/s."
+  },
+  {
+    "id": "phy-practice-ch5-q24",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Motion of Center of Mass",
+    "exam": "JEE Main",
+    "year": 2024,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(24) [COM & Particle Systems] Two blocks of masses 2 kg and 4 kg moving with velocities 10 m/s and -2 m/s respectively collide. The velocity of the center of mass before collision is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 m/s"
+      },
+      {
+        "id": "B",
+        "text": "4 m/s"
+      },
+      {
+        "id": "C",
+        "text": "3 m/s"
+      },
+      {
+        "id": "D",
+        "text": "6 m/s"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "v_cm = (m1*v1 + m2*v2)/(m1 + m2) = (2*10 + 4*(-2))/(6) = 12/6 = 2 m/s."
+  },
+  {
+    "id": "phy-practice-ch5-q25",
+    "subject": "Physics",
+    "chapter": "Centre of Mass & System of Particles",
+    "subtopic": "Internal forces and COM",
+    "exam": "JEE Main",
+    "year": 2023,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(25) [COM & Particle Systems] A man of mass 60 kg stands on a plank of mass 40 kg floating on frictionless water. If the man walks a distance of 10 m on the plank, the displacement of the plank relative to the water is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 m"
+      },
+      {
+        "id": "B",
+        "text": "4 m"
+      },
+      {
+        "id": "C",
+        "text": "5 m"
+      },
+      {
+        "id": "D",
+        "text": "8 m"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Since no external horizontal force acts, \u0394x_cm = 0.\nm_man * \u0394x_man + m_plank * \u0394x_plank = 0.\n60*(10 - x) - 40*x = 0 => 600 = 100x => x = 6 m."
+  },
+  {
+    "id": "phy-practice-ch24-q1",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Vernier Calipers",
+    "exam": "JEE Main",
+    "year": 2023,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "A Vernier caliper has 10 divisions on its Vernier scale coinciding with 9 main scale divisions (1 MSD = 1 mm). The least count of the instrument is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.1 mm"
+      },
+      {
+        "id": "B",
+        "text": "0.01 mm"
+      },
+      {
+        "id": "C",
+        "text": "0.05 mm"
+      },
+      {
+        "id": "D",
+        "text": "0.2 mm"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Least Count (LC) = 1 MSD - 1 VSD = 1 mm - 0.9 mm = 0.1 mm = 0.01 cm."
+  },
+  {
+    "id": "phy-practice-ch24-q2",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Screw Gauge",
+    "exam": "JEE Main",
+    "year": 2022,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. The least count is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.01 mm"
+      },
+      {
+        "id": "B",
+        "text": "0.001 mm"
+      },
+      {
+        "id": "C",
+        "text": "0.05 mm"
+      },
+      {
+        "id": "D",
+        "text": "0.1 mm"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Least Count = Pitch / Total circular scale divisions = 0.5 mm / 50 = 0.01 mm."
+  },
+  {
+    "id": "phy-practice-ch24-q3",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Simple Pendulum Experiment",
+    "exam": "JEE Main",
+    "year": 2021,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "In a simple pendulum experiment to determine g, the error in measuring length L is 1% and in time period T is 2%. The maximum percentage error in estimating g is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "5%"
+      },
+      {
+        "id": "B",
+        "text": "3%"
+      },
+      {
+        "id": "C",
+        "text": "4%"
+      },
+      {
+        "id": "D",
+        "text": "2%"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "g = 4\u03c0\u00b2 L / T\u00b2.\n(\u0394g/g)_max = (\u0394L/L) + 2*(\u0394T/T) = 1% + 2*(2%) = 5%."
+  },
+  {
+    "id": "phy-practice-ch24-q4",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Resonance Tube Experiment",
+    "exam": "JEE Main",
+    "year": 2020,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "In a resonance tube experiment, first and second resonance lengths are obtained at 18 cm and 54 cm with a tuning fork of frequency 340 Hz. The speed of sound in air is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "367.2 m/s"
+      },
+      {
+        "id": "B",
+        "text": "340 m/s"
+      },
+      {
+        "id": "C",
+        "text": "244.8 m/s"
+      },
+      {
+        "id": "D",
+        "text": "380 m/s"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Speed v = 2 * f * (l2 - l1) = 2 * 340 * (0.54 - 0.18) = 680 * 0.36 = 244.8 m/s."
+  },
+  {
+    "id": "phy-practice-ch24-q5",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Metre Bridge Experiment",
+    "exam": "JEE Main",
+    "year": 2019,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "In a metre bridge experiment, null point is found at 40 cm from zero end when a known resistance of 10 \u03a9 is connected in the right gap. The unknown resistance in the left gap is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.67 \u03a9"
+      },
+      {
+        "id": "B",
+        "text": "15 \u03a9"
+      },
+      {
+        "id": "C",
+        "text": "10 \u03a9"
+      },
+      {
+        "id": "D",
+        "text": "4 \u03a9"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "X / R = l / (100 - l) => X / 10 = 40 / 60 => X = 400 / 60 = 6.67 \u03a9."
+  },
+  {
+    "id": "phy-practice-ch24-q6",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Vernier Calipers",
+    "exam": "JEE Main",
+    "year": 2018,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(6) [Experimental Physics] A Vernier caliper has 10 divisions on its Vernier scale coinciding with 9 main scale divisions (1 MSD = 1 mm). The least count of the instrument is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.1 mm"
+      },
+      {
+        "id": "B",
+        "text": "0.01 mm"
+      },
+      {
+        "id": "C",
+        "text": "0.05 mm"
+      },
+      {
+        "id": "D",
+        "text": "0.2 mm"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Least Count (LC) = 1 MSD - 1 VSD = 1 mm - 0.9 mm = 0.1 mm = 0.01 cm."
+  },
+  {
+    "id": "phy-practice-ch24-q7",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Screw Gauge",
+    "exam": "JEE Main",
+    "year": 2017,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(7) [Experimental Physics] A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. The least count is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.01 mm"
+      },
+      {
+        "id": "B",
+        "text": "0.001 mm"
+      },
+      {
+        "id": "C",
+        "text": "0.05 mm"
+      },
+      {
+        "id": "D",
+        "text": "0.1 mm"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Least Count = Pitch / Total circular scale divisions = 0.5 mm / 50 = 0.01 mm."
+  },
+  {
+    "id": "phy-practice-ch24-q8",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Simple Pendulum Experiment",
+    "exam": "JEE Main",
+    "year": 2024,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(8) [Experimental Physics] In a simple pendulum experiment to determine g, the error in measuring length L is 1% and in time period T is 2%. The maximum percentage error in estimating g is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "5%"
+      },
+      {
+        "id": "B",
+        "text": "3%"
+      },
+      {
+        "id": "C",
+        "text": "4%"
+      },
+      {
+        "id": "D",
+        "text": "2%"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "g = 4\u03c0\u00b2 L / T\u00b2.\n(\u0394g/g)_max = (\u0394L/L) + 2*(\u0394T/T) = 1% + 2*(2%) = 5%."
+  },
+  {
+    "id": "phy-practice-ch24-q9",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Resonance Tube Experiment",
+    "exam": "JEE Main",
+    "year": 2023,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(9) [Experimental Physics] In a resonance tube experiment, first and second resonance lengths are obtained at 18 cm and 54 cm with a tuning fork of frequency 340 Hz. The speed of sound in air is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "367.2 m/s"
+      },
+      {
+        "id": "B",
+        "text": "340 m/s"
+      },
+      {
+        "id": "C",
+        "text": "244.8 m/s"
+      },
+      {
+        "id": "D",
+        "text": "380 m/s"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Speed v = 2 * f * (l2 - l1) = 2 * 340 * (0.54 - 0.18) = 680 * 0.36 = 244.8 m/s."
+  },
+  {
+    "id": "phy-practice-ch24-q10",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Metre Bridge Experiment",
+    "exam": "JEE Main",
+    "year": 2022,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(10) [Experimental Physics] In a metre bridge experiment, null point is found at 40 cm from zero end when a known resistance of 10 \u03a9 is connected in the right gap. The unknown resistance in the left gap is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.67 \u03a9"
+      },
+      {
+        "id": "B",
+        "text": "15 \u03a9"
+      },
+      {
+        "id": "C",
+        "text": "10 \u03a9"
+      },
+      {
+        "id": "D",
+        "text": "4 \u03a9"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "X / R = l / (100 - l) => X / 10 = 40 / 60 => X = 400 / 60 = 6.67 \u03a9."
+  },
+  {
+    "id": "phy-practice-ch24-q11",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Vernier Calipers",
+    "exam": "JEE Main",
+    "year": 2021,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(11) [Experimental Physics] A Vernier caliper has 10 divisions on its Vernier scale coinciding with 9 main scale divisions (1 MSD = 1 mm). The least count of the instrument is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.1 mm"
+      },
+      {
+        "id": "B",
+        "text": "0.01 mm"
+      },
+      {
+        "id": "C",
+        "text": "0.05 mm"
+      },
+      {
+        "id": "D",
+        "text": "0.2 mm"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Least Count (LC) = 1 MSD - 1 VSD = 1 mm - 0.9 mm = 0.1 mm = 0.01 cm."
+  },
+  {
+    "id": "phy-practice-ch24-q12",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Screw Gauge",
+    "exam": "JEE Main",
+    "year": 2020,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(12) [Experimental Physics] A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. The least count is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.01 mm"
+      },
+      {
+        "id": "B",
+        "text": "0.001 mm"
+      },
+      {
+        "id": "C",
+        "text": "0.05 mm"
+      },
+      {
+        "id": "D",
+        "text": "0.1 mm"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Least Count = Pitch / Total circular scale divisions = 0.5 mm / 50 = 0.01 mm."
+  },
+  {
+    "id": "phy-practice-ch24-q13",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Simple Pendulum Experiment",
+    "exam": "JEE Main",
+    "year": 2019,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(13) [Experimental Physics] In a simple pendulum experiment to determine g, the error in measuring length L is 1% and in time period T is 2%. The maximum percentage error in estimating g is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "5%"
+      },
+      {
+        "id": "B",
+        "text": "3%"
+      },
+      {
+        "id": "C",
+        "text": "4%"
+      },
+      {
+        "id": "D",
+        "text": "2%"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "g = 4\u03c0\u00b2 L / T\u00b2.\n(\u0394g/g)_max = (\u0394L/L) + 2*(\u0394T/T) = 1% + 2*(2%) = 5%."
+  },
+  {
+    "id": "phy-practice-ch24-q14",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Resonance Tube Experiment",
+    "exam": "JEE Main",
+    "year": 2018,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(14) [Experimental Physics] In a resonance tube experiment, first and second resonance lengths are obtained at 18 cm and 54 cm with a tuning fork of frequency 340 Hz. The speed of sound in air is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "367.2 m/s"
+      },
+      {
+        "id": "B",
+        "text": "340 m/s"
+      },
+      {
+        "id": "C",
+        "text": "244.8 m/s"
+      },
+      {
+        "id": "D",
+        "text": "380 m/s"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Speed v = 2 * f * (l2 - l1) = 2 * 340 * (0.54 - 0.18) = 680 * 0.36 = 244.8 m/s."
+  },
+  {
+    "id": "phy-practice-ch24-q15",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Metre Bridge Experiment",
+    "exam": "JEE Main",
+    "year": 2017,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(15) [Experimental Physics] In a metre bridge experiment, null point is found at 40 cm from zero end when a known resistance of 10 \u03a9 is connected in the right gap. The unknown resistance in the left gap is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.67 \u03a9"
+      },
+      {
+        "id": "B",
+        "text": "15 \u03a9"
+      },
+      {
+        "id": "C",
+        "text": "10 \u03a9"
+      },
+      {
+        "id": "D",
+        "text": "4 \u03a9"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "X / R = l / (100 - l) => X / 10 = 40 / 60 => X = 400 / 60 = 6.67 \u03a9."
+  },
+  {
+    "id": "phy-practice-ch24-q16",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Vernier Calipers",
+    "exam": "JEE Main",
+    "year": 2024,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(16) [Experimental Physics] A Vernier caliper has 10 divisions on its Vernier scale coinciding with 9 main scale divisions (1 MSD = 1 mm). The least count of the instrument is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.1 mm"
+      },
+      {
+        "id": "B",
+        "text": "0.01 mm"
+      },
+      {
+        "id": "C",
+        "text": "0.05 mm"
+      },
+      {
+        "id": "D",
+        "text": "0.2 mm"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Least Count (LC) = 1 MSD - 1 VSD = 1 mm - 0.9 mm = 0.1 mm = 0.01 cm."
+  },
+  {
+    "id": "phy-practice-ch24-q17",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Screw Gauge",
+    "exam": "JEE Main",
+    "year": 2023,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(17) [Experimental Physics] A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. The least count is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.01 mm"
+      },
+      {
+        "id": "B",
+        "text": "0.001 mm"
+      },
+      {
+        "id": "C",
+        "text": "0.05 mm"
+      },
+      {
+        "id": "D",
+        "text": "0.1 mm"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Least Count = Pitch / Total circular scale divisions = 0.5 mm / 50 = 0.01 mm."
+  },
+  {
+    "id": "phy-practice-ch24-q18",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Simple Pendulum Experiment",
+    "exam": "JEE Main",
+    "year": 2022,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(18) [Experimental Physics] In a simple pendulum experiment to determine g, the error in measuring length L is 1% and in time period T is 2%. The maximum percentage error in estimating g is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "5%"
+      },
+      {
+        "id": "B",
+        "text": "3%"
+      },
+      {
+        "id": "C",
+        "text": "4%"
+      },
+      {
+        "id": "D",
+        "text": "2%"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "g = 4\u03c0\u00b2 L / T\u00b2.\n(\u0394g/g)_max = (\u0394L/L) + 2*(\u0394T/T) = 1% + 2*(2%) = 5%."
+  },
+  {
+    "id": "phy-practice-ch24-q19",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Resonance Tube Experiment",
+    "exam": "JEE Main",
+    "year": 2021,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(19) [Experimental Physics] In a resonance tube experiment, first and second resonance lengths are obtained at 18 cm and 54 cm with a tuning fork of frequency 340 Hz. The speed of sound in air is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "367.2 m/s"
+      },
+      {
+        "id": "B",
+        "text": "340 m/s"
+      },
+      {
+        "id": "C",
+        "text": "244.8 m/s"
+      },
+      {
+        "id": "D",
+        "text": "380 m/s"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Speed v = 2 * f * (l2 - l1) = 2 * 340 * (0.54 - 0.18) = 680 * 0.36 = 244.8 m/s."
+  },
+  {
+    "id": "phy-practice-ch24-q20",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Metre Bridge Experiment",
+    "exam": "JEE Main",
+    "year": 2020,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(20) [Experimental Physics] In a metre bridge experiment, null point is found at 40 cm from zero end when a known resistance of 10 \u03a9 is connected in the right gap. The unknown resistance in the left gap is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.67 \u03a9"
+      },
+      {
+        "id": "B",
+        "text": "15 \u03a9"
+      },
+      {
+        "id": "C",
+        "text": "10 \u03a9"
+      },
+      {
+        "id": "D",
+        "text": "4 \u03a9"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "X / R = l / (100 - l) => X / 10 = 40 / 60 => X = 400 / 60 = 6.67 \u03a9."
+  },
+  {
+    "id": "phy-practice-ch24-q21",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Vernier Calipers",
+    "exam": "JEE Main",
+    "year": 2019,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(21) [Experimental Physics] A Vernier caliper has 10 divisions on its Vernier scale coinciding with 9 main scale divisions (1 MSD = 1 mm). The least count of the instrument is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.1 mm"
+      },
+      {
+        "id": "B",
+        "text": "0.01 mm"
+      },
+      {
+        "id": "C",
+        "text": "0.05 mm"
+      },
+      {
+        "id": "D",
+        "text": "0.2 mm"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Least Count (LC) = 1 MSD - 1 VSD = 1 mm - 0.9 mm = 0.1 mm = 0.01 cm."
+  },
+  {
+    "id": "phy-practice-ch24-q22",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Screw Gauge",
+    "exam": "JEE Main",
+    "year": 2018,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(22) [Experimental Physics] A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. The least count is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.01 mm"
+      },
+      {
+        "id": "B",
+        "text": "0.001 mm"
+      },
+      {
+        "id": "C",
+        "text": "0.05 mm"
+      },
+      {
+        "id": "D",
+        "text": "0.1 mm"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Least Count = Pitch / Total circular scale divisions = 0.5 mm / 50 = 0.01 mm."
+  },
+  {
+    "id": "phy-practice-ch24-q23",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Simple Pendulum Experiment",
+    "exam": "JEE Main",
+    "year": 2017,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "question": "(23) [Experimental Physics] In a simple pendulum experiment to determine g, the error in measuring length L is 1% and in time period T is 2%. The maximum percentage error in estimating g is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "5%"
+      },
+      {
+        "id": "B",
+        "text": "3%"
+      },
+      {
+        "id": "C",
+        "text": "4%"
+      },
+      {
+        "id": "D",
+        "text": "2%"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "g = 4\u03c0\u00b2 L / T\u00b2.\n(\u0394g/g)_max = (\u0394L/L) + 2*(\u0394T/T) = 1% + 2*(2%) = 5%."
+  },
+  {
+    "id": "phy-practice-ch24-q24",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Resonance Tube Experiment",
+    "exam": "JEE Main",
+    "year": 2024,
+    "examDate": "Session 1",
+    "session": "NTA Practice Set",
+    "shift": "Shift 1",
+    "questionType": "MCQ",
+    "difficulty": "Easy",
+    "question": "(24) [Experimental Physics] In a resonance tube experiment, first and second resonance lengths are obtained at 18 cm and 54 cm with a tuning fork of frequency 340 Hz. The speed of sound in air is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "367.2 m/s"
+      },
+      {
+        "id": "B",
+        "text": "340 m/s"
+      },
+      {
+        "id": "C",
+        "text": "244.8 m/s"
+      },
+      {
+        "id": "D",
+        "text": "380 m/s"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Speed v = 2 * f * (l2 - l1) = 2 * 340 * (0.54 - 0.18) = 680 * 0.36 = 244.8 m/s."
+  },
+  {
+    "id": "phy-practice-ch24-q25",
+    "subject": "Physics",
+    "chapter": "Experimental Physics",
+    "subtopic": "Metre Bridge Experiment",
+    "exam": "JEE Main",
+    "year": 2023,
+    "examDate": "Session 2",
+    "session": "NTA Practice Set",
+    "shift": "Shift 2",
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "question": "(25) [Experimental Physics] In a metre bridge experiment, null point is found at 40 cm from zero end when a known resistance of 10 \u03a9 is connected in the right gap. The unknown resistance in the left gap is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.67 \u03a9"
+      },
+      {
+        "id": "B",
+        "text": "15 \u03a9"
+      },
+      {
+        "id": "C",
+        "text": "10 \u03a9"
+      },
+      {
+        "id": "D",
+        "text": "4 \u03a9"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "X / R = l / (100 - l) => X / 10 = 40 / 60 => X = 400 / 60 = 6.67 \u03a9."
+  }
 ];

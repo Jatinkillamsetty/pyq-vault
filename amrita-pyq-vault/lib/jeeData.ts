@@ -242,27 +242,3 @@ export function getChapterPyqStats(subject: string, chapter: string) {
   return { total, yearBreakdown };
 }
 
-export function getStoredCustomQuestions(): JeeQuestion[] {
-  if (typeof window === "undefined") return [];
-  try {
-    const data = localStorage.getItem("jee_custom_added_questions");
-    return data ? JSON.parse(data) : [];
-  } catch (e) {
-    return [];
-  }
-}
-
-export function addCustomQuestionToStorage(q: JeeQuestion) {
-  if (typeof window === "undefined") return;
-  try {
-    const existing = getStoredCustomQuestions();
-    const updated = [q, ...existing];
-    localStorage.setItem("jee_custom_added_questions", JSON.stringify(updated));
-    if (!JEE_PYQS.some((item) => item.id === q.id)) {
-      JEE_PYQS.unshift(q);
-    }
-  } catch (e) {
-    console.error("Failed to save custom question:", e);
-  }
-}
-

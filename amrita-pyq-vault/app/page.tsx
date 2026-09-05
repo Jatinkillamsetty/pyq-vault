@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, SlidersHorizontal, X, Clock, Loader2, Calendar, TrendingUp, CheckCircle2, Target, Award } from "lucide-react";
+import { Search, SlidersHorizontal, X, Clock, Loader2 } from "lucide-react";
 import PaperCard, { PaperCardData } from "@/components/PaperCard";
 import { BRANCHES as BRANCH_META } from "@/lib/demoData";
 
@@ -26,36 +26,18 @@ export default function DashboardPage() {
   const [papers, setPapers] = useState<PaperCardData[]>([]);
   const [loading, setLoading] = useState(true);
   const [recentlyViewed, setRecentlyViewed] = useState<PaperCardData[]>([]);
-  const [solvedStats, setSolvedStats] = useState({ today: 0, month: 0, total: 0 });
 
   const activeFilterCount = [branch, semester, regulation, examType].filter(Boolean).length;
 
   useEffect(() => {
-    // Clear any old recently viewed papers and load solved question stats
+    // Load recently viewed papers from localStorage
     try {
-      localStorage.removeItem("recently_viewed_papers");
-
-      const savedAnswers = localStorage.getItem("jee_pyq_user_answers");
-      if (savedAnswers) {
-        const answers: Record<string, { option: string; isCorrect: boolean; timestamp?: number }> = JSON.parse(savedAnswers);
-        const now = new Date();
-        const startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
-        const startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1).getTime();
-
-        let todayCount = 0;
-        let monthCount = 0;
-        const totalCount = Object.keys(answers).length;
-
-        Object.values(answers).forEach((a) => {
-          const ts = a.timestamp || Date.now();
-          if (ts >= startOfDay) todayCount++;
-          if (ts >= startOfMonth) monthCount++;
-        });
-
-        setSolvedStats({ today: todayCount, month: monthCount, total: totalCount });
+      const stored = localStorage.getItem("recently_viewed_papers");
+      if (stored) {
+        setRecentlyViewed(JSON.parse(stored));
       }
     } catch (e) {
-      console.error("Failed to load dashboard stats:", e);
+      console.error("Failed to load recently viewed papers:", e);
     }
   }, []);
 
@@ -98,48 +80,15 @@ export default function DashboardPage() {
       {/* Hero / search section */}
       <section className="mb-10">
         <p className="mb-2 font-mono text-xs uppercase tracking-[0.2em] text-maroon-500">
-          JEE PYQ Vault
+          Amrita Vishwa Vidyapeetham
         </p>
         <h1 className="mb-3 font-display text-4xl font-semibold leading-tight text-slate-900 dark:text-slate-50 md:text-5xl">
-          Track your progress & solve
-          <br className="hidden md:block" /> chapter-wise questions.
+          Find any previous paper
+          <br className="hidden md:block" /> in three clicks.
         </h1>
         <p className="mb-7 max-w-xl text-sm text-slate-500 dark:text-slate-400">
-          Master JEE Main & Advanced chapter-wise PYQs with instant answer checks and AI study assistant.
+          Search, preview, and download official PYQs across every department and regulation.
         </p>
-
-        {/* Showcase Stats Cards */}
-        <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <div className="flex items-center gap-4 rounded-xl2 border border-slate-200 bg-white p-4 shadow-sm dark:border-white/5 dark:bg-white/5">
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-maroon-500/10 text-maroon-500 dark:bg-maroon-500/20">
-              <Calendar size={24} />
-            </div>
-            <div>
-              <p className="text-2xl font-bold text-slate-900 dark:text-slate-100">{solvedStats.today}</p>
-              <p className="text-xs font-medium text-slate-500 dark:text-slate-400">Questions Solved Today</p>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-4 rounded-xl2 border border-slate-200 bg-white p-4 shadow-sm dark:border-white/5 dark:bg-white/5">
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500/10 text-indigo-500 dark:bg-indigo-500/20">
-              <TrendingUp size={24} />
-            </div>
-            <div>
-              <p className="text-2xl font-bold text-slate-900 dark:text-slate-100">{solvedStats.month}</p>
-              <p className="text-xs font-medium text-slate-500 dark:text-slate-400">Questions Solved This Month</p>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-4 rounded-xl2 border border-slate-200 bg-white p-4 shadow-sm dark:border-white/5 dark:bg-white/5">
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-500/10 text-emerald-500 dark:bg-emerald-500/20">
-              <Award size={24} />
-            </div>
-            <div>
-              <p className="text-2xl font-bold text-slate-900 dark:text-slate-100">{solvedStats.total}</p>
-              <p className="text-xs font-medium text-slate-500 dark:text-slate-400">Total Solved All-Time</p>
-            </div>
-          </div>
-        </div>
 
         <div className="glass-card relative rounded-xl2 p-1.5 shadow-glass dark:glass-dark dark:shadow-glass-dark">
           <div className="flex items-center gap-3 rounded-xl bg-white px-4 py-3 dark:bg-white/5">
@@ -237,6 +186,23 @@ export default function DashboardPage() {
           )}
         </AnimatePresence>
       </section>
+
+      {/* Recently Viewed Section */}
+      {recentlyViewed.length > 0 && !query && activeFilterCount === 0 && (
+        <section className="mb-10">
+          <div className="mb-4 flex items-center gap-2">
+            <Clock size={16} className="text-maroon-500" />
+            <h2 className="font-display text-base font-medium text-slate-800 dark:text-slate-100">
+              Recently Viewed Papers
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {recentlyViewed.slice(0, 3).map((paper) => (
+              <PaperCard key={`recent-${paper.id}`} paper={paper} />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Results Section */}
       <section>

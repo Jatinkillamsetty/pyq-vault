@@ -1,446 +1,359 @@
 "use client";
 
-import { useState, useMemo, useEffect, FormEvent } from "react";
-import { ShieldCheck, BookOpen, Plus, Trash2, CheckCircle2, AlertCircle, HelpCircle, Filter, Sparkles, Target } from "lucide-react";
-import { SUBJECT_DATA } from "@/lib/demoData";
-import { JEE_PYQS, JeeQuestion, addCustomQuestionToStorage, getStoredCustomQuestions } from "@/lib/jeeData";
-import Link from "next/link";
+import { useEffect, useState } from "react";
+import { ShieldCheck, CheckCircle2, XCircle, Trash2, Eye, FileText, Users, Clock, Loader2, Sparkles } from "lucide-react";
+import PdfModal from "@/components/PdfModal";
+
+interface QueueEntry {
+  id: string;
+  paperId: string;
+  status: "PENDING" | "APPROVED" | "REJECTED";
+  submittedAt: string;
+  paper: {
+    id: string;
+    examType: string;
+    year: number;
+    regulation: string;
+    fileUrl: string;
+    status: "PENDING" | "APPROVED" | "REJECTED";
+    subject: {
+      code: string;
+      name: string;
+      branch: {
+        code: string;
+      };
+    };
+    uploadedBy: {
+      name: string;
+      email: string;
+    };
+  };
+}
+
+interface AdminStats {
+  totalPapers: number;
+  approvedCount: number;
+  pendingCount: number;
+  totalUsers: number;
+}
 
 export default function AdminDashboardPage() {
-  const [selectedSubject, setSelectedSubject] = useState<"Physics" | "Chemistry" | "Mathematics">("Physics");
-  const [selectedChapter, setSelectedChapter] = useState<string>("Kinematics");
+  const [stats, setStats] = useState<AdminStats | null>(null);
+  const [queue, setQueue] = useState<QueueEntry[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [previewFile, setPreviewFile] = useState<{ url: string; title: string } | null>(null);
+  const [actionLoading, setActionLoading] = useState<string | null>(null);
+  const [aiExtractLoading, setAiExtractLoading] = useState<string | null>(null);
 
-  // Form State for Adding New Question
-  const [showAddForm, setShowAddForm] = useState(false);
-  const [subtopic, setSubtopic] = useState("");
-  const [exam, setExam] = useState<"JEE Main" | "JEE Advanced">("JEE Main");
-  const [year, setYear] = useState<number>(2025);
-  const [difficulty, setDifficulty] = useState<"Easy" | "Medium" | "Hard">("Medium");
-
-  const [questionText, setQuestionText] = useState("");
-  const [optA, setOptA] = useState("");
-  const [optB, setOptB] = useState("");
-  const [optC, setOptC] = useState("");
-  const [optD, setOptD] = useState("");
-  const [correctOption, setCorrectOption] = useState<"A" | "B" | "C" | "D">("A");
-  const [solutionText, setSolutionText] = useState("");
-
-  const [successMsg, setSuccessMsg] = useState<string | null>(null);
-  const [errorMsg, setErrorMsg] = useState<string | null>(null);
-
-  // Available chapters based on subject
-  const availableChapters = useMemo(() => {
-    if (selectedSubject === "Physics") return SUBJECT_DATA.Physics;
-    if (selectedSubject === "Mathematics") return SUBJECT_DATA.Mathematics;
-    return [
-      ...SUBJECT_DATA.Chemistry["Physical Chemistry"],
-      ...SUBJECT_DATA.Chemistry["Inorganic Chemistry"],
-      ...SUBJECT_DATA.Chemistry["Organic Chemistry"],
-    ];
-  }, [selectedSubject]);
-
-  // Set default chapter when subject changes
-  useEffect(() => {
-    if (availableChapters.length > 0) {
-      setSelectedChapter(availableChapters[0]);
-    }
-  }, [selectedSubject, availableChapters]);
-
-  // Restore stored custom questions on client side
-  const [allQuestions, setAllQuestions] = useState<JeeQuestion[]>(JEE_PYQS);
-
-  useEffect(() => {
-    const customQs = getStoredCustomQuestions();
-    const combined = [...customQs];
-    for (const q of JEE_PYQS) {
-      if (!combined.some((item) => item.id === q.id)) {
-        combined.push(q);
+  const loadAdminData = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const res = await fetch("/api/admin/papers");
+      if (!res.ok) {
+        if (res.status === 403) {
+          setError("Access denied. Admin privileges required.");
+        } else {
+          setError("Failed to load admin data.");
+        }
+        return;
       }
+      const data = await res.json();
+      setStats(data.stats);
+      setQueue(data.queue || []);
+    } catch (err) {
+      console.error(err);
+      setError("Network error loading admin queue.");
+    } finally {
+      setLoading(false);
     }
-    setAllQuestions(combined);
+  };
+
+  useEffect(() => {
+    loadAdminData();
   }, []);
 
-  // Filter questions for the selected chapter
-  const chapterQuestions = useMemo(() => {
-    return allQuestions.filter((q) => {
-      if (q.subject !== selectedSubject) return false;
-      const chLower = selectedChapter.toLowerCase();
-      const qChLower = q.chapter.toLowerCase();
-      return qChLower.includes(chLower) || chLower.includes(qChLower);
-    });
-  }, [allQuestions, selectedSubject, selectedChapter]);
-
-  const handleAddQuestion = (e: FormEvent) => {
-    e.preventDefault();
-    setErrorMsg(null);
-    setSuccessMsg(null);
-
-    if (!questionText.trim()) {
-      setErrorMsg("Please enter the question statement.");
-      return;
+  const handleUpdateStatus = async (paperId: string, status: "APPROVED" | "REJECTED") => {
+    setActionLoading(paperId);
+    try {
+      const res = await fetch(`/api/admin/papers/${paperId}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ status }),
+      });
+      if (res.ok) {
+        await loadAdminData();
+      }
+    } catch (err) {
+      console.error("Error updating status:", err);
+    } finally {
+      setActionLoading(null);
     }
-    if (!optA.trim() || !optB.trim() || !optC.trim() || !optD.trim()) {
-      setErrorMsg("Please fill out all options.");
-      return;
-    }
-    if (!solutionText.trim()) {
-      setErrorMsg("Please provide a solution.");
-      return;
-    }
-
-    const newQuestion: JeeQuestion = {
-      id: `admin-q-${Date.now()}`,
-      subject: selectedSubject,
-      chapter: selectedChapter,
-      subtopic: subtopic.trim() || `${selectedChapter} Practice`,
-      exam,
-      year,
-      difficulty,
-      question: questionText.trim(),
-      options: [
-        { id: "A", text: optA.trim() },
-        { id: "B", text: optB.trim() },
-        { id: "C", text: optC.trim() },
-        { id: "D", text: optD.trim() },
-      ],
-      correctOption,
-      solution: solutionText.trim(),
-    };
-
-    addCustomQuestionToStorage(newQuestion);
-
-    setAllQuestions((prev) => [newQuestion, ...prev]);
-    setSuccessMsg(`New question added to ${selectedChapter}!`);
-    setShowAddForm(false);
-
-    // Reset form
-    setQuestionText("");
-    setOptA("");
-    setOptB("");
-    setOptC("");
-    setOptD("");
-    setSolutionText("");
-    setSubtopic("");
   };
 
-  const handleDeleteQuestion = (id: string) => {
-    if (!confirm("Are you sure you want to delete this question?")) return;
-    setAllQuestions((prev) => prev.filter((q) => q.id !== id));
-    setSuccessMsg("Question removed.");
+  const handleDeletePaper = async (paperId: string) => {
+    if (!confirm("Are you sure you want to delete this paper?")) return;
+    setActionLoading(paperId);
+    try {
+      const res = await fetch(`/api/admin/papers/${paperId}`, {
+        method: "DELETE",
+      });
+      if (res.ok) {
+        await loadAdminData();
+      }
+    } catch (err) {
+      console.error("Error deleting paper:", err);
+    } finally {
+      setActionLoading(null);
+    }
   };
+
+  const handleTriggerAiExtract = async (paperId: string) => {
+    setAiExtractLoading(paperId);
+    try {
+      const res = await fetch("/api/ai/extract-questions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ paperId }),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        alert(`Successfully extracted ${data.questionsCount || 0} questions with AI!`);
+        await loadAdminData();
+      } else {
+        alert(data.error || "AI Extraction failed.");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Network error triggering AI extraction.");
+    } finally {
+      setAiExtractLoading(null);
+    }
+  };
+
+  if (error) {
+    return (
+      <div className="mx-auto max-w-4xl px-6 py-16 text-center">
+        <ShieldCheck size={40} className="mx-auto mb-3 text-red-500" />
+        <h1 className="font-display text-2xl font-semibold text-slate-800 dark:text-slate-100">
+          Admin Access Required
+        </h1>
+        <p className="mt-2 text-sm text-slate-500">{error}</p>
+        <p className="mt-1 text-xs text-slate-400">
+          Log in with an admin account (e.g. admin@amrita.edu / admin123) to access paper moderation.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-10 md:px-10">
-      {/* Header */}
-      <div className="mb-8 flex flex-wrap items-center justify-between gap-4">
-        <div>
-          <p className="mb-2 flex items-center gap-1.5 font-mono text-xs uppercase tracking-[0.2em] text-maroon-500">
-            <ShieldCheck size={14} /> Admin Chapter & Question Management
-          </p>
-          <h1 className="font-display text-3xl font-bold text-slate-900 dark:text-slate-50 md:text-4xl">
-            Admin Control Center
-          </h1>
-          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            Select any chapter to view, manage, and add new practice questions directly into the syllabus.
-          </p>
-        </div>
-
-        <button
-          onClick={() => setShowAddForm((v) => !v)}
-          className="flex items-center gap-2 rounded-xl bg-maroon-500 px-4 py-2.5 text-sm font-medium text-white shadow-md hover:bg-maroon-600"
-        >
-          <Plus size={16} /> {showAddForm ? "Close Form" : "Add Question to Chapter"}
-        </button>
+      <div className="mb-8">
+        <p className="mb-2 flex items-center gap-1.5 font-mono text-xs uppercase tracking-[0.2em] text-maroon-500">
+          <ShieldCheck size={14} /> System Administration
+        </p>
+        <h1 className="font-display text-3xl font-semibold text-slate-900 dark:text-slate-50">
+          Moderation & System Analytics
+        </h1>
       </div>
 
-      {successMsg && (
-        <div className="mb-6 flex items-center gap-2 rounded-xl bg-emerald-50 p-4 text-xs font-medium text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-400">
-          <CheckCircle2 size={16} className="shrink-0" />
-          <span>{successMsg}</span>
+      {/* Analytics Overview Cards */}
+      {stats && (
+        <div className="mb-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <StatCard
+            icon={FileText}
+            label="Total Papers"
+            value={stats.totalPapers}
+            color="text-indigo-500"
+          />
+          <StatCard
+            icon={CheckCircle2}
+            label="Approved & Live"
+            value={stats.approvedCount}
+            color="text-emerald-500"
+          />
+          <StatCard
+            icon={Clock}
+            label="Pending Moderation"
+            value={stats.pendingCount}
+            color="text-amber-500"
+          />
+          <StatCard
+            icon={Users}
+            label="Registered Users"
+            value={stats.totalUsers}
+            color="text-maroon-500"
+          />
         </div>
       )}
 
-      {/* Chapter Selection Bar */}
-      <div className="glass-card mb-8 rounded-xl2 p-6 shadow-glass dark:glass-dark space-y-4">
-        <h2 className="font-display text-base font-semibold text-slate-900 dark:text-slate-100 flex items-center gap-2">
-          <BookOpen size={18} className="text-maroon-500" /> Select Subject & Target Chapter
+      {/* Queue Table */}
+      <section className="rounded-xl2 border border-slate-200 bg-white p-6 dark:border-white/5 dark:bg-white/[0.03]">
+        <h2 className="mb-6 font-display text-lg font-medium text-slate-800 dark:text-slate-100">
+          Paper Moderation Queue ({queue.length})
         </h2>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          <div>
-            <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-              Subject
-            </label>
-            <div className="flex gap-2">
-              {(["Physics", "Chemistry", "Mathematics"] as const).map((s) => (
-                <button
-                  key={s}
-                  onClick={() => setSelectedSubject(s)}
-                  className={`flex-1 rounded-xl py-2 text-xs font-semibold transition-colors ${
-                    selectedSubject === s
-                      ? "bg-maroon-500 text-white"
-                      : "bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-white/10 dark:text-slate-300"
-                  }`}
-                >
-                  {s}
-                </button>
-              ))}
-            </div>
+        {loading ? (
+          <div className="flex py-12 justify-center items-center text-slate-400">
+            <Loader2 size={20} className="animate-spin text-maroon-500 mr-2" />
+            Loading queue…
           </div>
+        ) : queue.length === 0 ? (
+          <p className="py-8 text-center text-sm text-slate-400">
+            No papers in the moderation queue.
+          </p>
+        ) : (
+          <div className="overflow-x-auto">
+            <table className="w-full text-left text-xs">
+              <thead>
+                <tr className="border-b border-slate-200 text-slate-400 dark:border-white/5">
+                  <th className="pb-3 font-medium">Subject / Paper</th>
+                  <th className="pb-3 font-medium">Exam & Year</th>
+                  <th className="pb-3 font-medium">Uploaded By</th>
+                  <th className="pb-3 font-medium">Status</th>
+                  <th className="pb-3 text-right font-medium">Actions</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100 dark:divide-white/5">
+                {queue.map((entry) => {
+                  const paper = entry.paper;
+                  const isPending = paper.status === "PENDING";
+                  const isApproved = paper.status === "APPROVED";
 
-          <div>
-            <label className="mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400">
-              Chapter
-            </label>
-            <select
-              value={selectedChapter}
-              onChange={(e) => setSelectedChapter(e.target.value)}
-              className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-            >
-              {availableChapters.map((ch) => (
-                <option key={ch} value={ch}>
-                  {ch}
-                </option>
-              ))}
-            </select>
+                  return (
+                    <tr key={entry.id} className="hover:bg-slate-50 dark:hover:bg-white/5">
+                      <td className="py-3.5">
+                        <p className="font-mono text-[11px] font-semibold text-slate-800 dark:text-slate-200">
+                          {paper.subject.code}
+                        </p>
+                        <p className="text-slate-500 dark:text-slate-400">{paper.subject.name}</p>
+                      </td>
+
+                      <td className="py-3.5 text-slate-600 dark:text-slate-300">
+                        {paper.examType.replace("_", " ")} ({paper.year})
+                      </td>
+
+                      <td className="py-3.5 text-slate-500 dark:text-slate-400">
+                        {paper.uploadedBy.name} ({paper.uploadedBy.email})
+                      </td>
+
+                      <td className="py-3.5">
+                        <span
+                          className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${
+                            isApproved
+                              ? "bg-emerald-50 text-emerald-600 dark:bg-emerald-500/10 dark:text-emerald-400"
+                              : isPending
+                              ? "bg-amber-50 text-amber-600 dark:bg-amber-500/10 dark:text-amber-400"
+                              : "bg-red-50 text-red-600 dark:bg-red-500/10 dark:text-red-400"
+                          }`}
+                        >
+                          {paper.status}
+                        </span>
+                      </td>
+
+                      <td className="py-3.5 text-right">
+                        <div className="flex items-center justify-end gap-1.5">
+                          <button
+                            onClick={() =>
+                              setPreviewFile({
+                                url: paper.fileUrl,
+                                title: `${paper.subject.code} (${paper.year})`,
+                              })
+                            }
+                            title="Preview PDF"
+                            className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-200 hover:text-slate-700 dark:hover:bg-white/10"
+                          >
+                            <Eye size={15} />
+                          </button>
+
+                          <button
+                            onClick={() => handleTriggerAiExtract(paper.id)}
+                            disabled={aiExtractLoading === paper.id}
+                            title="Trigger AI Question Extraction"
+                            className="flex items-center gap-1 rounded-lg bg-indigo-50 px-2 py-1 text-[11px] font-medium text-indigo-600 hover:bg-indigo-100 dark:bg-indigo-500/10 dark:text-indigo-300"
+                          >
+                            {aiExtractLoading === paper.id ? (
+                              <Loader2 size={12} className="animate-spin" />
+                            ) : (
+                              <Sparkles size={12} />
+                            )}
+                            Extract AI
+                          </button>
+
+                          {isPending && (
+                            <>
+                              <button
+                                onClick={() => handleUpdateStatus(paper.id, "APPROVED")}
+                                disabled={actionLoading === paper.id}
+                                className="flex items-center gap-1 rounded-lg bg-emerald-500 px-2.5 py-1 text-[11px] font-medium text-white hover:bg-emerald-600"
+                              >
+                                Approve
+                              </button>
+                              <button
+                                onClick={() => handleUpdateStatus(paper.id, "REJECTED")}
+                                disabled={actionLoading === paper.id}
+                                className="flex items-center gap-1 rounded-lg bg-amber-500 px-2.5 py-1 text-[11px] font-medium text-white hover:bg-amber-600"
+                              >
+                                Reject
+                              </button>
+                            </>
+                          )}
+
+                          <button
+                            onClick={() => handleDeletePaper(paper.id)}
+                            disabled={actionLoading === paper.id}
+                            title="Delete paper from database"
+                            className="flex items-center gap-1 rounded-lg bg-red-50 px-2.5 py-1 text-[11px] font-medium text-red-600 hover:bg-red-100 dark:bg-red-500/10 dark:text-red-400"
+                          >
+                            <Trash2 size={13} />
+                            Delete
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
-        </div>
-      </div>
+        )}
+      </section>
 
-      {/* Add Question Form Modal/Panel */}
-      {showAddForm && (
-        <form onSubmit={handleAddQuestion} className="mb-10 space-y-6 glass-card rounded-xl2 p-6 border border-maroon-500/30 dark:glass-dark shadow-lg">
-          <h2 className="font-display text-lg font-bold text-slate-900 dark:text-slate-50 flex items-center gap-2">
-            <Plus size={18} className="text-maroon-500" /> Add Question to: <span className="text-maroon-500">{selectedSubject} — {selectedChapter}</span>
-          </h2>
-
-          {errorMsg && (
-            <div className="flex items-center gap-2 rounded-xl bg-red-50 p-3 text-xs font-medium text-maroon-600 dark:bg-red-500/10 dark:text-maroon-400">
-              <AlertCircle size={15} className="shrink-0" />
-              <span>{errorMsg}</span>
-            </div>
-          )}
-
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-4">
-            <div>
-              <label className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">
-                Subtopic / Tag
-              </label>
-              <input
-                value={subtopic}
-                onChange={(e) => setSubtopic(e.target.value)}
-                placeholder="e.g. Formula derivation"
-                className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-              />
-            </div>
-
-            <div>
-              <label className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">
-                Exam Type
-              </label>
-              <select
-                value={exam}
-                onChange={(e) => setExam(e.target.value as any)}
-                className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-              >
-                <option value="JEE Main">JEE Main</option>
-                <option value="JEE Advanced">JEE Advanced</option>
-              </select>
-            </div>
-
-            <div>
-              <label className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">
-                Year
-              </label>
-              <select
-                value={year}
-                onChange={(e) => setYear(Number(e.target.value))}
-                className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-              >
-                {[2026, 2025, 2024, 2023, 2022, 2021, 2020].map((y) => (
-                  <option key={y} value={y}>{y}</option>
-                ))}
-              </select>
-            </div>
-
-            <div>
-              <label className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">
-                Difficulty
-              </label>
-              <select
-                value={difficulty}
-                onChange={(e) => setDifficulty(e.target.value as any)}
-                className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-              >
-                <option value="Easy">Easy</option>
-                <option value="Medium">Medium</option>
-                <option value="Hard">Hard</option>
-              </select>
-            </div>
-          </div>
-
-          <div>
-            <label className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">
-              Question Statement *
-            </label>
-            <textarea
-              rows={3}
-              value={questionText}
-              onChange={(e) => setQuestionText(e.target.value)}
-              placeholder="Enter question text..."
-              className="w-full rounded-xl border border-slate-200 bg-white p-3 text-xs text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-            />
-          </div>
-
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-            <input
-              value={optA}
-              onChange={(e) => setOptA(e.target.value)}
-              placeholder="Option (A) *"
-              className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-            />
-            <input
-              value={optB}
-              onChange={(e) => setOptB(e.target.value)}
-              placeholder="Option (B) *"
-              className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-            />
-            <input
-              value={optC}
-              onChange={(e) => setOptC(e.target.value)}
-              placeholder="Option (C) *"
-              className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-            />
-            <input
-              value={optD}
-              onChange={(e) => setOptD(e.target.value)}
-              placeholder="Option (D) *"
-              className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-            />
-          </div>
-
-          <div>
-            <label className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">
-              Correct Answer Option
-            </label>
-            <div className="flex gap-4">
-              {(["A", "B", "C", "D"] as const).map((opt) => (
-                <label key={opt} className="flex items-center gap-1.5 text-xs font-semibold cursor-pointer">
-                  <input
-                    type="radio"
-                    name="adminCorrectOpt"
-                    checked={correctOption === opt}
-                    onChange={() => setCorrectOption(opt)}
-                  />
-                  Option ({opt})
-                </label>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <label className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">
-              Step-by-Step Solution *
-            </label>
-            <textarea
-              rows={3}
-              value={solutionText}
-              onChange={(e) => setSolutionText(e.target.value)}
-              placeholder="Enter step-by-step derivation & explanation..."
-              className="w-full rounded-xl border border-slate-200 bg-white p-3 text-xs text-slate-800 focus:outline-none dark:border-white/10 dark:bg-surface-dark dark:text-slate-100"
-            />
-          </div>
-
-          <button
-            type="submit"
-            className="rounded-xl bg-maroon-500 px-5 py-2.5 text-xs font-medium text-white shadow hover:bg-maroon-600"
-          >
-            Save & Publish Question
-          </button>
-        </form>
+      {previewFile && (
+        <PdfModal
+          open={!!previewFile}
+          onClose={() => setPreviewFile(null)}
+          fileUrl={previewFile.url}
+          title={previewFile.title}
+        />
       )}
+    </div>
+  );
+}
 
-      {/* Question List Header & Summary */}
-      <div className="mb-4 flex items-center justify-between">
-        <h2 className="font-display text-xl font-bold text-slate-900 dark:text-slate-50">
-          Questions in <span className="text-maroon-500">{selectedChapter}</span> ({chapterQuestions.length})
-        </h2>
-        <Link
-          href={`/jee-practice?subject=${encodeURIComponent(selectedSubject)}&chapter=${encodeURIComponent(selectedChapter)}`}
-          className="text-xs font-semibold text-maroon-500 hover:underline flex items-center gap-1"
-        >
-          <Target size={14} /> Open in Practice View →
-        </Link>
+function StatCard({
+  icon: Icon,
+  label,
+  value,
+  color,
+}: {
+  icon: any;
+  label: string;
+  value: number;
+  color: string;
+}) {
+  return (
+    <div className="flex items-center gap-4 rounded-xl2 border border-slate-200 bg-white p-5 dark:border-white/5 dark:bg-white/[0.03]">
+      <div className={`flex h-11 w-11 items-center justify-center rounded-xl bg-slate-100 dark:bg-white/5 ${color}`}>
+        <Icon size={20} />
       </div>
-
-      {/* Questions List */}
-      {chapterQuestions.length === 0 ? (
-        <div className="glass-card rounded-xl2 p-10 text-center dark:glass-dark text-slate-500">
-          No questions added for this chapter yet. Click <strong>Add Question to Chapter</strong> above to create one!
-        </div>
-      ) : (
-        <div className="space-y-4">
-          {chapterQuestions.map((q, idx) => (
-            <div
-              key={q.id}
-              className="glass-card rounded-xl2 p-5 shadow-glass dark:glass-dark border border-slate-200/60 dark:border-white/5"
-            >
-              <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
-                <div className="flex items-center gap-2">
-                  <span className="rounded-lg bg-maroon-500/10 px-2.5 py-1 font-mono text-xs font-bold text-maroon-500">
-                    Q{idx + 1}
-                  </span>
-                  <span className="rounded-lg bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600 dark:bg-white/10 dark:text-slate-300">
-                    {q.exam} {q.year}
-                  </span>
-                  <span className="rounded-lg bg-indigo-500/10 px-2 py-0.5 text-xs font-medium text-indigo-500">
-                    {q.difficulty}
-                  </span>
-                  {q.subtopic && (
-                    <span className="text-xs text-slate-400">
-                      • {q.subtopic}
-                    </span>
-                  )}
-                </div>
-
-                <button
-                  onClick={() => handleDeleteQuestion(q.id)}
-                  className="flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-medium text-red-500 hover:bg-red-50 dark:hover:bg-red-500/10"
-                >
-                  <Trash2 size={13} /> Delete
-                </button>
-              </div>
-
-              <p className="mb-3 text-sm font-medium text-slate-800 dark:text-slate-100">
-                {q.question}
-              </p>
-
-              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 text-xs mb-3">
-                {q.options.map((opt) => (
-                  <div
-                    key={opt.id}
-                    className={`rounded-lg px-3 py-2 border ${
-                      q.correctOption === opt.id
-                        ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 font-semibold"
-                        : "border-slate-200 dark:border-white/5 bg-slate-50 dark:bg-white/5 text-slate-600 dark:text-slate-300"
-                    }`}
-                  >
-                    ({opt.id}) {opt.text}
-                    {q.correctOption === opt.id && " ✓"}
-                  </div>
-                ))}
-              </div>
-
-              {q.solution && (
-                <div className="rounded-xl bg-slate-50 p-3 text-xs text-slate-600 dark:bg-white/5 dark:text-slate-300">
-                  <span className="font-bold text-slate-700 dark:text-slate-200">Solution: </span>
-                  {q.solution}
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-      )}
+      <div>
+        <p className="font-display text-2xl font-semibold text-slate-900 dark:text-slate-50">
+          {value}
+        </p>
+        <p className="text-xs text-slate-400">{label}</p>
+      </div>
     </div>
   );
 }

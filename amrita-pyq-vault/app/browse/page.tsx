@@ -130,7 +130,7 @@ export default function BrowseByBranchPage() {
     <div className="mx-auto max-w-6xl px-6 py-10 md:px-10">
       <section className="mb-8">
         <p className="mb-2 font-mono text-xs uppercase tracking-[0.2em] text-maroon-500">
-          JEE PYQ Vault
+          Amrita Vishwa Vidyapeetham
         </p>
         <h1 className="mb-3 font-display text-3xl font-semibold leading-tight text-slate-900 dark:text-slate-50 md:text-4xl">
           Browse Subject Syllabus & PYQs

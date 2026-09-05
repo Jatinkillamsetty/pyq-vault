@@ -46,7 +46,7 @@ export default function LoginPage() {
             Welcome back
           </h1>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            Sign in to your student account
+            Sign in with your Amrita email to continue
           </p>
         </div>
 
@@ -62,7 +62,7 @@ export default function LoginPage() {
           )}
 
           <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
-            Email address
+            College email
           </label>
           <div className="mb-4 flex items-center gap-2.5 rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 focus-within:border-indigo-400 dark:border-white/10 dark:bg-white/5">
             <Mail size={15} className="shrink-0 text-slate-400" />
@@ -71,7 +71,7 @@ export default function LoginPage() {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="student@example.com"
+              placeholder="student@am.students.amrita.edu"
               className="w-full bg-transparent text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none dark:text-slate-100"
             />
           </div>
@@ -106,6 +106,9 @@ export default function LoginPage() {
           <Link href="/signup" className="font-medium text-maroon-500 hover:underline">
             Create an account
           </Link>
+        </p>
+        <p className="mt-2 text-center text-xs text-slate-400">
+          Student emails must end with @am.students.amrita.edu.
         </p>
       </div>
     </div>

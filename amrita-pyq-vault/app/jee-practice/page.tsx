@@ -19,7 +19,7 @@ import {
   X,
   Target,
 } from "lucide-react";
-import { JEE_PYQS, JeeQuestion, getChapterPyqStats, getStoredCustomQuestions } from "@/lib/jeeData";
+import { JEE_PYQS, JeeQuestion, getChapterPyqStats } from "@/lib/jeeData";
 import { SUBJECT_DATA } from "@/lib/demoData";
 import RoughWorkCanvas from "@/components/RoughWorkCanvas";
 
@@ -56,16 +56,9 @@ function JeePracticeContent() {
     Record<string, { option: string; isCorrect: boolean }>
   >({});
 
-  // Restore user score history & custom added questions from localStorage
+  // Restore user score history from localStorage
   useEffect(() => {
     try {
-      const customQs = getStoredCustomQuestions();
-      for (const q of customQs) {
-        if (!JEE_PYQS.some((item) => item.id === q.id)) {
-          JEE_PYQS.unshift(q);
-        }
-      }
-
       const savedStats = localStorage.getItem("jee_pyq_user_answers");
       if (savedStats) {
         setUserAnswers(JSON.parse(savedStats));
@@ -134,7 +127,7 @@ function JeePracticeContent() {
 
     const updated = {
       ...userAnswers,
-      [currentQuestion.id]: { option: selectedOption, isCorrect, timestamp: Date.now() },
+      [currentQuestion.id]: { option: selectedOption, isCorrect },
     };
     setUserAnswers(updated);
     try {

@@ -33,13 +33,14 @@ const NAV_ITEMS: NavItem[] = [
   { label: "AI Exam Cheatsheets", href: "/cheatsheets", icon: Sparkles },
   { label: "AI Study Planner", href: "/study-plan", icon: BookOpen },
   { label: "PYQ AI Assistant", href: "/ai", icon: Bot },
-  { label: "Upload Question", href: "/upload", icon: UploadCloud },
+  { label: "My Bookmarks", href: "/bookmarks", icon: Bookmark },
+  { label: "Upload Paper", href: "/upload", icon: UploadCloud },
   { label: "Admin Control", href: "/admin", icon: ShieldCheck, adminOnly: true },
 ];
 
 export interface SidebarUser {
   name: string;
-  email: string;
+  email: string; // e.g. someone@amrita.edu
   avatarUrl?: string;
   role: "STUDENT" | "MODERATOR" | "ADMIN";
 }
@@ -57,6 +58,7 @@ export default function Sidebar({
 }) {
   const [collapsed, setCollapsed] = useState(false);
   const pathname = usePathname();
+  const isAmritaDomain = /@(cb\.)?amrita\.edu$/i.test(user.email);
 
   return (
     <aside
@@ -78,9 +80,9 @@ export default function Sidebar({
               </div>
               <div className="leading-tight">
                 <p className="font-display text-sm font-semibold text-slate-900 dark:text-slate-100">
-                  JEE PYQ Vault
+                  PYQ Vault
                 </p>
-                <p className="text-[11px] text-slate-400">Exam Practice Platform</p>
+                <p className="text-[11px] text-slate-400">Amrita Vishwa Vidyapeetham</p>
               </div>
             </div>
           )}
@@ -132,14 +134,20 @@ export default function Sidebar({
       {/* Footer: auth status + theme toggle */}
       <div className="border-t border-slate-200 p-3 dark:border-white/5">
         <div
-          className="mb-2 flex items-center gap-2 rounded-xl bg-emerald-50 px-2 py-2 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-400"
+          className={`mb-2 flex items-center gap-2 rounded-xl px-2 py-2 ${
+            isAmritaDomain
+              ? "bg-emerald-50 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-400"
+              : "bg-amber-50 text-amber-700 dark:bg-amber-500/10 dark:text-amber-400"
+          }`}
         >
           <span
-            className="h-2 w-2 shrink-0 rounded-full bg-emerald-500"
+            className={`h-2 w-2 shrink-0 rounded-full ${
+              isAmritaDomain ? "bg-emerald-500" : "bg-amber-500"
+            }`}
           />
           {!collapsed && (
             <span className="truncate text-xs font-medium">
-              Active Student Account
+              {isAmritaDomain ? "Verified @amrita.edu" : "Domain not verified"}
             </span>
           )}
         </div>

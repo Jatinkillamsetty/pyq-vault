@@ -4,9 +4,9 @@ import AppShell from "@/components/AppShell";
 import Providers from "@/components/Providers";
 
 export const metadata: Metadata = {
-  title: "JEE PYQ Vault — Chapter-Wise JEE Main & Advanced Practice Platform",
+  title: "Amrita PYQ Vault — Find any previous paper in 3 clicks",
   description:
-    "The ultimate chapter-wise JEE Main and Advanced previous year question bank, AI study planner, and interactive practice canvas.",
+    "The organized, domain-secured question paper vault for Amrita Vishwa Vidyapeetham students.",
 };
 
 export default function RootLayout({

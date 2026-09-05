@@ -69,7 +69,7 @@ export default function SignupPage() {
             Create your account
           </h1>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            Sign up to start practicing PYQs
+            Only for Amrita Vishwa Vidyapeetham students
           </p>
         </div>
 
@@ -99,19 +99,37 @@ export default function SignupPage() {
           </div>
 
           <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
-            Email address
+            Student email
           </label>
-          <div className="mb-4 flex items-center gap-2.5 rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 focus-within:border-indigo-400 dark:border-white/10 dark:bg-white/5">
+          <div
+            className={`mb-1.5 flex items-center gap-2.5 rounded-xl border bg-white px-3.5 py-2.5 focus-within:border-indigo-400 dark:bg-white/5 ${
+              email && !isAmritaEmail
+                ? "border-amber-300 dark:border-amber-400/40"
+                : "border-slate-200 dark:border-white/10"
+            }`}
+          >
             <Mail size={15} className="shrink-0 text-slate-400" />
             <input
               type="email"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="student@example.com"
+              placeholder="username@am.students.amrita.edu"
               className="w-full bg-transparent text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none dark:text-slate-100"
             />
+            {email && isAmritaEmail && (
+              <CheckCircle2 size={15} className="shrink-0 text-emerald-500" />
+            )}
           </div>
+          {email && !isAmritaEmail ? (
+            <p className="mb-4 text-[11px] text-amber-600 dark:text-amber-400">
+              Student email must end in @am.students.amrita.edu
+            </p>
+          ) : (
+            <p className="mb-4 text-[11px] text-slate-400">
+              Must end in @am.students.amrita.edu
+            </p>
+          )}
 
           <label className="mb-1.5 block text-xs font-medium text-slate-500 dark:text-slate-400">
             Password
