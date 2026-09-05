@@ -1,0 +1,196 @@
+// ─────────────────────────────────────────────────────────────
+// Amrita PYQ Vault — Database Schema
+// Hierarchy: Branch -> Subject -> Paper
+// ─────────────────────────────────────────────────────────────
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ───────────── Enums ─────────────
+
+enum Role {
+  STUDENT
+  MODERATOR
+  ADMIN
+}
+
+enum ExamType {
+  MID_SEM
+  END_SEM
+  SUPPLEMENTARY
+  MODEL
+}
+
+enum Regulation {
+  R2019
+  R2021
+  R2023
+}
+
+enum PaperStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+// ───────────── Core Models ─────────────
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique // restricted to @amrita.edu / @cb.amrita.edu at auth layer
+  name          String?
+  image         String?
+  password      String? // bcrypt hash — only set for credentials (email/password) sign-up
+  emailVerified DateTime?
+  role          Role     @default(STUDENT)
+  branch        Branch?  @relation(fields: [branchId], references: [id])
+  branchId      String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  papersUploaded Paper[]       @relation("UploadedBy")
+  bookmarks      Bookmark[]
+  reviewedQueue  UploadQueue[]  @relation("ReviewedBy")
+  studyPlans     StudyPlan[]
+  chatMessages   ChatMessage[]
+
+  @@index([email])
+}
+
+model Branch {
+  id       String   @id @default(cuid())
+  code     String   @unique // CSE, ECE, EEE, MECH, CIVIL, AI
+  name     String
+  subjects Subject[]
+  users    User[]
+
+  @@index([code])
+}
+
+model Subject {
+  id         String     @id @default(cuid())
+  code       String     // e.g. 23ECE211
+  name       String     // e.g. Microcontrollers & Interfacing
+  semester   Int        // 1-8
+  regulation Regulation
+  branch     Branch     @relation(fields: [branchId], references: [id])
+  branchId   String
+  papers     Paper[]
+  studyPlans StudyPlan[]
+  createdAt  DateTime   @default(now())
+
+  @@unique([code, regulation])
+  @@index([branchId, semester])
+}
+
+model Paper {
+  id           String      @id @default(cuid())
+  subject      Subject     @relation(fields: [subjectId], references: [id])
+  subjectId    String
+  examType     ExamType
+  year         Int
+  regulation   Regulation
+  fileUrl      String      // Object URL or local path
+  thumbnailUrl String?
+  status       PaperStatus @default(PENDING)
+
+  // AI-derived metadata (Gemini auto-tagging + cheatsheet generation)
+  extractedTopics Json?    // [{ topic: string, frequency: number }]
+
+  uploadedBy   User        @relation("UploadedBy", fields: [uploadedById], references: [id])
+  uploadedById String
+
+  bookmarks    Bookmark[]
+  queueEntry   UploadQueue?
+  questions    Question[]
+
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  @@index([subjectId, examType, year])
+  @@index([status])
+}
+
+model Bookmark {
+  id        String   @id @default(cuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  paper     Paper    @relation(fields: [paperId], references: [id], onDelete: Cascade)
+  paperId   String
+  createdAt DateTime @default(now())
+
+  @@unique([userId, paperId])
+}
+
+// Moderation pipeline: every newly uploaded Paper gets one queue entry.
+model UploadQueue {
+  id           String      @id @default(cuid())
+  paper        Paper       @relation(fields: [paperId], references: [id], onDelete: Cascade)
+  paperId      String      @unique
+  status       PaperStatus @default(PENDING)
+  reviewNotes  String?
+  reviewedBy   User?       @relation("ReviewedBy", fields: [reviewedById], references: [id])
+  reviewedById String?
+  submittedAt  DateTime    @default(now())
+  reviewedAt   DateTime?
+
+  @@index([status])
+}
+
+// ───────────── AI Models ─────────────
+
+model Question {
+  id           String             @id @default(cuid())
+  paperId      String
+  paper        Paper              @relation(fields: [paperId], references: [id], onDelete: Cascade)
+  questionNo   String             // e.g. "1a", "2", "Q3"
+  text         String             // Full text of the question
+  marks        Int?
+  unit         Int?
+  topic        String?
+  embedding    QuestionEmbedding?
+  createdAt    DateTime           @default(now())
+
+  @@index([paperId])
+  @@index([topic])
+}
+
+model QuestionEmbedding {
+  id           String    @id @default(cuid())
+  questionId   String    @unique
+  question     Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  vector       Float[]   // Array of 768 floats for Gemini text-embedding-004
+  createdAt    DateTime  @default(now())
+}
+
+model StudyPlan {
+  id             String   @id @default(cuid())
+  userId         String
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  subjectId      String
+  subject        Subject  @relation(fields: [subjectId], references: [id])
+  daysRemaining  Int
+  hoursPerDay    Float
+  prepLevel      String   // BEGINNER, INTERMEDIATE, ADVANCED
+  planJson       Json     // Day-by-day study schedule
+  createdAt      DateTime @default(now())
+
+  @@index([userId])
+}
+
+model ChatMessage {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role      String   // "user" | "assistant"
+  content   String
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+}
